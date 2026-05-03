@@ -1,0 +1,92 @@
+/*
+
+i am ivouwa and this is my subpar css code
+
+*/
+
+
+
+html{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+
+body{
+
+    display: flex;
+    height: fit-content;
+    width: fit-content;  
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 20px;
+    margin: 40px;
+
+}
+
+div{
+    
+    padding: 20px;
+    
+}
+
+footer{
+
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.topbar{
+
+    display: flex;
+    place-items: center;
+    justify-content: flex-end;
+
+    margin-bottom: 50px;
+}
+
+.page{
+    margin-right: auto;
+}
+
+.topdiv{
+
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.icon{
+
+    width: fit-content;
+    height: 90px;
+    display: flex;
+}
+
+.logo{
+    padding: 0px;
+}
+
+.detail{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    place-items: center;
+}
+
+.subtitle{
+    padding-top: 0px;
+}
+
+
+/*
+#FF0000
+*/
