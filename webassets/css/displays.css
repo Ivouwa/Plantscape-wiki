@@ -44,6 +44,9 @@ footer{
 
 }
 
+.border{
+    padding: 10px;
+}
 .topbar{
 
     display: flex;
@@ -61,6 +64,7 @@ footer{
 
     padding: 5px;
     margin: 5px;
+    padding-top: 0px;
 
 }
 
@@ -69,21 +73,53 @@ footer{
     width: fit-content;
     height: 90px;
     display: flex;
+
 }
 
 .logo{
+
     padding: 0px;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+
 }
 
 .detail{
+
     display: flex;
     justify-content: center;
     flex-direction: column;
     place-items: center;
+    
+}
+
+.title{
+
+    width: fit-content;
+    padding-bottom: 10px;
+    font-size: 50px;
+
 }
 
 .subtitle{
+
+    padding: 10px;
+    margin: 10px;
     padding-top: 0px;
+
+}
+
+
+.details{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.newline{
+    padding: 5px;
+    margin: 5px;
 }
 
 
