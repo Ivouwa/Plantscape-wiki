@@ -4,11 +4,12 @@
 
     <head>
 
-        <title>Plantscape Wiki - Claw</title>
+        <title id="urlbar"></title>
 
         <link rel="stylesheet" href="../../webassets/css/displays.css">
         <link rel="stylesheet" href="../../webassets/css/backgrounds.css">
         <link rel="stylesheet" href="../../webassets/css/design.css">
+        <script src="./index.js" defer></script>
 
     </head>
 
@@ -20,17 +21,13 @@
 
                     <a href="../../home/">
 
-                        <img src="../../webassets/logo.png" class="icon">
+                        <img src="../..//webassets/logo.png" class="icon">
 
                     </a>
 
                 </div>
-                
-                <div class="page">
 
-                    Enemies 
-
-                </div>
+                <div class="page" id="pagename"></div>
                 
                 <div class="border">
 
@@ -42,42 +39,30 @@
 
         <detail class="detail">
 
-            <div class="title">
+            <div class="title" id="name"></div>
 
-                Claw
+            <div class="subtitle" id="description"></div>
 
-            </div>
 
-            <div class="subtitle">
 
-                "Slowly moves towards you."
+            <div class="title" id="secondtitle"></div>
 
-            </div>
+            <div class="subtitle" id="detail1"></div>
 
-            <div class="title">
+            <div class="subtitle" id="detail2"></div>
 
-                Mechanics
+            <div class="subtitle" id="detail3"></div>
 
-            </div>
-
-            <div class="details">
-
-                <div class="newline"></div>
-                    - Claw floats to the nearest player at 2 studs per second, Killing on contact
-                <div class="newline"></div>
-                    - Claw Is a starting enemy and has a Limit of 3 permanant Claws and has no temporary cap
-                <div class="newline"></div>
-
-            </div>
             
+            
+            <div class="title" id="thirdtitle"></div>
+
+            <div class="subtitle" id="deathmsg"></div>
+
         </detail>
 
     </body>
 
-    <footer>
-        Made without ai by Ivouwa in 2026 | 
-        <a href="https://github.com/Ivouwa/Plantscape-wiki">Want to contribute? View the github</a> | 
-        <a href="https://discord.gg/NZrrj6rdRX">Join the plantscape server</a>
-    </footer>
+    <footer id="footer"></footer>
 
 </html>

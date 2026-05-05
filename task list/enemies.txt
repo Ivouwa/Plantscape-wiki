@@ -1,0 +1,26 @@
+ENEMIES THAT STILL NEED TO BE COMPLETED
+
+-- Needs to be made
+Hyperlaser
+TimeBomb
+Hacker
+Random
+Fade
+Paintballer
+Bloom
+Leviathan
+Lobotomnygod
+Cadence
+Springer
+Razorbaby
+
+-- Needs to be converted / Polished
+Evil Speed Coil
+
+-- Done
+Claw
+Sword
+Evil Sword
+Labsman
+Killbot
+Drakobloxxer

@@ -34,11 +34,13 @@ fetch('pagedetails.json')
 
 
     
+        
         const thirdtitle = document.getElementById('thirdtitle')
         thirdtitle.innerHTML=`${data.thirdtitle}`
 
         const deathmsg = document.getElementById('deathmsg')
         deathmsg.innerHTML=`${data.deathmsg}`
+
 
 
 

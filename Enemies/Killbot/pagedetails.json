@@ -7,13 +7,18 @@
     "description":" \"Randomly flies above, then flies down to a random player, firing multiple rockets at them.\" ",
 
     "secondtitle":" Mechanics ",
-    "detail1":"- After 2 - 3 seconds, Sword will face towards the nearest player creating a line. It will lunge following this line instantly killing on contact",
-    "detail2":"- Killbot can only spawn after level 5",
-    "detail3":"- Killbot has a limit of 3 permanant Killbots, and has no temporary cap. ",
+    "detail1":"- Killbot will turn visible near a random player. At the players position there will be an red circle, after a few seconds a rocket will fire at that red circle killing anything inside it.",
+    "detail2":"- Killbot can only spawn after level 5.",
+    "detail3":"- Killbot has a limit of 3 permanant Killbots, and has no temporary cap.",
 
 
     "thirdtitle":"Death Messages",
-    "deathmsg": "",
+    "deathmsg": "\"Victim was exploded.\" \"Victim got shot down by a killbot.\" \"Victim did not escape the red circle.\" \"LAST TO LEAVE RED CIRCLE WINS THEIR LIFE, Victim LOST!\" \"Victim please stop being attracted to red circles.\" \"I saw that, Victim.\"\"Victim explosion died to one of them exploded.\" \"Killbotted.\" \"BOOOOOOOOOOOM! BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOM!\" \"Killbot thinks Victim can't dodge.\" \"Random saw Victim get blown to smithereens.\" \"Killbot clearly doesn't have a good enough indicator. Oh wait, Victim is just blind.\" ",
+    
+    
+    
+    
+    
  
     "footer": "----------"
 

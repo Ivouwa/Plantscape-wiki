@@ -32,6 +32,8 @@ fetch('pagedetails.json')
         const detail2 = document.getElementById('detail2')
         detail2.innerHTML=`${data.detail2}`
 
+        const detail3 = document.getElementById('detail3')
+        detail3.innerHTML=`${data.detail3}`
 
     
         const thirdtitle = document.getElementById('thirdtitle')
@@ -39,6 +41,7 @@ fetch('pagedetails.json')
 
         const deathmsg = document.getElementById('deathmsg')
         deathmsg.innerHTML=`${data.deathmsg}`
+
 
 
 

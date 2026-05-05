@@ -1,0 +1,25 @@
+{
+
+    "pagename":"- Enemies",
+    "urlbar":"Plantscape Wiki - Evil Speed Coil",
+
+    "name":"Evil Sword",
+    "description":" \"Randomly teleports near enemies, boosts enemy speed within a large radius.\" ",
+
+    "secondtitle":" Mechanics ",
+    "detail1":"there's NOTHING",
+    "detail2":"- Evil Speed coil can only spawn after level 5",
+    "detail3":"- Evil speed coil has a limit of 3 permanant Evil speed coils, and has no temporary cap.",
+
+
+    "thirdtitle":"Death Messages",
+    "deathmsg": " \"Evil Speed Coil doesn't actually speed you up, Victim.\" \"Victim was zapped by the coil.\" \"Purple speed coils are evil, not good, Victim.\" \"Victim was boosted to their death.\" \"Victim died to a tool that is supposed to help you.\" \"Victim was hunted down by the coil.\" \"Maybe next time don't touch a Speed Coil with 'Evil' in its name.\" \"Victim died, coil is the cause.\" \"ZAP!\" ",
+    
+    
+    
+    
+    
+ 
+    "footer": "----------"
+
+}

@@ -7,9 +7,9 @@
     "description":" \"Randomly teleports infront of you with a random offset.\" ",
 
     "secondtitle":" Mechanics ",
-    "detail1":"- After 5 - 10 seconds, labsman will teleport 50 studs in front of you, with a -20 to 20 stud offset",
-    "detail2":"- Labsman can only spawn after level five",
-    "detail3":"- Labsman has a limit of 2 permanant Labsmen, and has no temporary cap. ",
+    "detail1":"- After 5 - 10 seconds, Labsman will teleport 50 studs in front of you, with a -20 to 20 stud offset",
+    "detail2":"- Labsman can only spawn after level 5.",
+    "detail3":"- Labsman has a limit of 2 permanant Labsman, and has no temporary cap.",
 
 
     "thirdtitle":"Death Messages",
