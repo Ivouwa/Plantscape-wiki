@@ -11,8 +11,10 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 40px;
-    margin-bottom: 40px;
+    padding-top: 0px;
+    margin-bottom: 30x;
+
+    
 
 }
 
@@ -20,7 +22,7 @@ html{
 body{
 
     display: flex;
-    height: fit-content;
+    height: fit-content ;
     width: fit-content;  
     flex-direction: column;
     justify-content: center;
@@ -28,6 +30,7 @@ body{
     padding: 20px;
     margin: 40px;
 
+    overflow: auto;
 }
 
 div{
@@ -47,6 +50,7 @@ footer{
 .border{
     padding: 10px;
 }
+
 .topbar{
 
     display: flex;

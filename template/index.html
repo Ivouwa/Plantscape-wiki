@@ -12,29 +12,27 @@ remove the comments when making a new page!
 
     <head>
 
-        <title>Plantscape Wiki - Template</title>
+        <title id="urlbar"></title>
 
         <link rel="stylesheet" href="../webassets/css/displays.css">
         <link rel="stylesheet" href="../webassets/css/backgrounds.css">
         <link rel="stylesheet" href="../webassets/css/design.css">
+        <script src="./index.js" defer></script>
 
         <!--
         
-        We keep css all in one place for ease of use.
+        We keep css, javascript, and text all in seperate places for modularitys sake.
         
         If you want to contribute keep in mind:
 
         displays.css is used for positioning, padding, anything to do with displays
         design is used for colors, borders, fonts, anything to do with the visuals
         backgrounds is used to differentiate backgrounds (used in <html class=bg#>)
-
-        backgrounds are stored in /webassets/backgrounds/
+            ^^ backgrounds are stored in /webassets/backgrounds/
 
         If you want to change css, be sure to see how it affects other pages!
         Try not to make stuff that'll be only on one page and mostly go unused on others
         and if you do, position it at the bottom
-
-        In the css files I've notes under most vauge classes so its easy to tell what they are
                 
         -->
 
@@ -53,12 +51,8 @@ remove the comments when making a new page!
                     </a>
 
                 </div>
-                
-                <div class="page">
 
-                    - Template page   
-
-                </div>
+                <div class="page" id="pagename"></div>
                 
                 <div class="border">
 
@@ -70,41 +64,24 @@ remove the comments when making a new page!
 
         <detail class="detail">
 
-            <div class="title">
-                Gameplay
-            </div>
+            <div class="title" id="name"></div>
 
-            <div class="subtitle">
-                This enemy will do a backflip every 0.1 seconds because it feels like it, how divine!
-            </div>
+            <div class="subtitle" id="description"></div>
 
-            <div class="title">
-               Tips
-            </div>
 
-            <div class="subtitle">
-                To survive this, you will need to sign a ten page document detailing how awesome you are! Before that though you gotta do a dance.
-            </div>
+
+            <div class="title" id="secondtitle"></div>
+
+            <div class="subtitle" id="detail1"></div>
+
+            <div class="subtitle" id="detail2"></div>
+
+            <div class="subtitle" id="detail3"></div>
             
-
         </detail>
-
-
-
-        
-
 
     </body>
 
-    <footer>
-        Made without ai by Ivouwa in 2026 | 
-        <a href="https://github.com/Ivouwa/Plantscape-wiki">Want to contribute? View the github</a> | 
-        <a href="https://discord.gg/NZrrj6rdRX">Join the plantscape server</a>
-    </footer>
-
-    <!--
-    Do not change the footer to be different per pages!!
-    Keep it global across all pages
-    -->
+    <footer id="footer"></footer>
 
 </html>

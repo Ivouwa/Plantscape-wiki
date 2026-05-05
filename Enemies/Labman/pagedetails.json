@@ -1,0 +1,20 @@
+{
+
+    "pagename":"- Enemies",
+    "urlbar":"Plantscape Wiki - Labsman",
+
+    "name":"Labsman",
+    "description":" \"Randomly teleports infront of you with a random offset.\" ",
+
+    "secondtitle":" Mechanics ",
+    "detail1":"- After 5 - 10 seconds, labsman will teleport 50 studs in front of you, with a -20 to 20 stud offset",
+    "detail2":"- Labsman can only spawn after level five",
+    "detail3":"- Labsman has a limit of 2 permanant Labsmen, and has no temporary cap. ",
+
+
+    "thirdtitle":"Death Messages",
+    "deathmsg": "\"Victim couldn't see the mad scientist teleport infront of them.\" \"Victim should have just moved.\" \"Victim forgot about Labsman.\" \"Labsman Vicim'ed Victim and Victim Labsman yes.\" \"I hope you guys dont have that one curse.\" \"Labsman said hi to Victim, but Victim touched Labsman so Labsman killed them\" \"Victim is Labsman's new test subject\" \"Labsman was testing out that teleport-thingy and ACCIDENTALLY killed Victim\" \"Labsman needed help testing that out, sorry Victim.\" \"Labsman didn't mean it, Victim. Don't be mad at him\" \"Teleportation is a really good superpower, I would take it. Unfortunately, Victim can't.\" \"Victim BEHIND YOU! Oh wait, wrong direction.\" \"Random wished they could test with Labsman, however Victim had to be the one.\" ",
+ 
+    "footer": "----------"
+
+}

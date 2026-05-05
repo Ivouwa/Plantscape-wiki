@@ -13,7 +13,6 @@ html{
     font-weight: 400;
     text-align: center;
     color: #ffffff;
-    height: 100vh;
 
     -webkit-text-stroke: #000000 4px;
     paint-order: stroke fill;
