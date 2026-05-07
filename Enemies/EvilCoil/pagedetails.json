@@ -3,13 +3,13 @@
     "pagename":"- Enemies",
     "urlbar":"Plantscape Wiki - Evil Speed Coil",
 
-    "name":"Evil Sword",
+    "name":"Evil Speed Coil",
     "description":" \"Randomly teleports near enemies, boosts enemy speed within a large radius.\" ",
 
     "secondtitle":" Mechanics ",
     "detail1":"there's NOTHING",
-    "detail2":"- Evil Speed coil can only spawn after level 5",
-    "detail3":"- Evil speed coil has a limit of 3 permanant Evil speed coils, and has no temporary cap.",
+    "detail2":"- Evil Speed Coil can only spawn after level 5.",
+    "detail3":"- Evil Speed Coil has a limit of 3 permanant Evil Coils, and has no temporary cap.",
 
 
     "thirdtitle":"Death Messages",

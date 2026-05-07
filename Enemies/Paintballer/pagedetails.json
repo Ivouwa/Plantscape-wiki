@@ -1,0 +1,24 @@
+{
+
+    "pagename":"- Enemies",
+    "urlbar":"Plantscape Wiki - Paintballer",
+
+    "name":"Paintballer",
+    "description":" \"Moves towards tiles and shoots paintballs at them. Those who touch painted tiles will be slown until off of them.\",",
+
+    "secondtitle":" Mechanics ",
+    "detail1":"- Every ## seconds paintballer will go to a random tile near a player and paint it. If you're on a painted tile then you will be slowed",
+    "detail2":"- Paintballer is a starting enemy and has a limit of 3 permanant Paintballers. Paintballer has no temporary cap.",
+
+
+    "thirdtitle":"Death Messages",
+    "deathmsg": "\"Victim was painted.\" \"Victim got shot down by Paintballer.\" \"Victim is now a different color.\" \"Victim lost in a paintball fight.\" \"Paintballer's aim is better than Victim's.\" \"Paintballed, Victim.\" \"Victim was PWNed by Paintballer.\" \"Paintballer didn't even shoot and Victim still died.\" \"Yep, Victim's dead.\" \"Painted.\" ",
+
+    
+    
+    
+    
+ 
+    "footer": "----------"
+
+}

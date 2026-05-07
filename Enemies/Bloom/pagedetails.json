@@ -1,0 +1,26 @@
+{
+
+    "pagename":"- Enemies",
+    "urlbar":"Plantscape Wiki - Bloom",
+
+    "name":"Bloom",
+    "description":" \"Going near it will keep it at bay, watering it. Will become enraged if left unchecked.\"",
+
+    "secondtitle":" Mechanics ",
+    "detail1":"- Bloom is a floating flower that will always spawn next to the beacon.",
+    "detail2":"- Bloom counts on a timer, to increase the timer touch bloom. When the timer hits zero, bloom will enrage throwing multiple flower peojectiles at the closest user.",
+    "detail3":"- Bloom can only spawn after level 20, and has a max cap of 1", 
+    "detail4":"- Bloom will always spawn and stay next to the beacon",
+
+
+    "thirdtitle":"Death Messages",
+    "deathmsg": "\"Victim? Victim was hit by a flower.\", \"Victim forgot to water Bloom.\" \"Victim forgot Bloom existed.\" \"Random!! Why didn't you water Bloom? Now Victim is dead.\" \"Bloom decided today was the day to shoot flowers at Victim.\" \"Bloom was real dehydrated.\" \"Victims caretaking for plants was horrible. Bloom got offended on a personal level.\" \"Victim contributed to global warming.\" \"Random was too late to save Victim from Blooms flowers.\" \"Victim loves the smell of flowers.\" \"Victim saw the effects of Spring.\" \"Random learnt that watering plants was important. Victim, not so much.\" \"Flowers can kill. Take notes, Victim.\" \"Y'know you have to take care of plants, right?\"" ,
+
+    
+    
+    
+    
+ 
+    "footer": "----------"
+
+}

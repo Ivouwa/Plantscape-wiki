@@ -7,8 +7,8 @@
     "description":" \"Screams occasionally, slowing everyone in his range down. He's really loud.\" ",
 
     "secondtitle":" Mechanics ",
-    "detail1":"- Drakobloxxer will scream every 30 - 60 seconds, slowing players within 150 studs by %50",
-    "detail2":"- Drakobloxxer Is a starting enemy and has a Limit of 1 permanant Drakobloxxer and has a hard cap of 1",
+    "detail1":"- Drakobloxxer will scream every 30 - 60 seconds, slowing players within 150 studs by 50%",
+    "detail2":"- Drakobloxxer Is a starting enemy and has a limit of 1 permanant Drakobloxxer and has a hard cap of 1",
 
 
     "thirdtitle":"Death Messages",

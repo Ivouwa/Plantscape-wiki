@@ -1,0 +1,21 @@
+{
+
+    "pagename":"- Enemies",
+    "urlbar":"Plantscape Wiki - Hyperlaser",
+
+    "name":"Hyperlaser",
+    "description":" \"Fires a laser after charging. Dont get hit. Lasers linger.\" ",
+
+    "secondtitle":" Mechanics ",
+    "detail1":"- Every 50 seconds Hyperlaser will appear. After 1.5 seconds of it appearing it will shoot a beam. When caught inside this beam you will instantly die.",
+    "detail2":"- Hyperlaser can only spawn after level 20.",
+    "detail3":"- Hyperlaser has a limit of 5 permanant Hyperlaser, and has a temporary limit of 10.",
+
+
+    "thirdtitle":" Death Messages",
+    "deathmsg": "\"Okay bro how many things shoot you in this game.\" \"Victim was hyper-blasted.\" \"Hyperlaser Gun shot Victim dead even though it isn't a living thing.\" \"Random shot  with a Hyperlaser Gun\" \"Victim disinigrated.\" \"Labsman's new experiment killed Victim.\" \"Whoops Victim got caught in the crossfire.\" \"Ouch.\" \"Victim couldn't even feel that.\" \"SICK AS HELL HYPERLASER GUN... Killed Victim.\" \"Okay dude what are these hitboxes. How did Hyperlaser Gun hit Victim?\"",
+ 
+
+    "footer": "----------"
+
+}

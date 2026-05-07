@@ -7,8 +7,8 @@
     "description":" \"Screams occasionally, slowing everyone in his range down. He's really loud.\" ",
 
     "secondtitle":" Mechanics ",
-    "detail1":"- Claw floats to the nearest player at 2 studs per second, Killing on contact",
-    "detail2":"- Claw Is a starting enemy and has a Limit of 3 permanant Claws and has no temporary cap",
+    "detail1":"- Claw floats to the nearest player at 2 studs per second, killing on contact.",
+    "detail2":"- Claw is a starting enemy and has a limit of 3 permanant Claws and has no temporary cap.",
 
 
     "thirdtitle":"Death Messages",

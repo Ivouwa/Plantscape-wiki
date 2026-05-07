@@ -1,21 +1,21 @@
 ENEMIES THAT STILL NEED TO BE COMPLETED
 
 -- Needs to be made
-Hyperlaser
-TimeBomb
-Hacker
-Random
-Fade
-Paintballer
-Bloom
+
 Leviathan
-Lobotomnygod
+Razorbaby
 Cadence
 Springer
-Razorbaby
 
--- Needs to be converted / Polished
+Bloom
+
+-- Needs to be converted / Proof read (cam get to WORK)
+Hacker
 Evil Speed Coil
+Hyperlaser
+Fade
+random
+Paintballer
 
 -- Done
 Claw
