@@ -49,6 +49,7 @@ footer{
 
 .border{
     padding: 10px;
+    margin: 5px;
 }
 
 .topbar{
@@ -124,6 +125,13 @@ footer{
 .newline{
     padding: 5px;
     margin: 5px;
+}
+
+.sort{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 10px;
 }
 
 

@@ -48,7 +48,7 @@ fetch('pagedetails.json')
         footer.innerHTML = `
 
         Made by Ivouwa in 2026 | 
-        <a href="https://github.com/Ivouwa/Plantscape-wiki">Want to contribute? View the github</a> | 
+        <a href="https://github.com/Ivouwa/Plantscape-wiki">Found an issue? Report in the github</a> | 
         <a href="https://discord.gg/NZrrj6rdRX">Join the plantscape server</a>
 
         `
