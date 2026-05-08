@@ -1,0 +1,39 @@
+DONE
+
+Make Template page
+Make Page to redirect to enemy pages
+
+W.I.P.
+Make pages for every base game enemy
+    
+    -- Needs to be Proof read (cam)
+
+        - Bloom
+        - Hacker
+        - Evil Speed Coil
+        - Hyperlaser
+        - Fade
+        - Random
+        - Paintballer
+
+
+Still need to do
+
+Make pages for every chaos enemy
+        - Leviathan
+        - Razorbaby
+        - Cadence
+        - Springer
+
+Make pages for every curse
+
+Make pages for every chaos curse
+
+        Build Curses pages
+
+Make pages for every boss
+
+!! WILL NOT PUBLISH THEESE UNTILL THE BOSS IN QUESTION IS BEATEN
+        - TimeBomb
+        - Lobotomnygod 
+        - Redroom
