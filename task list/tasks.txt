@@ -1,4 +1,4 @@
-DONE
+# DONE
 
 Make Template page
 Make Page to redirect to enemy pages
@@ -29,7 +29,7 @@ Make pages for every curse
 
 Make pages for every chaos curse
 
-        Build Curses pages
+Build Curses page
 
 Make pages for every boss
 
