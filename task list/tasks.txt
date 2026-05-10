@@ -2,8 +2,13 @@
 
 Make Template page
 Make Page to redirect to enemy pages
+Convert all pages to global JS
+        ^Accomodate for any loss in quality because of this
 
-W.I.P.
+
+W.I.P
+
+
 Make pages for every base game enemy
     
     -- Needs to be Proof read (cam)
