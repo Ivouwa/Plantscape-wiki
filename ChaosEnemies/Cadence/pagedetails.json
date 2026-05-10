@@ -1,0 +1,26 @@
+{
+
+    "pagename":"- Chaos Enemies",
+    "urlbar":"Plantscape Wiki - Cadence",
+
+    "name":"Cadence",
+    "description":" \"Collect the instruments, keep it at bay.\"",
+
+    "secondtitle":" Mechanics ",
+    "detail1":"- Cadence is a floating Clock that will always spawn next to the beacon.",
+    "detail2":"- Cadnce Will place an instrument around 50 studs to the closest player",
+    "detail3":"- If Cadence has 2 or more instruments out, it will count down from a timer. Giving an audio cue",
+    "detail4":"- When the timer hits 0, Cadence will enrage speeding twoards the closest player killing on contact",     
+
+
+    "thirdtitle":"Death Messages",
+    "deathmsg": "\"Victim didn't keep watch.\" \"Victim ran out of time.\" \"Victim forgot to look.\" \"Victim didn't watch Cadence.\" \"Victim didn't pay Cadence enough attention.\" \"Victim was.. what? did anyone else hear that?\" \"Victim was sealed away.\" \"Victim was snatched into the darkness.\" \"Victim's soul now screams with the rest.\" \"Victim was imprisoned.\" \"Cadence got a hold of Victim and didn't let go.\" \"What time is it?\" " ,
+
+    
+    
+    
+    
+ 
+    "footer": "----------"
+
+}

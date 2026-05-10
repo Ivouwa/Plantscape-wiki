@@ -1,0 +1,25 @@
+{
+
+    "pagename":"-  Chaos Enemies",
+    "urlbar":"Plantscape Wiki - Razorbaby",
+
+    "name":"Razorbaby",
+    "description":" \"Razorbaby will land on your head, get rid of it by touching a Bounce Pad.\" ",
+
+    "secondtitle":" Mechanics ",
+    "detail1":"- After ## seconds Razorbaby will land on top of the players head. If the player doesn't hit a jumppad within ## seconds they will explode.",
+    "detail2":"- Razorbaby is a chaos enemy and doesn't spawn in main game.",
+    "detail3":"- Razorbaby is only obtained by a curse, and is a eviler curse", 
+
+
+    "thirdtitle":"Death Messages",
+    "deathmsg": " \"Hey Victim, you know there was a Bounce Pad right next to you, right?\"  \"Random witnessed Victim get their body blown to pieces.\"  \"Victim had their ears blown out\"  \"Victim just died. To a baby.\" " ,
+
+    
+    
+    
+    
+ 
+    "footer": "----------"
+
+}

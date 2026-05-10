@@ -21,14 +21,19 @@ Make pages for every base game enemy
         - Random
         - Paintballer
 
+Make pages for every chaos enemy
+
+
+    -- Needs to be Proof read (and get icons)
+        - Razorbaby
+        - Cadence
+        - Leviathan
+        - Springer
+        - Waterbreaker
+
 
 Still need to do
 
-Make pages for every chaos enemy
-        - Leviathan
-        - Razorbaby
-        - Cadence
-        - Springer
 
 Make pages for every curse
 

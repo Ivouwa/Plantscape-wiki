@@ -10,7 +10,6 @@
     "detail1":"- Bloom is a floating flower that will always spawn next to the beacon.",
     "detail2":"- Bloom counts on a timer, to increase the timer touch bloom. When the timer hits zero, bloom will enrage throwing multiple flower peojectiles at the closest user.",
     "detail3":"- Bloom can only spawn after level 20, and has a max cap of 1", 
-    "detail4":"- Bloom will always spawn and stay next to the beacon",
 
 
     "thirdtitle":"Death Messages",

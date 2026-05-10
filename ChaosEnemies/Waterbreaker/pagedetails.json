@@ -1,0 +1,21 @@
+{
+
+    "pagename":"- Waterbreaker",
+    "urlbar":"Plantscape Wiki - Waterbreaker",
+
+    "name":"Waterbreaker",
+    "description":" \"Fires a laser after charging. Dont get hit. Lasers linger.\" ",
+
+    "secondtitle":" Mechanics ",
+    "detail1":"- Every ## seconds Waterbreaker will appear. Waterbreaker will place a sword local to the player and fire it at them, killing on contact.",
+    "detail2":"- Waterbreaker is a chaos enemy and doesn't spawn in main game",
+    "detail3":"- Waterbreaker has a limit of 5 at a time",
+
+
+    "thirdtitle":" Death Messages",
+    "deathmsg": "\"Victim was dismantled.\" \"Victim got bisected.\" \"Victim was broken by the Waterbreaker.\" \"Victim was cut down.\" \"Victim was sliced and diced by Waterbreaker.\" \"Victim has been seperated courtesy of Waterbreaker.\" \"Victim was disassembled by Waterbreaker.\" \"Victim was annihilated by Waterbreaker.\" \"Victim got killed by Waterbreaker.\" \"Victim failed to parry Waterbreaker.\" \"Victim should've worn mantle.\" \"Victim was swoon.\" \"That's right, Victim! Random is the Waterbreaking Knight!\" \"Waterbreaker is unsurprised in Victim's death.\" \"Victim, let's try to not duel the ominous floating knight next time.\" \"ASMR | Cutting Victim with 1000 degree knife\"     ",
+  
+
+    "footer": "----------"
+
+}
