@@ -24,7 +24,7 @@ Make pages for every base game enemy
 Make pages for every chaos enemy
 
 
-    -- Needs to be Proof read (and get icons)
+    -- Needs to be Proof read
         - Razorbaby
         - Cadence
         - Leviathan
@@ -47,3 +47,4 @@ Make pages for every boss
         - TimeBomb
         - Lobotomnygod 
         - Redroom
+        - DevOrb
