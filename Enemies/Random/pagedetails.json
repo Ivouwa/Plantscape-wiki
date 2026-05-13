@@ -7,7 +7,7 @@
     "description":" \"Spawns a random temporary enemy.\",",
 
     "secondtitle":" Mechanics ",
-    "detail1":"- Changes itself into a random enemy",
+    "detail1":"- Changes itself into a random enemy.",
     "detail2":"- Random can only spawn after level 10.",
     "detail3":"- Random has no cap.",
 

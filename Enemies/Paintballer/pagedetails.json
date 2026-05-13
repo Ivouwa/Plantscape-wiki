@@ -7,8 +7,9 @@
     "description":" \"Moves towards tiles and shoots paintballs at them. Those who touch painted tiles will be slown until off of them.\",",
 
     "secondtitle":" Mechanics ",
-    "detail1":"- Every ## seconds paintballer will go to a random tile near a player and paint it. If you're on a painted tile then you will be slowed",
-    "detail2":"- Paintballer is a starting enemy and has a limit of 3 permanant Paintballers. Paintballer has no temporary cap.",
+    "detail1":"- Every ## seconds Paintballer will go to a random tile near a player and paint it. If you're on a painted tile then you will be slowed.",
+    "detail2":"- Paintballer is one of the starting enemies, meaning it appears at level 1.", 
+    "detail3":"- Paintballer is a starting enemy and has a limit of 3 permanant Paintballers. Paintballer has no temporary cap.",
 
 
     "thirdtitle":"Death Messages",

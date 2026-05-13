@@ -4,36 +4,29 @@ Make Template page
 Make Page to redirect to enemy pages
 Convert all pages to global JS
         ^Accomodate for any loss in quality because of this
+Make pages for every base game enemy
 
 
 W.I.P
 
 
-Make pages for every base game enemy
-    
-    -- Needs to be Proof read (cam)
-
-        - Bloom
-        - Hacker
-        - Evil Speed Coil
-        - Hyperlaser
-        - Fade
-        - Random
-        - Paintballer
-
 Make pages for every chaos enemy
-
-
     -- Needs to be Proof read
         - Razorbaby
         - Cadence
         - Leviathan
-        - Springer
+        - Springer 
         - Waterbreaker
 
 
 Still need to do
 
+Make pages for every boss
+!! WILL NOT PUBLISH THEESE UNTILL THE BOSS IN QUESTION IS BEATEN
+        - TimeBomb
+        - Lobotomnygod 
+        - Redroom
+        - DevOrb
 
 Make pages for every curse
 
@@ -41,10 +34,6 @@ Make pages for every chaos curse
 
 Build Curses page
 
-Make pages for every boss
+        
 
-!! WILL NOT PUBLISH THEESE UNTILL THE BOSS IN QUESTION IS BEATEN
-        - TimeBomb
-        - Lobotomnygod 
-        - Redroom
-        - DevOrb
+Verify SSL certificate

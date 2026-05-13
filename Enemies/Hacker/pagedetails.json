@@ -7,9 +7,10 @@
     "description":" \"Randomly obstructs everyone's screen with random ads. Click on them to destroy them. (Tap on mobile and press B on console)\" ",
 
     "secondtitle":" Mechanics ",
-    "detail1":"- Every 30-60 seconds hacker will spawn 5 notifications on your screen blocking your vision",
-    "detail2":"- Hacker can only spawn after level 10.",
-    "detail3":"- Hacker has a limit of 1 permanant Hacker, and has a hard cap of 1.",
+    "detail1":"- Every 30 to 60 seconds hacker will spawn 5 notifications on your screen, blocking your vision.",
+    "detail2":"- Hacker is client-sided, meaning it only appears on your client when it spawns.",
+    "detail3":"- Hacker can only spawn after level 10.",
+    "detail4":"- Hacker has a limit of 1 permanant Hacker, and has a hard cap of 1.",
 
 
     "thirdtitle":" Death Messages",

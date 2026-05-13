@@ -7,9 +7,9 @@
     "description":" \"Randomly flies towards a seed and infects it. White seeds will make your screen darker for a bit.\" ",
 
     "secondtitle":" Mechanics ",
-    "detail1":"- Every 10 - 15 seconds fade will go to a random seed, and infect it. Collecting an infected seed will darken your screen for a couple of seconds ",
-    "detail2":"- Fade is a starting enemy and has a limit of 3 permanant Fades and has no temporary cap.",
-
+    "detail1":"- Every 10 to 15 seconds, Fade will go to a random seed, and infect it. Collecting an infected seed will darken your screen for a couple of seconds.",
+    "detail2":"- Fade is one of the starting enemies, meaning it appears at level 1.", 
+    "detail3":"- Fade has a limit of 3 permanant Fades and has no temporary cap.",
 
     "thirdtitle":"Death Messages",
     "deathmsg": " \"Butterflies can't kill so no one died.\" \"The infection spreaded to Victim.\" \"And Fade strikes again.\" ",

@@ -7,9 +7,9 @@
     "description":" \"Going near it will keep it at bay, watering it. Will become enraged if left unchecked.\"",
 
     "secondtitle":" Mechanics ",
-    "detail1":"- Bloom is a floating flower that will always spawn next to the beacon.",
-    "detail2":"- Bloom counts on a timer, to increase the timer touch bloom. When the timer hits zero, bloom will enrage throwing multiple flower peojectiles at the closest user.",
-    "detail3":"- Bloom can only spawn after level 20, and has a max cap of 1", 
+    "detail1":"- Bloom is a floating flower that will always appear close to spawn.",
+    "detail2":"- Bloom counts down from a timer, in order to increase the timer you need to touch Bloom, watering her. Once the timer hits zero, Bloom will enrage, shooting constant flower projectiles at the closest player.",
+    "detail3":"- Bloom can only spawn after level 20, and has a max cap of 1.", 
 
 
     "thirdtitle":"Death Messages",

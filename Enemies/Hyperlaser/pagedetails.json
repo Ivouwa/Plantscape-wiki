@@ -7,9 +7,10 @@
     "description":" \"Fires a laser after charging. Dont get hit. Lasers linger.\" ",
 
     "secondtitle":" Mechanics ",
-    "detail1":"- Every 50 seconds Hyperlaser will appear. After 1.5 seconds of it appearing it will shoot a beam. When caught inside this beam you will instantly die.",
-    "detail2":"- Hyperlaser can only spawn after level 20.",
-    "detail3":"- Hyperlaser has a limit of 5 permanant Hyperlaser, and has a temporary limit of 10.",
+    "detail1":"- Every 50 seconds Hyperlaser will spawn around the character, After 1.5 seconds of it appearing it will shoot a laser. Upon making contact with the laser, you will instantly die.",
+    "detail2":"- Hyperlaser is client-sided, meaning it only appears on your client when it spawns.",
+    "detail3":"- Hyperlaser can only spawn after level 20.",
+    "detail4":"- Hyperlaser has a limit of 5 permanant Hyperlaser, and has a temporary limit of 10.",
 
 
     "thirdtitle":" Death Messages",

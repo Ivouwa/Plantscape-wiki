@@ -7,8 +7,8 @@
     "description":" \"Lunges towards you but fast and scary.\" ",
 
     "secondtitle":" Mechanics ",
-    "detail1":"- After 1 - 1.5 seconds, Evil Sword will face towards the nearest player creating a line. It will lunge following this line instantly killing on contact",
-    "detail2":"- Evil Sword can only spawn after level 10 and will only appear after choosing sword.",
+    "detail1":"- After 1 to 1.5 seconds, Evil Sword will face towards the nearest player creating a line. It will lunge following this line instantly killing on contact.",
+    "detail2":"- Evil Sword can only spawn after level 10 and can only appear after choosing Sword.",
     "detail3":"- Evil Sword has a limit of 2 permanant Evil swords, and a cap of 10 temporary Evil Swords.",
 
 
