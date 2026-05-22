@@ -56,14 +56,6 @@ fetch('pagedetails.json')
         thirdtitle.innerHTML=`${data.thirdtitle}`            
         }
 
-        let deathmsg = document.getElementById('deathmsg')
-        if (deathmsg == undefined) {
-            console.log("No data for deathmsg, skipping")
-        } else{
-        deathmsg.innerHTML=`${data.deathmsg}`            
-        }
-
-
 
         
         //Details, can add more if needed.
@@ -103,6 +95,14 @@ fetch('pagedetails.json')
         }
 
 
+        let detail6 = document.getElementById('detail6')
+        if (detail6 == undefined) {
+            console.log("No data for detail6, skipping")
+        } else{
+        detail6.innerHTML=`${data.detail6}`            
+        }
+
+
 
 
         // staying a const because this must be in your page.
@@ -110,8 +110,8 @@ fetch('pagedetails.json')
         footer.innerHTML = `
 
         Made by Ivouwa in 2026 | 
-        <a href="https://github.com/Ivouwa/Plantscape-wiki">Want to contribute? View the github</a> | 
-        <a href="https://discord.gg/NZrrj6rdRX">Join the plantscape server</a>
+        <a href="https://github.com/Ivouwa/Plantscape-wiki" target="_blank" rel="noopener noreferrer">Want to contribute? View the github</a> | 
+        <a href="https://discord.gg/NZrrj6rdRX" target="_blank" rel="noopener noreferrer">Join the plantscape server</a>
         
         `
     })

@@ -23,10 +23,6 @@ Still need to do
 
 Make pages for every boss
 !! WILL NOT PUBLISH THEESE UNTILL THE BOSS IN QUESTION IS BEATEN
-        - TimeBomb
-        - Lobotomnygod 
-        - Redroom
-        - DevOrb
 
 Make pages for every curse
 
@@ -37,3 +33,74 @@ Build Curses page
         
 
 Verify SSL certificate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+every enemy, curse, and other bullshit so i can list it
+
+
+enemies
+
+-- done
+Sword
+Paintballer
+Claw
+Fade
+Drako
+Hacker
+Killbot
+Labsman
+Evil Sword
+Evil Coil
+Random
+Hyperlaser
+Bloom
+
+
+-- not done
+Evil random
+Spirit
+
+bosses
+
+not so sure how soon i'll get theese done as i don't know much about them gameplay wise
+
+-- not done
+TimeBomb
+Lobotomnygod 
+Redroom
+DevOrb
+
+Base Curses
+
+-- done
+
+
+
+
+-- not done
+
+
+
+
+
+
+
