@@ -3,22 +3,16 @@
     "pagename":"- Enemies",
     "urlbar":"Plantscape Wiki - Drakobloxxer",
 
-    "name":"Drakobloxxer",
-    "description":" \"Screams occasionally, slowing everyone in his range down. He's really loud.\" ",
+    "title1":"Drakobloxxer",
+    "detail1":" \"Screams occasionally, slowing everyone in his range down. He's really loud.\" ",
 
-    "secondtitle":" Mechanics ",
-    "detail1":"- Drakobloxxer will scream every 30 to 60 seconds, slowing players within 150 studs by 50%.",
-    "detail2":"- Drakobloxxer is a starting enemy and has a limit of 1 permanant Drakobloxxer and has a hard cap of 1.",
+    "title2":" Mechanics ",
+    "detail2":"- Drakobloxxer will scream every 30 to 60 seconds, slowing players within 150 studs by 50%.",
+    "detail3":"- Drakobloxxer is a starting enemy and has a limit of 1 permanant Drakobloxxer and has a hard cap of 1.",
 
+    "title3":"Death Messages",
+    "detail4": "\"Drakobloxxer didn't scream so how'd Victim die?\" \"Victim was eaten by Drakobloxxer.\" \"Drakobloxxer thought Victim was delicious.\" \"Random watched Victim get devoured.\" \"It was hungry, why'd you touch it Victim?\" \"Drakobloxxer how could you? Anyways let's go grab a meal with Victim as ingredients guys.\" \"Random saw Drakobloxxer and avoided it, Victim wanted to give it a hug.\" \"Drakobloxxer screamed and Victim panicked.\" ",
 
-    "thirdtitle":"Death Messages",
-    "detail3": "\"Drakobloxxer didn't scream so how'd Victim die?\" \"Victim was eaten by Drakobloxxer.\" \"Drakobloxxer thought Victim was delicious.\" \"Random watched Victim get devoured.\" \"It was hungry, why'd you touch it Victim?\" \"Drakobloxxer how could you? Anyways let's go grab a meal with Victim as ingredients guys.\" \"Random saw Drakobloxxer and avoided it, Victim wanted to give it a hug.\" \"Drakobloxxer screamed and Victim panicked.\" ",
-
-    
-    
-    
-    
- 
     "footer": "----------"
 
 }

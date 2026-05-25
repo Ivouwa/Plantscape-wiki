@@ -3,22 +3,17 @@
     "pagename":"- Enemies",
     "urlbar":"Plantscape Wiki - Fade",
 
-    "name":"Fade",
-    "description":" \"Randomly flies towards a seed and infects it. White seeds will make your screen darker for a bit.\" ",
+    "title1":"Fade",
+    "detail1":" \"Randomly flies towards a seed and infects it. White seeds will make your screen darker for a bit.\" ",
 
-    "secondtitle":" Mechanics ",
-    "detail1":"- Every 10 to 15 seconds, Fade will go to a random seed, and infect it. Collecting an infected seed will darken your screen for a couple of seconds.",
-    "detail2":"- Fade is one of the starting enemies, meaning it appears at level 1.", 
-    "detail3":"- Fade has a limit of 3 permanant Fades and has no temporary cap.",
+    "title2":" Mechanics ",
+    "detail2":"- Every 10 to 15 seconds, Fade will go to a random seed, and infect it. Collecting an infected seed will darken your screen for a couple of seconds.",
+    "detail3":"- Fade is one of the starting enemies, meaning it appears at level 1.", 
+    "detail4":"- Fade has a limit of 3 permanant Fades and has no temporary cap.",
 
-    "thirdtitle":"Death Messages",
-    "detail4": " \"Butterflies can't kill so no one died.\" \"The infection spreaded to Victim.\" \"And Fade strikes again.\" ",
+    "title3":"Death Messages",
+    "detail5": " \"Butterflies can't kill so no one died.\" \"The infection spreaded to Victim.\" \"And Fade strikes again.\" ",
 
-    
-    
-    
-    
- 
     "footer": "----------"
 
 }

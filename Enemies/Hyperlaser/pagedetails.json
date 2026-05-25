@@ -3,20 +3,18 @@
     "pagename":"- Enemies",
     "urlbar":"Plantscape Wiki - Hyperlaser",
 
-    "name":"Hyperlaser",
-    "description":" \"Fires a laser after charging. Dont get hit. Lasers linger.\" ",
+    "title1":"Hyperlaser",
+    "detail1":" \"Fires a laser after charging. Dont get hit. Lasers linger.\" ",
 
-    "secondtitle":" Mechanics ",
-    "detail1":"- Every 50 seconds Hyperlaser will spawn around the character, After 1.5 seconds of it appearing it will shoot a laser. Upon making contact with the laser, you will instantly die.",
-    "detail2":"- Hyperlaser is client-sided, meaning it only appears on your client when it spawns.",
-    "detail3":"- Hyperlaser can only spawn after level 20.",
-    "detail4":"- Hyperlaser has a limit of 5 permanant Hyperlaser, and has a temporary limit of 10.",
+    "title2":" Mechanics ",
+    "detail2":"- Every 50 seconds Hyperlaser will spawn around the character, After 1.5 seconds of it appearing it will shoot a laser. Upon making contact with the laser, you will instantly die.",
+    "detail3":"- Hyperlaser is client-sided, meaning it only appears on your client when it spawns.",
+    "detail4":"- Hyperlaser can only spawn after level 20.",
+    "detail5":"- Hyperlaser has a limit of 5 permanant Hyperlaser, and has a temporary limit of 10.",
 
-
-    "thirdtitle":" Death Messages",
-    "detail5": "\"Okay bro how many things shoot you in this game.\" \"Victim was hyper-blasted.\" \"Hyperlaser Gun shot Victim dead even though it isn't a living thing.\" \"Random shot  with a Hyperlaser Gun\" \"Victim disinigrated.\" \"Labsman's new experiment killed Victim.\" \"Whoops Victim got caught in the crossfire.\" \"Ouch.\" \"Victim couldn't even feel that.\" \"SICK AS HELL HYPERLASER GUN... Killed Victim.\" \"Okay dude what are these hitboxes. How did Hyperlaser Gun hit Victim?\"",
+    "title3":" Death Messages",
+    "detail6": "\"Okay bro how many things shoot you in this game.\" \"Victim was hyper-blasted.\" \"Hyperlaser Gun shot Victim dead even though it isn't a living thing.\" \"Random shot  with a Hyperlaser Gun\" \"Victim disinigrated.\" \"Labsman's new experiment killed Victim.\" \"Whoops Victim got caught in the crossfire.\" \"Ouch.\" \"Victim couldn't even feel that.\" \"SICK AS HELL HYPERLASER GUN... Killed Victim.\" \"Okay dude what are these hitboxes. How did Hyperlaser Gun hit Victim?\"",
  
-
     "footer": "----------"
 
 }

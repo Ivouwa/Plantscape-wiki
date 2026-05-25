@@ -1,0 +1,20 @@
+{
+
+    "pagename":"- Enemies",
+    "urlbar":"Plantscape Wiki - Spirit",
+
+    "title1":"Spirit",
+    "detail1":" \"Follows you, then summons their arena. Jump over their flame to survive.\" ",
+
+    "title2":" Mechanics ",
+    "detail2":"- Every 20 - 45 seconds spirit will fly around a random player, placing a circle around them. Inside this circle there will be a ring of fire which will get closer to the player and kills apon contact",
+    "detail3":"- Spirit is client-sided, meaning it only appears on your client when it spawns.",
+    "detail4":"- Spirit can only spawn after level 15.",
+    "detail5":"- Spirit has a hard cap of 1.",
+
+    "title3":" Death Messages",
+    "detail6": "\"Victim was possessed.\" \"Victim forgot to jump.\" \"Victim was taken by Spirit.\" \"Victim!!! Did you not see the big area around you??? - Random\" \"Victim was taken to the underworld.\" \"Victim was sealed.\" \"Victim no longer exists.\" \"Bye Victim! I never liked you anyways!\" \"Spirit said Victim is bad at parkour, Spirit was correct.\"\"Victim is now gone, all because of Spirit.\" \"No more Victim.\" \"Spirit killed Victim because Victim touched Spirit's flame ring.\" ",
+ 
+    "footer": "----------"
+
+}

@@ -1,16 +1,16 @@
 fetch('pagedetails.json')
 
     .then(response => {
-        if (!response.ok) throw new Error("File not found");
+        if (!response.ok) throw new Error("JSON not found!");
         return response.json();
     })
 
     .then(data => {
 
-        // shows data on urlbar
+        // shows data on urlbar -- errors because this must be in the page
         let urlbar = document.getElementById('urlbar')
         if (urlbar == undefined) {
-            console.log("No data for urlbar, skipping")
+            console.error("No data for urlbar!")
         } else{
         urlbar.innerHTML=`${data.urlbar}`            
         }
@@ -18,42 +18,31 @@ fetch('pagedetails.json')
         // sets text next to "plantscape wiki" logo
         let pagename = document.getElementById('pagename')
         if (pagename == undefined) {
-            console.log("No data for pagename, skipping")
+            console.error("No data for pagename!")
         } else{
         pagename.innerHTML=`<a href="../" class="page">${data.pagename}`            
         }
 
-        // Name of enemy, curse, etc..
-        let output = document.getElementById('name')
-        if (output == undefined) {
-            console.log("No data for name, skipping")
+        // Titles, can add more if needed
+        let title1 = document.getElementById('title1')
+        if (title1 == undefined) {
+            console.log("No data for title1, skipping")
         } else{
-        output.innerHTML=`${data.name}`            
+        title1.innerHTML=`${data.title1}`            
         }
 
-        // Description of enemy, curse, etc..
-        // Usually a 1:1 of whats described of it in game
-        let description = document.getElementById('description')
-        if (description == undefined) {
-            console.log("No data for description, skipping")
+        let title2 = document.getElementById('title2')
+        if (title2 == undefined) {
+            console.log("No data for title2, skipping")
         } else{
-        description.innerHTML=`${data.description}`            
+        title2.innerHTML=`${data.title2}`          
         }
 
-        // Second section title 
-        let secondtitle = document.getElementById('secondtitle')
-        if (secondtitle == undefined) {
-            console.log("No data for secondtitle, skipping")
+        let title3 = document.getElementById('title3')
+        if (title3 == undefined) {
+            console.log("No data for title3, skipping")
         } else{
-        secondtitle.innerHTML=`${data.secondtitle}`          
-        }
-
-        // Third title, can be used for whatever
-        let thirdtitle = document.getElementById('thirdtitle')
-        if (thirdtitle == undefined) {
-            console.log("No data for thirdtitle, skipping")
-        } else{
-        thirdtitle.innerHTML=`${data.thirdtitle}`            
+        title3.innerHTML=`${data.title3}`            
         }
 
 
@@ -106,7 +95,11 @@ fetch('pagedetails.json')
 
 
         // staying a const because this must be in your page.
+        // Keep footer as "----------" in the json! if it's undefined it will error
         const footer = document.getElementById('footer')
+        if (footer == undefined) {
+            console.error("Possible data error!")
+        }
         footer.innerHTML = `
 
         Made by Ivouwa in 2026 | 

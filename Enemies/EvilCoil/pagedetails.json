@@ -3,23 +3,17 @@
     "pagename":"- Enemies",
     "urlbar":"Plantscape Wiki - Evil Speed Coil",
 
-    "name":"Evil Speed Coil",
-    "description":" \"Randomly teleports near enemies, boosts enemy speed within a large radius.\" ",
+    "title1":"Evil Speed Coil",
+    "detail1":" \"Randomly teleports near enemies, boosts enemy speed within a large radius.\" ",
 
-    "secondtitle":" Mechanics ",
-    "detail1":"there's NOTHING.",
-    "detail2":"- Evil Speed Coil can only spawn after level 5.",
-    "detail3":"- Evil Speed Coil has a limit of 3 permanant Evil Coils, and has no temporary cap.",
+    "title2":" Mechanics ",
+    "detail2":"there's NOTHING. thank you son",
+    "detail3":"- Evil Speed Coil can only spawn after level 5.",
+    "detail4":"- Evil Speed Coil has a limit of 3 permanant Evil Coils, and has no temporary cap.",
 
-
-    "thirdtitle":"Death Messages",
-    "detail4": " \"Evil Speed Coil doesn't actually speed you up, Victim.\" \"Victim was zapped by the coil.\" \"Purple speed coils are evil, not good, Victim.\" \"Victim was boosted to their death.\" \"Victim died to a tool that is supposed to help you.\" \"Victim was hunted down by the coil.\" \"Maybe next time don't touch a Speed Coil with 'Evil' in its name.\" \"Victim died, coil is the cause.\" \"ZAP!\" ",
+    "title3":"Death Messages",
+    "detail5": " \"Evil Speed Coil doesn't actually speed you up, Victim.\" \"Victim was zapped by the coil.\" \"Purple speed coils are evil, not good, Victim.\" \"Victim was boosted to their death.\" \"Victim died to a tool that is supposed to help you.\" \"Victim was hunted down by the coil.\" \"Maybe next time don't touch a Speed Coil with 'Evil' in its name.\" \"Victim died, coil is the cause.\" \"ZAP!\" ",
     
-    
-    
-    
-    
- 
     "footer": "----------"
 
 }

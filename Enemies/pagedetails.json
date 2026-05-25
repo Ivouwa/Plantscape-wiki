@@ -3,11 +3,9 @@
     "pagename":"- Enemies",
     "urlbar":"Plantscape wiki - Enemies",
 
-    "name":"Base game Enemies",
-
-    "secondtitle":"Chaos Enemies",
-
-    "thirdtitle":"Bosses",
+    "title1":"Base game Enemies",
+    "title2":"Chaos Enemies",
+    "title3":"Bosses",
 
     "footer": "----------"
 

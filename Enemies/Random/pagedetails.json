@@ -3,24 +3,17 @@
     "pagename":"- Enemies",
     "urlbar":"Plantscape Wiki - Random",
 
-    "name":"Random",
-    "description":" \"Spawns a random temporary enemy.\",",
+    "title1":"Random",
+    "detail1":" \"Spawns a random temporary enemy.\"",
 
-    "secondtitle":" Mechanics ",
-    "detail1":"- Changes itself into a random enemy.",
-    "detail2":"- Random can only spawn after level 10.",
-    "detail3":"- Random has no cap.",
+    "title2":" Mechanics ",
+    "detail2":"- Changes itself into a random enemy.",
+    "detail3":"- Random can only spawn after level 10.",
+    "detail4":"- Random has no cap.",
 
+    "title3":"Death Messages",
+    "detail5": "\"Victim killed by unkillable enemy how\" \"Random killed Random killed Victim.\" \"Bank killed Random.\" \"RANDOM.. the enemy killed Victim.\" \"Random died to RANDOM.\" \"Victim die.\" \"p.\" \"ivouwa vs bank of eeee who wins.\" \"BRORRBRRO.\" ",
 
-
-    "thirdtitle":"Death Messages",
-    "detail4": "\"Victim killed by unkillable enemy how\" \"Random killed Random killed Victim.\" \"Bank killed Random.\" \"RANDOM.. the enemy killed Victim.\" \"Random died to RANDOM.\" \"Victim die.\" \"p.\" \"ivouwa vs bank of eeee who wins.\" \"BRORRBRRO.\" ",
-
-    
-    
-    
-    
- 
     "footer": "----------"
 
 }

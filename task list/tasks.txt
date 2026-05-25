@@ -54,7 +54,7 @@ Verify SSL certificate
 
 
 
-every enemy, curse, and other bullshit so i can list it
+LIST OF EVERY ENEMY, CURSE, BOSS, ANYTHING IN THE GAME
 
 
 enemies
@@ -73,14 +73,10 @@ Evil Coil
 Random
 Hyperlaser
 Bloom
-
-
--- not done
 Evil random
 Spirit
 
 bosses
-
 not so sure how soon i'll get theese done as i don't know much about them gameplay wise
 
 -- not done
@@ -89,14 +85,184 @@ Lobotomnygod
 Redroom
 DevOrb
 
-Base Curses
+Base Curses 
+sorting by gameplay, 
 
 -- done
+RandomSpawn [Random spawn]
+MoneyForEnemy [Oil Orb]
 
 
 
 
 -- not done
+LowGravity [Baloon]
+WorseJP [Gray Clouds]
+WorstJP [Black Clouds]
+Jackpot [Misfortune]
+DoubleCaps [Portal]
+FasterEnemies [Electricity]
+EnemyKill [Stinging]
+LogerMap [Super soil]
+PlayerCollisions [Bumping] 
+MoreTiles [Fertilizer]
+Timelimit [The Rain]
+FasterTime [Downpour]
+CloserWater [Pre-Determined]
+Fragile [Watering can]
+
+
+-- seed / weed curses
+ScatteredSeeds [Scattered Seeds] 
+BigWeeds [Bigger Weeds]
+Peels [Banana Peels]
+MoreWeeds [Gardener Layoff]
+
+
+
+-- Cacti curses
+Run [Sentient Cacti]
+BiggerCacti [Bigger Cacti]
+ChainCacti [Chained Cacti]
+
+
+-- Claw Curses
+BigClaw [Bigger Claws]
+Stalker [Stalker]
+FastClaw [Faster Claw]
+
+EvilClaws [Hunger]
+
+ClawInfection [Claw Infection] -- CHAOS!
+
+-- Fade Curses
+LongerInfect [Dih Fade]
+BlurFade [FoggyDay]
+MonoFade [Blinding Lights]
+InvertFade [Inversion]
+
+ServerSideInfect [UniversalFade]
+
+FadeHell [the great fade migration] -- CHAOS!!
+
+-- DrakoBloxxer Curses
+MovingDrako [Sentient]
+EchoDrako [Echo]
+AirDrako [WatcherBloxxer]
+
+LoudDrako [Universal DrakoBloxxer]
+
+
+-- Sword Curses
+Practice [Target Practice]
+SFOTH [On the Heights]
+Twice [Dual Wield]
+Practice [Target Practice]
+
+EvilSwords [Blacksmith]
+
+Pacifier [shush] -- CHAOS!!
+ProblemSword "Redirect" -- CHAOS!!
+
+-- Paintballer curses
+TriplePaintballers [Paintball Frenzy]
+Painted [Painted]
+Shotgun [Paintball Gun]
+Targeting [Targeting]
+LingeringPaint [Wet Paint]
+BigPaintballs [Bigger Paintballs]
+PaintPads [Paintpads]
+
+PaintballerHell [Paintball gun (literally)] -- CHAOS!!
+
+-- Labsman Curses
+
+Telefragging [Telefragging]
+ReplacementTele [Test Subject]
+
+-- Spirit Curses
+SpiritBuff [Presence]
+
+SpiritOverload [Arena God]
+
+-- Hacker Curses
+ExtraHit [SlateSkin Potion]
+Click [CLICK ME]
+DontClick [DON'T CLICK ME?]
+Hackerbuff [I JUST WANNA POP UP]
+BlockCount [I'M MORE ANNOYING THAN YOU THOUGHT]
+
+-- Evil Speed Coil Curses
+InfiniteCoil [Zapped Coil]
+MovingCoil [Flying Coil]
+
+-- Killbot Curses
+KillbotTarget [Awareness]
+KillbotSelfExplode [Self Destruct]
+ExplosionRange [Gunpowder]
+KillbotBuff [Killdroid]
+TileDestroy [Destructive Blasts]
+
+Nuke [Nuclear Bomb] -- CHAOS!!
+
+-- Hyperlaser Curses
+HyperlaserDupe [Hyperclone]
+HyperlaserGuardian [All Around]
+HyperlaserFull [Double-Sided]
+HyperlaserTriple [Hyper-Rounds]
+HyperlaserBump [Harder Lasers]
+HyperlaserFast [Matrix Hyperdron]
+
+HyperlaserGlobal [Universal Hyperlaser Gun] -- CHAOS!!
+
+-- Bloom Curses
+MovingBloom [Flower Flight]
+BeaconRage [Memories]
+FasterTick [Impatience]
+
+GuardianBloom [Flower Garden]
+BulletHell [Blooming Hell]
+ 
+BloomSpawm[Last Splash] -- CHAOS!!
+
+-- Chaos Curses
+OneSeed [The One Seed]
+AllEnemies [Everything]
+EvilStructures [Stamper Tool]
+Realistic [Realistic Lighting!]
+NullTiles [nullscape tilez]
+EnemyKillButBad [die]
+NoLimits [more planting]
+WholeScreen [go away]
+InfinitePainted [Paint]
+ScatteredSeedsInfinite [Scattered]
+BiggestWeeds [weed big]
+ReallyLoudDrako [chill out drako]
+DiceCube [Dice Cube]
+NullExtreme [Extreme!]
+why [why]
+Fragilelist [broken tiles]
+
+
+
+
+WaterbreakerSpam [Blade bombardment] -- CHAOS!!
+WaterbreakerFast [Ballet of Blades] -- CHAOS!!
+InstrumentSpawning [Deadly Melody] -- CHAOS!!
+ShockWaveBuff [Springloaded] -- CHAOS!!
+TripleSpringer [Mightly Cavalry] -- CHAOS!!
+Razorbaby [razorbaby] -- CHAOS!!
+
+
+
+
+
+
+
+
+
+LAST THING IN LIST = 
+
 
 
 
