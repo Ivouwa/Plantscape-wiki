@@ -45,6 +45,13 @@ fetch('pagedetails.json')
         title3.innerHTML=`${data.title3}`            
         }
 
+        let title4 = document.getElementById('title4')
+        if (title4 == undefined) {
+            console.log("No data for title4, skipping")
+        } else{
+        title4.innerHTML=`${data.title4}`            
+        }
+
 
         
         //Details, can add more if needed.

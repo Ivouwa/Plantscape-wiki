@@ -3,15 +3,12 @@
     "pagename":"- Curses",
     "urlbar":"Plantscape Wiki - Oil Orb",
 
-    "name":"Oil Orb",
-    "description":" \"+20% Oil, one random enemy.\"",
+    "title1":"Oil Orb",
+    "detail1":" \"+20% Oil, one random enemy.\"",
 
-    "secondtitle":" Mechanics ",
-    "detail1":"Adds a random enemy, and increases oil gain by +20",
-    
-    
-    
- 
+    "title2":"Mechanics",
+    "detail2":" \"Adds one random enemy and increases oil gain by 20%\"",
+     
     "footer": "----------"
 
 }

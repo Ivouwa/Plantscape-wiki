@@ -89,10 +89,23 @@ Base Curses
 sorting by gameplay, 
 
 -- done
+
+
+-- PROOF READ!!! CAM!!!
+
+
 RandomSpawn [Random spawn]
 MoneyForEnemy [Oil Orb]
 
+-- Sword Curses
+SFOTH [On the Heights] -- READ THE VARIENTS!
 
+Twice [Dual Wield]
+Practice [Target Practice]
+EvilSwords [Blacksmith]
+
+Pacifier [shush] -- CHAOS!!
+ProblemSword "Redirect" -- CHAOS!!
 
 
 -- not done
@@ -153,16 +166,6 @@ AirDrako [WatcherBloxxer]
 LoudDrako [Universal DrakoBloxxer]
 
 
--- Sword Curses
-Practice [Target Practice]
-SFOTH [On the Heights]
-Twice [Dual Wield]
-Practice [Target Practice]
-
-EvilSwords [Blacksmith]
-
-Pacifier [shush] -- CHAOS!!
-ProblemSword "Redirect" -- CHAOS!!
 
 -- Paintballer curses
 TriplePaintballers [Paintball Frenzy]

@@ -7,8 +7,8 @@
     "detail1":" \"Razorbaby will land on your head, get rid of it by touching a Bounce Pad.\" ",
 
     "title2":" Mechanics ",
-    "detail2":"- After 30 to 60 seconds, Razorbaby will land on top of the players head. If the player doesn't hit a jumppad within ## seconds they will explode.",
-    "detail3":"- Razorbaby is client-sided, meaning it only appears on your client when it spawns. Razorbaby is a chaos enemy and doesn't spawn in main game.",
+    "detail2":"- After 30 to 60 seconds, Razorbaby will land on top of the players head. If the player doesn't hit a jumppad within 15 seconds they will explode.",
+    "detail3":"- Razorbaby is client-sided, meaning it only appears on your client when it spawns. Razorbaby is a chaos enemy and doesn't spawn in the main game.",
     "detail4":"- Razorbaby is only obtained by a curse, and is a eviler curse", 
 
     "title3":"Death Messages",

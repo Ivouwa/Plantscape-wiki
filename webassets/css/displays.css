@@ -52,11 +52,33 @@ footer{
     margin: 5px;
 }
 
+.cborder{
+    padding: 10px;
+    margin: 5px;
+}
+
+.gcborder{
+    padding: 10px;
+    margin: 5px;
+}
+
+.cborder{
+    padding: 10px;
+    margin: 5px;
+}
+
+.ccborder{
+    padding: 10px;
+    margin: 5px;
+}
+
+
 .topbar{
 
     display: flex;
     place-items: center;
     justify-content: flex-end;
+    flex-wrap:wrap-reverse;
 
     margin-bottom: 50px;
 }
@@ -107,6 +129,30 @@ footer{
 
 }
 
+.gctitle{
+
+    width: fit-content;
+    padding-bottom: 10px;
+    font-size: 50px;
+
+}
+
+.cctitle{
+
+    padding: 10px;
+    margin: 10px;
+    padding-top: 0px;
+
+}
+
+.ctitle{
+
+    padding: 10px;
+    margin: 10px;
+    padding-top: 0px;
+
+}
+
 .subtitle{
 
     padding: 10px;
@@ -114,6 +160,7 @@ footer{
     padding-top: 0px;
 
 }
+
 
 
 .details{
@@ -132,6 +179,7 @@ footer{
     flex-direction: row;
     margin: 0px;
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 

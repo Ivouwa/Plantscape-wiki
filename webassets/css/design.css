@@ -35,6 +35,38 @@ footer{
 
 }
 
+.cborder{
+
+    border: 6px solid #AA00FF;
+    border-radius: 5px;
+    background-color: #0000004b; 
+
+}
+
+.gcborder{
+
+    border: 6px solid #edb807;
+    border-radius: 5px;
+    background-color: #0000004b; 
+
+}
+
+.ccborder{
+
+    border: 6px solid #550000;
+    border-radius: 5px;
+    background-color: #0000004b; 
+
+}
+
+.bborder{
+
+    border: 6px solid #AA0000;
+    border-radius: 5px;
+    background-color: #0000004b; 
+
+}
+
 .topdiv{
 
     border-top: 6px solid #ce0006;
@@ -46,6 +78,25 @@ footer{
     border-bottom: 6px solid #ce0006;
 
 }
+
+.gctitle{
+
+    border-bottom: 6px solid #edb807;
+
+}
+
+.ctitle{
+
+    border-bottom: 6px solid #AA00FF;
+
+}
+
+.cctitle{
+
+    border-bottom: 6px solid #550000;
+
+}
+
 
 .subtitle{ 
 

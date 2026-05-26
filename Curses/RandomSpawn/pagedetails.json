@@ -3,14 +3,11 @@
     "pagename":"- Curses",
     "urlbar":"Plantscape Wiki - Random Spawn",
 
-    "name":"Random Spawn",
-    "description":" \"Teleports you in a random seed's position.\"",
+    "title1":"Random Spawn",
+    "detail1":" \"Teleports you in a random seed's position.\"",
 
-    "secondtitle":" Mechanics ",
-    "detail1":"Adds a random enemy, and increases oil gain by +20",
-    
-    
-    
+    "title2":" Mechanics ",
+    "detail2":"When spawning in every player will be put in a random spot across the map",    
  
     "footer": "----------"
 

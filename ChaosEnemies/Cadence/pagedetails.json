@@ -7,10 +7,10 @@
     "detail1":" \"Collect the instruments, keep it at bay.\"",
 
     "title2":" Mechanics ",
-    "detail2":"- Cadence is a floating Clock that will always spawn next to the beacon.",
-    "detail3":"- Cadnce Will place an instrument around 50 studs to the closest player",
-    "detail4":"- If Cadence has 2 or more instruments out, it will count down from a timer. Giving an audio cue",
-    "detail5":"- When the timer hits 0, Cadence will enrage speeding twoards the closest player killing on contact",     
+    "detail2":"- Cadence is a floating clock that will always spawn next to the beacon.",
+    "detail3":"- Cadence will place an instrument around 150 studs to the closest player.",
+    "detail4":"- If Cadence has 2 or more instruments out, it will count down from a timer. Giving an audio cue while doing so. The audio cue changes depending on how low the timer is.",
+    "detail5":"- When the timer hits 0, Cadence will enrage and start speeding towards the closest player, killing on contact.",     
 
     "title3":"Death Messages",
     "detail6": "\"Victim didn't keep watch.\" \"Victim ran out of time.\" \"Victim forgot to look.\" \"Victim didn't watch Cadence.\" \"Victim didn't pay Cadence enough attention.\" \"Victim was.. what? did anyone else hear that?\" \"Victim was sealed away.\" \"Victim was snatched into the darkness.\" \"Victim's soul now screams with the rest.\" \"Victim was imprisoned.\" \"Cadence got a hold of Victim and didn't let go.\" \"What time is it?\" " ,
