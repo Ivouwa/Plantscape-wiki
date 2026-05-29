@@ -13,7 +13,7 @@ a:hover{
 html{
     
     font-family: Arial;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 400;
     text-align: center;
     color: #ffffff;
@@ -119,13 +119,13 @@ footer{
 
 .topdiv{
 
-    border-top: 6px solid #ce0006;
+    border-top: 5px solid #ce0006;
 
 }
 
 .title{
 
-    border-bottom: 6px solid #ce0006;
+    border-bottom: 5px solid #ce0006;
 
 }
 
