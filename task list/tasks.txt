@@ -107,6 +107,16 @@ EvilSwords [Blacksmith]
 Pacifier [shush] -- CHAOS!!
 ProblemSword "Redirect" -- CHAOS!!
 
+-- Paintballer curses
+TriplePaintballers [Paintball Frenzy]
+Painted [Painted]
+Shotgun [Paintball Gun]
+Targeting [Targeting]
+LingeringPaint [Wet Paint]
+
+PaintballerHell [Paintball gun (literally)] -- CHAOS!!
+InfinitePainted [Paint] -- CHAOS!!
+
 
 -- not done
 LowGravity [Baloon]
@@ -167,16 +177,6 @@ LoudDrako [Universal DrakoBloxxer]
 
 
 
--- Paintballer curses
-TriplePaintballers [Paintball Frenzy]
-Painted [Painted]
-Shotgun [Paintball Gun]
-Targeting [Targeting]
-LingeringPaint [Wet Paint]
-BigPaintballs [Bigger Paintballs]
-PaintPads [Paintpads]
-
-PaintballerHell [Paintball gun (literally)] -- CHAOS!!
 
 -- Labsman Curses
 
@@ -237,7 +237,6 @@ NullTiles [nullscape tilez]
 EnemyKillButBad [die]
 NoLimits [more planting]
 WholeScreen [go away]
-InfinitePainted [Paint]
 ScatteredSeedsInfinite [Scattered]
 BiggestWeeds [weed big]
 ReallyLoudDrako [chill out drako]
