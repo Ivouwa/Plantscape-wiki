@@ -34,7 +34,7 @@ footer{
 /* Hoverable borders*/
 .selborder{
 
-    border: 6px solid #ce0006;
+    border: 5px solid #ce0006;
     border-radius: 5px;
     background-color: #0000004b; 
 
@@ -46,7 +46,7 @@ footer{
 
 .selcborder{
 
-    border: 6px solid #AA00FF;
+    border: 5px solid #AA00FF;
     border-radius: 5px;
     background-color: #0000004b; 
 
@@ -58,7 +58,7 @@ footer{
 
 .selgcborder{
 
-    border: 6px solid #edb807;
+    border: 5px solid #edb807;
     border-radius: 5px;
     background-color: #0000004b; 
 
@@ -70,7 +70,7 @@ footer{
 
 .selccborder{
 
-    border: 6px solid #550000;
+    border: 5px solid #550000;
     border-radius: 5px;
     background-color: #0000004b; 
 
@@ -85,7 +85,7 @@ footer{
 /* Non hoverable borders */
 .border{
 
-    border: 6px solid #ce0006;
+    border: 5px solid #ce0006;
     border-radius: 5px;
     background-color: #0000004b; 
 
@@ -94,7 +94,7 @@ footer{
 
 .cborder{
 
-    border: 6px solid #AA00FF;
+    border: 5px solid #AA00FF;
     border-radius: 5px;
     background-color: #0000004b; 
 
@@ -102,7 +102,7 @@ footer{
 
 .gcborder{
 
-    border: 6px solid #edb807;
+    border: 5px solid #edb807;
     border-radius: 5px;
     background-color: #0000004b; 
 
@@ -110,7 +110,7 @@ footer{
 
 .ccborder{
 
-    border: 6px solid #550000;
+    border: 5px solid #550000;
     border-radius: 5px;
     background-color: #0000004b; 
 

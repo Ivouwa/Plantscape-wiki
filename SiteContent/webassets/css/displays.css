@@ -11,10 +11,9 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    place-items: center;
     padding-top: 0px;
-    margin-bottom: 30x;
-
-    
+    margin-bottom: 30px;
 
 }
 
@@ -22,7 +21,7 @@ html{
 body{
 
     display: flex;
-    height: fit-content ;
+    height: fit-content;
     width: fit-content;  
     flex-direction: column;
     justify-content: center;
@@ -39,6 +38,11 @@ div{
     
 }
 
+.sidediv{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
 footer{
 
     padding-top: 100px;
@@ -48,62 +52,62 @@ footer{
 }
 
 .selborder{
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
 }
 
 .seleborder{
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
 }
 
 .selcborder{
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
 }
 
 .selgcborder{
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
 }
 
 .selcborder{
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
 }
 
 .selccborder{
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
 }
 
 .border{
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
 }
 
 .eborder{
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
 }
 
 .cborder{
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
 }
 
 .gcborder{
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
 }
 
 .cborder{
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
 }
 
 .ccborder{
-    padding: 10px;
+    padding:5px;
     margin: 5px;
 }
 
@@ -215,7 +219,7 @@ footer{
     display: flex;
     flex-direction: row;
     margin: 0px;
-    padding: 10px;
+    padding: 5px;
     flex-wrap: wrap;
 }
 

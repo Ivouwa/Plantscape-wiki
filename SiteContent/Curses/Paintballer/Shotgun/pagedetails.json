@@ -1,13 +1,13 @@
 {
 
     "pagename":"- Curses",
-    "urlbar":"Plantscape Wiki - Painted",
+    "urlbar":"Plantscape Wiki - Paintball Gun",
 
-    "title1":"Paintball Painted",
-    "detail1":" \"Tiles have a 5% chance to be permenantely covered by paintballer's paint during generation.\"",
+    "title1":"Paintball Gun",
+    "detail1":" \"Paintballer fires 8 paintballs in a circle all at once when targeting players.\"",
 
     "title2":" Mechanics ",
-    "detail2":"At the start of the round each tile has a 5% chance to be permenantely covered by paintballers paint.",    
+    "detail2":"Paintballer shoots a circle of 8 paintballs instead of just 1",    
  
     "footer": "----------"
 

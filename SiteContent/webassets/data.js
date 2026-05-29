@@ -130,7 +130,8 @@ fetch('pagedetails.json')
     
     ^   if you want to add a new text element, assign the id "nameofelement" to an html element
         in the json add "nameofelement": "elementdetails",
-        then replace every "nameofelement" in this example to whatever you choose
+
+        replace every "nameofelement" in this example to whatever you choose
 
 
     */
