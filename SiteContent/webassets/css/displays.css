@@ -47,7 +47,42 @@ footer{
 
 }
 
+.selborder{
+    padding: 10px;
+    margin: 5px;
+}
+
+.seleborder{
+    padding: 10px;
+    margin: 5px;
+}
+
+.selcborder{
+    padding: 10px;
+    margin: 5px;
+}
+
+.selgcborder{
+    padding: 10px;
+    margin: 5px;
+}
+
+.selcborder{
+    padding: 10px;
+    margin: 5px;
+}
+
+.selccborder{
+    padding: 10px;
+    margin: 5px;
+}
+
 .border{
+    padding: 10px;
+    margin: 5px;
+}
+
+.eborder{
     padding: 10px;
     margin: 5px;
 }
@@ -71,6 +106,8 @@ footer{
     padding: 10px;
     margin: 5px;
 }
+
+
 
 
 .topbar{

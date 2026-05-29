@@ -2,9 +2,13 @@ a{
 
     text-decoration: none;
     color: inherit;
+    -webkit-text-stroke: #000000 4px;
 
 }
 
+a:hover{
+    color: rgb(173, 173, 173);
+}
 
 html{
     
@@ -27,6 +31,58 @@ footer{
 
 }
 
+/* Hoverable borders*/
+.selborder{
+
+    border: 6px solid #ce0006;
+    border-radius: 5px;
+    background-color: #0000004b; 
+
+}
+
+.selborder:hover{
+    background-color: #00000085; 
+}
+
+.selcborder{
+
+    border: 6px solid #AA00FF;
+    border-radius: 5px;
+    background-color: #0000004b; 
+
+}
+
+.selcborder:hover{
+    background-color: #00000085; 
+}
+
+.selgcborder{
+
+    border: 6px solid #edb807;
+    border-radius: 5px;
+    background-color: #0000004b; 
+
+}
+
+.selgcborder:hover{
+    background-color: #00000085; 
+}
+
+.selccborder{
+
+    border: 6px solid #550000;
+    border-radius: 5px;
+    background-color: #0000004b; 
+
+}
+
+.selccborder:hover{
+    background-color: #00000085; 
+}
+
+
+
+/* Non hoverable borders */
 .border{
 
     border: 6px solid #ce0006;
@@ -34,6 +90,7 @@ footer{
     background-color: #0000004b; 
 
 }
+
 
 .cborder{
 
@@ -59,13 +116,6 @@ footer{
 
 }
 
-.bborder{
-
-    border: 6px solid #AA0000;
-    border-radius: 5px;
-    background-color: #0000004b; 
-
-}
 
 .topdiv{
 
