@@ -7,7 +7,9 @@
     "detail1":" \"Sword fakes its dash.\"",
 
     "title2":" Mechanics ",
-    "detail2":"Sword can fake a dash, suddenly lunging in a new direction",
+    "detail2":"- Sword can fake a dash, suddenly lunging in a new direction",
+    "detail3":"- Redirect is a chaos curse and can only be chosen during chaos selection",
+
  
     "footer": "----------"
 

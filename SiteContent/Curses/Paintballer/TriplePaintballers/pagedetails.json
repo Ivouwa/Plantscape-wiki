@@ -7,8 +7,9 @@
     "detail1":" \"Triple the paintballers.\"",
 
     "title2":" Mechanics ",
-    "detail2":"At the start of the round, all current paintballers will be tripled",    
- 
+    "detail2":"- At the start of the round, all current paintballers will be tripled",    
+    "detail3":"- Painball Frenzy will appear in curse selection only after level 5",
+
     "footer": "----------"
 
 }

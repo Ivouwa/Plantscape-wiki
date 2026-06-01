@@ -7,7 +7,9 @@
     "detail1":" \"Sword redirects itself during long aim time and predicts player movement.\"",
 
     "title2":" Mechanics ",
-    "detail2":"Spends more time aiming at the player, focusing on thier direction for a couple seconds",
+    "detail2":"- Spends more time aiming at the player, focusing on thier direction for a couple seconds",
+    "detail3":"- Target Practice is a eviler curse can only be chosen during eviler curse selection",
+
  
     "footer": "----------"
 

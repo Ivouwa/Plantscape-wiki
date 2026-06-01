@@ -9,11 +9,14 @@ i am ivouwa and this is my subpar css code
 html{
 
     display: flex;
-    justify-content: center;
-    align-items: center;
-    place-items: center;
-    padding-top: 0px;
+    justify-content: safe center;
+    align-items: safe center;
+    padding-top: 1px;
+    border-top: 10px transparent;
     margin-bottom: 30px;
+    height: 100vh;
+    flex-direction: row;
+
 
 }
 
@@ -27,7 +30,7 @@ body{
     justify-content: center;
 
     padding: 20px;
-    margin: 40px;
+    margin: auto;
 
     overflow: auto;
 }
@@ -175,7 +178,9 @@ footer{
 
     width: fit-content;
     padding-bottom: 10px;
-    font-size: 50px;
+    font-size: 40px;
+    margin-bottom: 10px;
+
 
 }
 
@@ -183,7 +188,8 @@ footer{
 
     padding: 10px;
     margin: 10px;
-    padding-top: 0px;
+    font-size: 40px;
+    margin-bottom: 10px;
 
 }
 
@@ -191,7 +197,9 @@ footer{
 
     padding: 10px;
     margin: 10px;
-    padding-top: 0px;
+    font-size: 40px;
+    margin-bottom: 10px;
+
 
 }
 
@@ -219,6 +227,7 @@ footer{
 .sort{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin: 0px;
     padding: 5px;
     flex-wrap: wrap;

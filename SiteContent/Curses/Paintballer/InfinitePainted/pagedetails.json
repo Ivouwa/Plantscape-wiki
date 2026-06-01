@@ -7,7 +7,9 @@
     "detail1":"\"All tiles are permenantely covered by paintballer's paint during generation.\"",
 
     "title2":" Mechanics ",
-    "detail2":"At the start of a round every tile is permenantely covered by paint",    
+    "detail2":"- At the start of a round every tile is permenantely covered by paint",    
+    "detail3":"- Paint is a chaos curse and can only be chosen during chaos selection",
+
  
     "footer": "----------"
 

@@ -7,8 +7,9 @@
     "detail1":" \"Paintballer fires 8 paintballs in a circle all at once when targeting players.\"",
 
     "title2":" Mechanics ",
-    "detail2":"Paintballer shoots a circle of 8 paintballs instead of just 1",    
- 
+    "detail2":"- Paintballer shoots a circle of 8 paintballs instead of just 1",    
+    "detail3":"- Painball Gun will appear in curse selection only after level 5",
+
     "footer": "----------"
 
 }
