@@ -117,6 +117,33 @@ LingeringPaint [Wet Paint]
 PaintballerHell [Paintball gun (literally)] -- CHAOS!!
 InfinitePainted [Paint] -- CHAOS!!
 
+-- DrakoBloxxer Curses
+MovingDrako [Sentient]
+EchoDrako [Echo]
+AirDrako [WatcherBloxxer]
+
+LoudDrako [Universal DrakoBloxxer]
+
+ReallyLoudDrako [chill out drako] -- CHAOS!
+
+-- Claw Curses
+BigClaw [Bigger Claws]
+Stalker [Stalker]
+FastClaw [Faster Claw]
+
+EvilClaws [Hunger]
+
+ClawInfection [Claw Infection] -- CHAOS!
+
+-- Fade Curses
+LongerInfect [Disappearing Fade]
+BlurFade [Foggy Day]
+MonoFade [Blinding Lights]
+
+InvertFade [Inversion]
+ServerSideInfect [Universal Fade]
+
+FadeHell [the great fade migration] -- CHAOS!!
 
 -- not done
 LowGravity [Baloon]
@@ -149,33 +176,7 @@ BiggerCacti [Bigger Cacti]
 ChainCacti [Chained Cacti]
 
 
--- Claw Curses
-BigClaw [Bigger Claws]
-Stalker [Stalker]
-FastClaw [Faster Claw]
 
-EvilClaws [Hunger]
-
-ClawInfection [Claw Infection] -- CHAOS!
-
--- Fade Curses
-LongerInfect [Dih Fade]
-BlurFade [FoggyDay]
-MonoFade [Blinding Lights]
-InvertFade [Inversion]
-
-ServerSideInfect [UniversalFade]
-
-FadeHell [the great fade migration] -- CHAOS!!
-
--- DrakoBloxxer Curses
-MovingDrako [Sentient]
-EchoDrako [Echo]
-AirDrako [WatcherBloxxer]
-
-LoudDrako [Universal DrakoBloxxer]
-
-ReallyLoudDrako [chill out drako] -- CHAOS!
 
 
 

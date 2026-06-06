@@ -1,0 +1,15 @@
+{
+
+    "pagename":"- Curses",
+    "urlbar":"Plantscape Wiki - Disappearing Fade",
+
+    "title1":"Disappearing Fade",
+    "detail1":"\"Seeds infected by Fade are infected for 20 seconds longer. Fade's dullness effect lasts 5 seconds longer.\"",
+
+    "title2":" Mechanics ",
+    "detail2":"- Every seed infected by fade will be infected for 20 more seconds and the screen effect 5 more seoncds.",    
+    "detail3":"- Disappearing Fade is a starting curse and will only show up when Drakobloxxer is in the enemy list",
+
+    "footer": "----------"
+
+}

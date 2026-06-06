@@ -1,0 +1,15 @@
+{
+
+    "pagename":"- Curses",
+    "urlbar":"Plantscape Wiki - Blinding Lights",
+
+    "title1":"Blinding Lights",
+    "detail1":"\"Fade's dullness effect now turns everything monochrome.\"",
+
+    "title2":" Mechanics ",
+    "detail2":"- Whenever a player collects a seed infected by fade thier screen will turn monochrome",
+    "detail3":"- Blinding Lights will only appear in curse selection only after level 10",
+
+    "footer": "----------"
+
+}
