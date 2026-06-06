@@ -92,7 +92,7 @@ sorting by gameplay,
 
 
 -- PROOF READ!!! CAM!!!
-
+done
 
 RandomSpawn [Random spawn]
 MoneyForEnemy [Oil Orb]
@@ -133,6 +133,7 @@ FastClaw [Faster Claw]
 
 EvilClaws [Hunger]
 
+OnlyClaws [Claw Mania]
 ClawInfection [Claw Infection] -- CHAOS!
 
 -- Fade Curses
@@ -160,6 +161,7 @@ Timelimit [The Rain]
 FasterTime [Downpour]
 CloserWater [Pre-Determined]
 Fragile [Watering can]
+ExtraHit [SlateSkin Potion]
 
 
 -- seed / weed curses
@@ -191,7 +193,6 @@ SpiritBuff [Presence]
 SpiritOverload [Arena God]
 
 -- Hacker Curses
-ExtraHit [SlateSkin Potion]
 Click [CLICK ME]
 DontClick [DON'T CLICK ME?]
 Hackerbuff [I JUST WANNA POP UP]
@@ -235,7 +236,7 @@ OneSeed [The One Seed]
 AllEnemies [Everything]
 EvilStructures [Stamper Tool]
 Realistic [Realistic Lighting!]
-NullTiles [nullscape tilez]
+NullTilesdone [nullscape tilez]
 EnemyKillButBad [die]
 NoLimits [more planting]
 WholeScreen [go away]
