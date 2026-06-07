@@ -1,0 +1,15 @@
+{
+
+    "pagename":"- Curses",
+    "urlbar":"Plantscape Wiki - CLICK ME",
+
+    "title1":"CLICK ME",
+    "detail1":"\"Hacker's pop-ups kill within 15 seconds of not being clicked.\"",
+
+    "title2":" Mechanics ",
+    "detail2":"- After 15 seconds of a popup appearing on the players screen, it will kill the player if it's not clicked",
+    "detail3":"- CLICK ME is a starting curse and will only show up when Hacker is in the enemy list",
+
+    "footer": "----------"
+
+}

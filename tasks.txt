@@ -146,6 +146,32 @@ ServerSideInfect [Universal Fade]
 
 FadeHell [the great fade migration] -- CHAOS!!
 
+-- Hacker Curses
+Click [CLICK ME] 
+DontClick [DON'T CLICK ME?]
+HackerBuff [I JUST WANNA POP UP]
+BlockCount [I'M MORE ANNOYING THAN YOU THOUGHT]
+
+WholeScreen [go away] -- CHAOS!!
+
+
+
+
+
+
+
+
+ivouwa divider of DOOM
+
+
+
+
+
+
+
+
+
+
 -- not done
 LowGravity [Baloon]
 WorseJP [Gray Clouds]
@@ -192,15 +218,12 @@ SpiritBuff [Presence]
 
 SpiritOverload [Arena God]
 
--- Hacker Curses
-Click [CLICK ME]
-DontClick [DON'T CLICK ME?]
-Hackerbuff [I JUST WANNA POP UP]
-BlockCount [I'M MORE ANNOYING THAN YOU THOUGHT]
+
+
 
 -- Evil Speed Coil Curses
 InfiniteCoil [Zapped Coil]
-MovingCoil [Flying Coil]
+        MovingCoil [Flying Coil]
 
 -- Killbot Curses
 KillbotTarget [Awareness]
@@ -239,7 +262,6 @@ Realistic [Realistic Lighting!]
 NullTilesdone [nullscape tilez]
 EnemyKillButBad [die]
 NoLimits [more planting]
-WholeScreen [go away]
 ScatteredSeedsInfinite [Scattered]
 BiggestWeeds [weed big]
 DiceCube [Dice Cube]
