@@ -20,7 +20,7 @@ fetch('pagedetails.json')
         if (pagename == undefined) {
             console.error("No data for pagename!")
         } else{
-        pagename.innerHTML=`<a href="../" class="page">${data.pagename}`            
+        pagename.innerHTML=`<a onclick="history.back()" class="page">${data.pagename}`            
         }
 
         // Titles, can add more if needed

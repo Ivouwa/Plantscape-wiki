@@ -1,14 +1,14 @@
 {
 
     "pagename":"- Curses",
-    "urlbar":"Plantscape Wiki - Paintball Gun",
+    "urlbar":"Plantscape Wiki - Painted",
 
-    "title1":"Paintball Gun",
-    "detail1":" \"Paintballer fires 8 paintballs in a circle all at once when targeting players.\"",
+    "title1":"Painted",
+    "detail1":" \"Tiles have a 5% chance to be permenantely covered by paintballer's paint during generation.\"",
 
     "title2":" Mechanics ",
-    "detail2":"- Instead of shooting just one projectile paintballershoots 8 in a circle",    
-    "detail3":"- Paintball Gun will appear in curse selection only after level 5",
+    "detail2":"- When generateing each tile has a 5% chance to be covered in paint for the entire round",    
+    "detail3":"- Painted will appear in curse selection only after level 5",
  
     "footer": "----------"
 

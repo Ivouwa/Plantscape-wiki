@@ -127,8 +127,8 @@ LoudDrako [Universal DrakoBloxxer]
 ReallyLoudDrako [chill out drako] -- CHAOS!
 
 -- Claw Curses
-BigClaw [Bigger Claws]
 Stalker [Stalker]
+BigClaw [Bigger Claws]
 FastClaw [Faster Claw]
 
 EvilClaws [Hunger]
@@ -288,9 +288,6 @@ Razorbaby [razorbaby] -- CHAOS!!
 
 
 LAST THING IN LIST = 
-
-
-
 
 
 

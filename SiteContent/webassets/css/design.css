@@ -1,3 +1,10 @@
+/*
+
+i am ivouwa and this is my subpar css code
+
+*/
+
+
 a{
 
     text-decoration: none;
@@ -11,6 +18,8 @@ a:hover{
 }
 
 html{
+
+    /*designs*/
     
     font-family: Arial;
     font-size: 30px;
@@ -21,15 +30,73 @@ html{
     -webkit-text-stroke: #000000 4px;
     paint-order: stroke fill;
 
+    /*displays*/
+    display: flex;
+    justify-content: safe center;
+    align-items: safe center;
+    padding-top: 1px;
+    border-top: 10px transparent;
+    margin-bottom: 30px;
+    height: 100vh;
+    flex-direction: row;
 
+
+}
+
+body{
+
+    display: flex;
+    height: auto;
+    min-height: 95vh;
+    width: 95vw;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 20px;
+    padding-top: 100px;
+    margin: 0px;
+    flex-wrap: wrap;
+
+    overflow: auto;
 }
 
 footer{
 
     font-size: 15px;
+    padding-bottom: 10px;
     color: #c0c0c0;
 
+    padding-top: 100;
+    padding-left: 100px;
+    padding-right: 100px;
+
 }
+
+details:hover{
+    background-color: #0000004b;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+summary{
+    padding: 5px;
+    
+}
+
+.topbar{
+    
+    display: flex;
+    place-items: center;
+    justify-content: flex-end;
+    flex-wrap:wrap-reverse;
+    
+    
+    margin-bottom: 0px;
+    position:relative;
+    
+}
+
 
 /* Hoverable borders*/
 .selborder{
@@ -37,6 +104,9 @@ footer{
     border: 5px solid #ce0006;
     border-radius: 5px;
     background-color: #0000004b; 
+
+    padding: 5px;
+    margin: 5px;
 
 }
 
@@ -48,7 +118,10 @@ footer{
 
     border: 5px solid #AA00FF;
     border-radius: 5px;
-    background-color: #0000004b; 
+    background-color: #0000004b;
+
+    padding: 5px;
+    margin: 5px;
 
 }
 
@@ -62,6 +135,9 @@ footer{
     border-radius: 5px;
     background-color: #0000004b; 
 
+    padding: 5px;
+    margin: 5px;
+
 }
 
 .selgcborder:hover{
@@ -73,6 +149,9 @@ footer{
     border: 5px solid #550000;
     border-radius: 5px;
     background-color: #0000004b; 
+
+    padding: 5px;
+    margin: 5px;
 
 }
 
@@ -87,16 +166,21 @@ footer{
 
     border: 5px solid #ce0006;
     border-radius: 5px;
-    background-color: #0000004b; 
+    background-color: #0000004b;
+
+    padding: 5px;
+    margin: 5px;
 
 }
-
 
 .cborder{
 
     border: 5px solid #AA00FF;
     border-radius: 5px;
     background-color: #0000004b; 
+
+    padding: 5px;
+    margin: 5px;
 
 }
 
@@ -106,6 +190,9 @@ footer{
     border-radius: 5px;
     background-color: #0000004b; 
 
+    padding: 5px;
+    margin: 5px;
+
 }
 
 .ccborder{
@@ -114,18 +201,42 @@ footer{
     border-radius: 5px;
     background-color: #0000004b; 
 
+    padding: 5px;
+    margin: 5px;
+
 }
 
-
+/* Divider stuff */
 .topdiv{
 
     border-top: 5px solid #ce0006;
 
+    padding: 5px;
+    margin: 5px;
+    padding-top: 0px;
+
 }
 
+.sidediv{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div{
+    
+    padding: 20px;
+    
+}
+
+/* Text stuff */
 .title{
 
     border-bottom: 5px solid #ce0006;
+    
+    width: fit-content;
+    padding-bottom: 10px;
+    font-size: 40px;
+    margin-bottom: 10px;
 
 }
 
@@ -133,11 +244,21 @@ footer{
 
     border-bottom: 6px solid #edb807;
 
+    width: fit-content;
+    padding-bottom: 10px;
+    font-size: 40px;
+    margin-bottom: 10px;
+
 }
 
 .ctitle{
 
     border-bottom: 6px solid #AA00FF;
+
+    width: fit-content;
+    padding-bottom: 10px;
+    font-size: 40px;
+    margin-bottom: 10px;
 
 }
 
@@ -145,18 +266,26 @@ footer{
 
     border-bottom: 6px solid #550000;
 
-}
+    width: fit-content;
+    padding-bottom: 10px;
+    font-size: 40px;
+    margin-bottom: 10px;
 
+}
 
 .subtitle{ 
 
     font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    padding-top: 0px;
 
 }
 
 .page{
 
     font-size: 50px;
+    margin-right: auto;
 
 }
 
@@ -164,5 +293,54 @@ footer{
 
     text-align: left;
     font-size: 30px;
+
+    display: flex;
+    flex-direction: column;
     
 }
+/*Image stuff*/
+.logo{
+
+    padding: 0px;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+.icon{
+
+    width: fit-content;
+    height: 90px;
+    display: flex;
+
+}
+
+
+/*Forgot what this does :P*/
+
+.detail{
+
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center center;
+    flex-direction: column;
+    place-items: center;
+    
+}
+
+.newline{
+    padding: 5px;
+    margin: 5px;
+}
+
+.sort{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
