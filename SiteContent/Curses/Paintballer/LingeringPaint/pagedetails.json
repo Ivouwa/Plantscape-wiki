@@ -7,7 +7,7 @@
     "detail1":" \"Painted tile slowness debuff lingers for 5 seconds.\"",
 
     "title2":" Mechanics ",
-    "detail2":"- Paintballer aims at the closest player 20% of the time, covering thier screen and recoloring the targets body if hit",    
+    "detail2":"- Walking onto a painted tile will apply painted, keeping the slowness for 5 extra seconds.",    
     "detail3":"- Wet Paint will appear in curse selection only after level 10",
 
     "footer": "----------"

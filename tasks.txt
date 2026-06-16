@@ -90,13 +90,6 @@ sorting by gameplay,
 
 -- done
 
-
--- PROOF READ!!! CAM!!!
-done
-
-RandomSpawn [Random spawn]
-MoneyForEnemy [Oil Orb]
-
 -- Sword Curses
 SFOTH [On the Heights] -- READ THE VARIENTS!
 
@@ -116,15 +109,6 @@ LingeringPaint [Wet Paint]
 
 PaintballerHell [Paintball gun (literally)] -- CHAOS!!
 InfinitePainted [Paint] -- CHAOS!!
-
--- DrakoBloxxer Curses
-MovingDrako [Sentient]
-EchoDrako [Echo]
-AirDrako [WatcherBloxxer]
-
-LoudDrako [Universal DrakoBloxxer]
-
-ReallyLoudDrako [chill out drako] -- CHAOS!
 
 -- Claw Curses
 Stalker [Stalker]
@@ -146,6 +130,15 @@ ServerSideInfect [Universal Fade]
 
 FadeHell [the great fade migration] -- CHAOS!!
 
+-- DrakoBloxxer Curses
+MovingDrako [Sentient]
+EchoDrako [Echo]
+AirDrako [WatcherBloxxer]
+
+LoudDrako [Universal DrakoBloxxer]
+
+ReallyLoudDrako [chill out drako] -- CHAOS!
+
 -- Hacker Curses
 Click [CLICK ME] 
 DontClick [DON'T CLICK ME?]
@@ -153,6 +146,19 @@ HackerBuff [I JUST WANNA POP UP]
 BlockCount [I'M MORE ANNOYING THAN YOU THOUGHT]
 
 WholeScreen [go away] -- CHAOS!!
+
+
+
+
+
+
+-- PROOF READ!!!
+
+RandomSpawn [Random spawn]
+MoneyForEnemy [Oil Orb]
+
+
+
 
 
 

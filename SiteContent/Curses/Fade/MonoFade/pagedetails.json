@@ -1,14 +1,14 @@
 {
 
     "pagename":"- Curses",
-    "urlbar":"Plantscape Wiki - Foggy Day",
+    "urlbar":"Plantscape Wiki - Blinding Lights",
 
-    "title1":"Foggy Day",
-    "detail1":"\"Collecting more than one infected seed will blur your screen. Bluriness increased based on how many infected seeds are collected.\"",
+    "title1":"Blinding Lights",
+    "detail1":"\"Fade's dullness effect now turns everything monochrome.\"",
 
     "title2":" Mechanics ",
-    "detail2":"- Collecting multiple seeds in a row will increasingly blur your screen",
-    "detail3":"- Foggy Fay will only appear in curse selection only after level 5",
+    "detail2":"- Whenever a player collects a seed infected by fade thier screen will turn monochrome",
+    "detail3":"- Blinding Lights will only appear in curse selection only after level 10",
 
     "footer": "----------"
 

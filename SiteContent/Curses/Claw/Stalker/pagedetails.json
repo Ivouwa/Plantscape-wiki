@@ -7,7 +7,7 @@
     "detail1":"\"Claws turn near invisible when within 50 studs of they're target. Lingers for 5 seconds.\"",
 
     "title2":" Mechanics ",
-    "detail2":"- When claw gets close to a player it turns invisible",
+    "detail2":"- When claw gets close to a player it turns invisible for 5 seconds",
     "detail3":"- Stalker will appear in curse selection only after level 5",
 
     "footer": "----------"

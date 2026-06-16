@@ -98,6 +98,13 @@ fetch('pagedetails.json')
         detail6.innerHTML=`${data.detail6}`            
         }
 
+        let detail7 = document.getElementById('detail7')
+        if (detail7 == undefined) {
+            console.log("No data for detail7, skipping")
+        } else{
+        detail7.innerHTML=`${data.detail7}`            
+        }
+
 
 
 

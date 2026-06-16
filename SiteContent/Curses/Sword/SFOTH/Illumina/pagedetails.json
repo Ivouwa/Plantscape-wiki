@@ -7,7 +7,7 @@
     "detail1":"\"Stay away from it, disables nearby player's abilities.\"",
 
     "title2":" Mechanics ",
-    "detail2":"Players within ## studs will have thier ability disabled when near Illumina.",
+    "detail2":"Players within 12 studs will have thier ability disabled when near Illumina.",
  
     "footer": "----------"
 
