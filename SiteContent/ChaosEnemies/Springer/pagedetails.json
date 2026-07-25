@@ -1,19 +1,20 @@
 {
 
+    "theme":"cc",
     "pagename":"- Chaos Enemies",
     "urlbar":"Plantscape Wiki - Springer",
 
-    "title1":"Springer",
-    "detail1":" \"Jumps around the map, creating shockwaves that fling you.\" ",
+    "s1t1":"Springer",
+    "s1d1":" \"Jumps around the map, creating shockwaves that fling you.\" ",
 
-    "title2":" Mechanics ",
-    "detail2":"- Picks a random spot around the map, and jumps to it. Making a shockwave and killing any player underneath it",
-    "detail3":"- Springer is a chaos enemy and doesn't spawn in the main game.",
-    "detail4":"- Springer has a limit of 2 permanant Springers, and has a temporary cap of 4.",
+    "s2t1":" Mechanics ",
+    "s2d1":"- Picks a random spot around the map, and jumps to it. Making a shockwave and killing any player underneath it",
+    "s2d2":"- Springer is a chaos enemy and doesn't spawn in the main game.",
+    "s2d3":"- Springer has a limit of 2 permanant Springers, and has a temporary cap of 4.",
 
 
-    "title3":"Death Messages",
-    "detail5": "\"Victim? Checkmate.\" \"Victim was flattened.\" \"Victim needs to be scraped off the floor.\" \"Victim is a little bit shorter now... a bit dead too.\" \"Victim is a pancake now!\" \"That's some poor Chess Play from Victim.\" \"I dub thee, Victim Flats-a-Lot!\" \"Anyone got a mop?\" \"Talk about a headache...\" ",
+    "s3t1":"Death Messages",
+    "s3d1": "\"Victim? Checkmate.\" \"Victim was flattened.\" \"Victim needs to be scraped off the floor.\" \"Victim is a little bit shorter now... a bit dead too.\" \"Victim is a pancake now!\" \"That's some poor Chess Play from Victim.\" \"I dub thee, Victim Flats-a-Lot!\" \"Anyone got a mop?\" \"Talk about a headache...\" ",
  
     "footer": "----------"
 

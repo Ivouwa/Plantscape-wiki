@@ -1,14 +1,15 @@
 {
 
+    "theme":"cc",
     "pagename":"- Chaos Curses",
     "urlbar":"Plantscape Wiki - Claw Infection",
 
-    "title1":"Claw Infection",
-    "detail1":"\"A Claw spawns every time someone dies.\"",
+    "s1t1":"Claw Infection",
+    "s1d1":"\"A Claw spawns every time someone dies.\"",
 
-    "title2":" Mechanics ",
-    "detail2":"- Every time a player dies a claw spanws",
-    "detail3":"- Claw Infection a chaos curse and can only be chosen during chaos selection.",
+    "s2t1":" Mechanics ",
+    "s2d1":"- Every time a player dies a claw spanws",
+    "s2d2":"- Claw Infection a chaos curse and can only be chosen during chaos selection.",
 
  
     "footer": "----------"

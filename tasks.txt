@@ -49,25 +49,26 @@ Sword -- done
 Sword Curses -- needs check for new things
         -SFOTH [On the Heights] 15
 
+        -EvilSwords [Blacksmith] -- GC
         -Practice [Target Practice] -- GC
         -Twice [Dual Wield] -- GC
-        -EvilSwords [Blacksmith] -- GC
 
-        -Pacifier [shush] -- CHAOS!!
-        -ProblemSword "Redirect" -- CHAOS!!
+        -Pacifier [shush] -- CHAOS!! needs icons
+        -ProblemSword "Redirect" -- CHAOS!! needs icons
 
 Paintballer -- done
 Paintballer curses -- needs check for new things
 
-        -TriplePaintballers [Paintball Frenzy] 5
+        -PaintAura [Dripping Paint] 5
         -Painted [Painted] 5
         -Shotgun [Paintball Gun] 5
+        -TriplePaintballers [Paintball Frenzy] 5
         -Targeting [Targeting] 5
-        -PaintAura [Dripping Paint] 5
         -LingeringPaint [Wet Paint] 10
 
-        -PaintballerHell [Paintball gun (literally)] -- CHAOS!!
         -InfinitePainted [Paint] -- CHAOS!!
+        -PaintballerHell [Paintball gun (literally)] -- CHAOS!!
+
 
 Claw -- done
 Claw Curses -- needs check for new things

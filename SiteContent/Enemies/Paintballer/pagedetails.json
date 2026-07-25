@@ -1,20 +1,20 @@
 {
-
+    "theme":"",
     "pagename":"- Enemies",
     "urlbar":"Plantscape Wiki - Paintballer",
 
-    "title1":"Paintballer",
-    "detail1":" \"Moves towards tiles and shoots paintballs at them. Those who touch painted tiles will be slown until off of them.\",",
+    "s1t1":"Paintballer",
+    "s1d1":" \"Moves towards tiles and shoots paintballs at them. Those who touch painted tiles will be slown until off of them.\",",
 
-    "title2":" Mechanics ",
-    "detail2":"- Paintballer will go to a random tile near a player and paint it. If you're on a painted tile then you will be slowed.",
-    "detail3":"- Paintballer is one of the starting enemies, meaning it appears at level 1.", 
-    "detail4":"- Paintballer is a starting enemy and has a limit of 3 permanant Paintballers. Paintballer has no temporary cap.",
+    "s2t1":" Mechanics ",
+    "s2d1":"- Paintballer will go to a random tile near a player and paint it. If you're on a painted tile then you will be slowed.",
+    "s2d2":"- Paintballer is one of the starting enemies, meaning it appears at level 1.", 
+    "s2d3":"- Paintballer is a starting enemy and has a limit of 3 permanant Paintballers. Paintballer has no temporary cap.",
 
-    "title3":"Death Messages",
-    "detail5": "\"Victim was painted.\" \"Victim got shot down by Paintballer.\" \"Victim is now a different color.\" \"Victim lost in a paintball fight.\" \"Paintballer's aim is better than Victim's.\" \"Paintballed, Victim.\" \"Victim was PWNed by Paintballer.\" \"Paintballer didn't even shoot and Victim still died.\" \"Yep, Victim's dead.\" \"Painted.\" ",
+    "s3t1":"Death Messages",
+    "s3d1": "\"Victim was painted.\" \"Victim got shot down by Paintballer.\" \"Victim is now a different color.\" \"Victim lost in a paintball fight.\" \"Paintballer's aim is better than Victim's.\" \"Paintballed, Victim.\" \"Victim was PWNed by Paintballer.\" \"Paintballer didn't even shoot and Victim still died.\" \"Yep, Victim's dead.\" \"Painted.\" ",
 
-    "title4":"Related Curses",
+    "s4t1":"Related Curses",
 
     "footer": "----------"
 

@@ -1,18 +1,19 @@
 {
 
+    "theme":"cc",
     "pagename":"- Chaos Enemies",
     "urlbar":"Plantscape Wiki - Leviathan",
 
-    "title1":"Leviathan",
-    "detail1":" \"Jumps out of the water.\" ",
+    "s1t1":"Leviathan",
+    "s1d1":" \"Jumps out of the water.\" ",
 
-    "title2":" Mechanics ",
-    "detail2":"- At the players position, there will be an red circle. After a few seconds, Leviathan will jump from the water to that red circle killing anything in it's path.",
-    "detail3":"- Leviathan is a chaos enemy and doesn't spawn in the main game.",
-    "detail4":"- Leviathan has a limit of 3 permanant Leviathan, and has no temporary cap.",
+    "s2t1":" Mechanics ",
+    "s2d1":"- At the players position, there will be an red circle. After a few seconds, Leviathan will jump from the water to that red circle killing anything in it's path.",
+    "s2d2":"- Leviathan is a chaos enemy and doesn't spawn in the main game.",
+    "s2d3":"- Leviathan has a limit of 3 permanant Leviathan, and has no temporary cap.",
 
-    "title3":"Death Messages",
-    "detail5": "\"Victim was eaten.\" \"It wasn't the sharks this time but Victim is gone.\" \"A different fish got to Victim.\" \"Victim died before Random hunted the Leviathan.\"",
+    "s3t1":"Death Messages",
+    "s3d1": "\"Victim was eaten.\" \"It wasn't the sharks this time but Victim is gone.\" \"A different fish got to Victim.\" \"Victim died before Random hunted the Leviathan.\"",
  
     "footer": "----------"
 
