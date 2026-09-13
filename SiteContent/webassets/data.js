@@ -249,14 +249,22 @@ fetch('pagedetails.json')
 
         try{
             if (extra) {
-                details.innerHTML += ` 
                 
-                <div class="title"> ${data.extra} </div>
-                ${extra} 
-                `
                 if (debuglevel == 1) {
                     console.log("Extra defined, loading extra elements")
-                } 
+                }
+
+                if (data.extra){
+                    details.innerHTML += `div class="title"> ${data.extra} </div>`
+                }else{
+                    if (debuglevel == 1) {
+                    console.log("Extra title json not defined but Extra is, skipping over title.")
+                    } 
+                }
+                
+                details.innerHTML += ` 
+                ${extra} 
+                `
                 
             } else if (extra == false, debuglevel == 1){
                 console.log("Extra set to false, not loading elements.")

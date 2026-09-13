@@ -23,21 +23,12 @@ Make pages for every chaos enemy
 Still need to do
 
 Make pages for every boss
-!! WILL NOT PUBLISH THEESE UNTILL THE BOSS IN QUESTION IS BEATEN
 
-Make pages for every curse
+Make pages for every enemy curse
 
 Make pages for every chaos curse
         
-
-Build Curses page
-
-
-
-
-
-
-
+Improve curses page a bit
 
 LIST OF EVERY ENEMY, CURSE, BOSS, ANYTHING IN THE GAME
 
@@ -244,7 +235,6 @@ Springer
 
 
 bosses -- not done
-not so sure how soon i'll get theese done as i don't know much about them gameplay wise
 
 TimeBomb -- REMOVED
 Lobotomnygod -- chaos level 50 only
@@ -256,9 +246,6 @@ DevOrb
 
 Base Curses 
 sorting by gameplay, 
-
-
--- PROOF READ!!!
 
 
 
