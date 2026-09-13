@@ -9,10 +9,112 @@
         <link rel="stylesheet" href="../webassets/css/backgrounds.css">
         <link rel="stylesheet" href="../webassets/css/design.css">
         <script src="../webassets/data.js" defer></script>
-        <script> let extra = false
+        <script>
                 let backtrack = "../"
         </script>
     </head>
 
 
 </html>
+
+<script>
+let extra = `
+
+    <a>this is a hover text</a>
+
+`
+
+const media = [
+
+    "img","./img/ohhhyeahh.png","New cam",
+    "img","./img/camcam.gif","ftf",
+    "video","./img/plant.mkv","video test"
+]
+
+
+
+</script>
+
+
+
+<!--
+this is a template page! this uses the data.js stuff to format the page much much easier.
+remove this comment when making one!
+
+backtrack is really odd in how it works (BE SURE TO CHANGE THE BACKTRACKS AFTER THE " href="BACKTRACK/DESTINATION" ")
+for every folder you want to go back, use a .
+if you want to go back more than 2 folders, repeat ../
+
+ie, i want to go 6 folers away
+../../../
+make sure this points to the folder "SiteContent"
+
+{
+    
+    "pagename":"- Templatepage",
+    "urlbar":"Plantscape wiki - Template",
+    "theme":"",
+
+    "s1t1":"Template",
+    "s1d1":"Does a backfilp every 0.1 seconds, mostly because it feels like it",
+
+    "s2t1":" Tips and tricks ",
+    "s2d1":"Observe the awesome backflip",
+    "s2d2":"Admire the speed of the backflips",
+    "s2d3":"Jump in joy at the sheer amazingness of the backflips",
+
+    "s3t1":"I am not from",
+    "s3d1":"New York",
+    "s3d2":"New York",
+
+    "s4t1":"Extra Content",
+
+    "footer": "----------"
+
+}
+
+this is the default "pagedetails.json" and it will be how you show text on the page.
+you can embed html into theese paramaters and it will load on top of what's normally loaded (can embed redirect links or images? maybe?)
+
+pagename is used for the back button next to the logo on the page
+be sure to put a -
+
+urlbar sets the text in the url bar, usually something like "Plantscape wiki - Content"
+
+theme is used for the page border colors
+blank is used for normal red
+c = purple / curse
+cc = dark red / chaos stuff
+gc = yellow / greater curses
+etc.. check /webassets/css/design.css and look for (theme)border stuffs to edit or make a new one
+
+s 1 d 1
+      ^ number of the detail or title
+    ^ can be d or t, standing for detail or title
+  ^ section number
+^ stands for section
+
+footer is unused, but keep it around.
+
+
+on line 21, you can see a "let extra = ` blah blah blah`"
+if you want to add extra html content at the end of the page (ie the curse links in enemy pages) put something in the `` tags
+
+if you do NOT want to add extra html content, set it to this or else it will error
+let extra = false
+
+can customize extra text because extra can be anything rlly
+
+media lets you add photos and videos at the very bottom of the page
+
+"img","./img/whatever","this is a test",
+                       ^ media description
+      ^ Path to the media
+^ is either img, or video. don't use video on a .gif
+
+if you do NOT want to add media content, set it to this or else it will error
+let media = false
+
+
+
+-->

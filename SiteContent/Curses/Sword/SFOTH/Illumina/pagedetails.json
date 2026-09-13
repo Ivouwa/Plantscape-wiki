@@ -2,12 +2,13 @@
 
     "pagename":"- Curses",
     "urlbar":"Plantscape Wiki - Illumina",
+    "theme":"c",
 
-    "title1":"Illumina",
-    "detail1":"\"Stay away from it, disables nearby player's abilities.\"",
+    "s1t1":"Illumina",
+    "s1d1":"\"Stay away from it, disables nearby player's abilities.\"",
 
-    "title2":" Mechanics ",
-    "detail2":"Players within 12 studs will have thier ability disabled when near Illumina.",
+    "s2t1":" Mechanics ",
+    "s2d1":"Players within 12 studs will have thier ability disabled when near Illumina.",
  
     "footer": "----------"
 

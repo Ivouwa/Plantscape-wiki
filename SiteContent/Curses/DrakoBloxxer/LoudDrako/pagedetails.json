@@ -2,13 +2,14 @@
 
     "pagename":"- Curses",
     "urlbar":"Plantscape Wiki - Universal Drakobloxxer",
+    "theme":"gc",
 
-    "title1":"Universal Drakobloxxer",
-    "detail1":" \"Drakobloxxer has infinite slowness range.\"",
+    "s1t1":"Universal Drakobloxxer",
+    "s1d1":" \"Drakobloxxer has infinite slowness range.\"",
 
-    "title2":" Mechanics ",
-    "detail2":"- Drakobloxxer's range is now infinite",
-    "detail3":"- Universal Drakobloxxer a eviler curse can only be chosen during eviler curse selection",
+    "s2t1":" Mechanics ",
+    "s2d1":"- Drakobloxxer's range is now infinite",
+    "s2d2":"- Universal Drakobloxxer a eviler curse can only be chosen during eviler curse selection",
 
  
     "footer": "----------"

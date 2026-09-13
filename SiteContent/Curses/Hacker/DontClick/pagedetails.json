@@ -2,13 +2,14 @@
 
     "pagename":"- Curses",
     "urlbar":"Plantscape Wiki - DON'T CLICK ME?",
+    "theme":"c",
 
-    "title1":"DON'T CLICK ME?",
-    "detail1":"\"Red pop-ups will kill on click.\"",
+    "s1t1":"DON'T CLICK ME?",
+    "s1d1":"\"Red pop-ups will kill on click.\"",
 
-    "title2":" Mechanics ",
-    "detail2":"- Red popups have a chance to appear, when clicked they will kill the player",
-    "detail3":"- DON'T CLICK ME? is a starting curse and will only show up when Hacker is in the enemy list",
+    "s2t1":" Mechanics ",
+    "s2d1":"- Red popups have a chance to appear, when clicked they will kill the player",
+    "s2d2":"- DON'T CLICK ME? is a starting curse and will only show up when Hacker is in the enemy list",
 
     "footer": "----------"
 

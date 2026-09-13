@@ -2,15 +2,16 @@
 
     "pagename":"- Curses",
     "urlbar":"Plantscape Wiki - Target Practice",
+    "theme":"gc",
 
-    "title1":"Target Practice",
-    "detail1":" \"Sword redirects itself during long aim time and predicts player movement.\"",
+    "s1t1":"Target Practice",
+    "s1d1":" \"Sword redirects itself during long aim time and predicts player movement.\"",
 
-    "title2":" Mechanics ",
-    "detail2":"- Spends more time aiming at the player, focusing on thier direction for a couple seconds",
-    "detail3":"- Target Practice is a eviler curse can only be chosen during eviler curse selection",
+    "s2t1":" Mechanics ",
+    "s2d1":"- Spends more time aiming at the player, focusing on thier direction for a couple seconds",
+    "s2d2":"- Target Practice is a eviler curse can only be chosen during eviler curse selection",
 
  
-    "footer": "----------"
+    "footer": "----------" 
 
 }

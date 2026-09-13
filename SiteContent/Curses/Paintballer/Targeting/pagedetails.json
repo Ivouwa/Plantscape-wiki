@@ -2,13 +2,14 @@
 
     "pagename":"- Curses",
     "urlbar":"Plantscape Wiki - Targeting",
+    "theme":"c",
 
-    "title1":"Targeting",
-    "detail1":" \"Paintballer has a 20% chance to target players with faster paintballs which blind them for around 8 seconds.\"",
+    "s1t1":"Targeting",
+    "s1d1":" \"Paintballer has a 20% chance to target players with faster paintballs which blind them for around 8 seconds.\"",
 
-    "title2":" Mechanics ",
-    "detail2":"- Paintballer aims at the closest player 20% of the time, covering thier screen and recoloring the targets body if hit",    
-    "detail3":"- Targeting will appear in curse selection only after level 5",
+    "s2t1":" Mechanics ",
+    "s2d1":"- Paintballer aims at the closest player 20% of the time, covering thier screen and recoloring the targets body if hit",    
+    "s2d2":"- Targeting will appear in curse selection only after level 5",
      
     "footer": "----------"
 

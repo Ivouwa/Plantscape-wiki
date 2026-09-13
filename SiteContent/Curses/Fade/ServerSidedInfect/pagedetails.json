@@ -2,13 +2,14 @@
 
     "pagename":"- Curses",
     "urlbar":"Plantscape Wiki - Universal Fade",
+    "theme":"gc",
 
-    "title1":"Universal Fade",
-    "detail1":"\"Fade's dullness effect is now universal.\"",
+    "s1t1":"Universal Fade",
+    "s1d1":"\"Fade's dullness effect is now universal.\"",
 
-    "title2":" Mechanics ",
-    "detail2":"- Fades effect is now global across all players",
-    "detail3":"- Universal Fade is an eviler curse and can only be chosen during eviler curse selection",
+    "s2t1":" Mechanics ",
+    "s2d1":"- Fades effect is now global across all players",
+    "s2d2":"- Universal Fade is an eviler curse and can only be chosen during eviler curse selection",
 
     "footer": "----------"
 

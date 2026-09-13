@@ -2,13 +2,14 @@
 
     "pagename":"- Chaos Curses",
     "urlbar":"Plantscape Wiki - the great fade migration",
+    "theme":"cc",
 
-    "title1":"the great fade migration",
-    "detail1":"\"holy fades! theres 50 of them!\"",
+    "s1t1":"the great fade migration",
+    "s1d1":"\"holy fades! theres 50 of them!\"",
 
-    "title2":" Mechanics ",
-    "detail2":"- At the start of the round, all current fades will be multiplied by 50",
-    "detail3":"- the great fade migration a chaos curse and can only be chosen during chaos selection",
+    "s2t1":" Mechanics ",
+    "s2d1":"- At the start of the round, all current fades will be multiplied by 50",
+    "s2d2":"- the great fade migration a chaos curse and can only be chosen during chaos selection",
 
     "footer": "----------"
 

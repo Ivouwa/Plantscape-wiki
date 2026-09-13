@@ -2,13 +2,14 @@
 
     "pagename":"- Curses",
     "urlbar":"Plantscape Wiki - Painted",
+    "theme":"c",
 
-    "title1":"Painted",
-    "detail1":" \"Tiles have a 5% chance to be permenantely covered by paintballer's paint during generation.\"",
+    "s1t1":"Painted",
+    "s1d1":" \"Tiles have a 5% chance to be permenantely covered by paintballer's paint during generation.\"",
 
-    "title2":" Mechanics ",
-    "detail2":"- When generateing each tile has a 5% chance to be covered in paint for the entire round",    
-    "detail3":"- Painted will appear in curse selection only after level 5",
+    "s2t1":" Mechanics ",
+    "s2d1":"- When generateing each tile has a 5% chance to be covered in paint for the entire round",    
+    "s2d2":"- Painted will appear in curse selection only after level 5",
  
     "footer": "----------"
 

@@ -2,12 +2,13 @@
 
     "pagename":"- Curses",
     "urlbar":"Plantscape Wiki - Darkheart",
+    "theme":"c",
 
-    "title1":"Darkheart",
-    "detail1":"\"Speed increases by 10% per victim.\"",
+    "s1t1":"Darkheart",
+    "s1d1":"\"Speed increases by 10% per victim.\"",
 
-    "title2":" Mechanics ",
-    "detail2":"Every time Darkheart gets a kill, it increases its speed by 10%",
+    "s2t1":" Mechanics ",
+    "s2d1":"Every time Darkheart gets a kill, it increases its speed by 10%",
  
     "footer": "----------"
 

@@ -2,13 +2,14 @@
 
     "pagename":"- Chaos Curses",
     "urlbar":"Plantscape Wiki - Claw Mania",
+    "theme":"cc",
 
-    "title1":"Claw Mania",
-    "detail1":"\"Every enemy is replaced by claw.\"",
+    "s1t1":"Claw Mania",
+    "s1d1":"\"Every enemy is replaced by claw.\"",
 
-    "title2":" Mechanics ",
-    "detail2":"- Ever enemy gets turned into a claw",
-    "detail3":"- Claw Infection a chaos curse and can only be chosen during chaos selection.",
+    "s2t1":" Mechanics ",
+    "s2d1":"- Ever enemy gets turned into a claw",
+    "s2d2":"- Claw Infection a chaos curse and can only be chosen during chaos selection.",
 
  
     "footer": "----------"

@@ -2,15 +2,16 @@
 
     "pagename":"- Curses",
     "urlbar":"Plantscape Wiki - On The Heights",
+    "theme":"c",
 
-    "title1":"On The Heights",
-    "detail1":" \"Swords has a 20% chance to turn into a SFOTH sword. Different Swords have different types of passive abilities.\"",
+    "s1t1":"On The Heights",
+    "s1d1":" \"Swords has a 20% chance to turn into a SFOTH sword. Different Swords have different types of passive abilities.\"",
 
-    "title2":" Mechanics ",
-    "detail2":"- Has a 20% chance to convert each sword to another varient",
-    "detail3":"- On The Heights will appear in curse selection only after level 15",
+    "s2t1":" Mechanics ",
+    "s2d1":"- Has a 20% chance to convert each sword to another varient",
+    "s2d2":"- On The Heights will appear in curse selection only after level 15",
 
-    "title3":"Varients",
+    "s3t1":"Varients",
  
     "footer": "----------"
 

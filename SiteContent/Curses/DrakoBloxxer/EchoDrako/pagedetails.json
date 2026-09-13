@@ -2,14 +2,15 @@
 
     "pagename":"- Curses",
     "urlbar":"Plantscape Wiki - Echo",
+    "theme":"c",
 
-    "title1":"Echo",
-    "detail1":"\"Drakobloxxer's screams echo off nearby tiles. Drakobloxxer spawns 25% closer to the ground.\"",
+    "s1t1":"Echo",
+    "s1d1":"\"Drakobloxxer's screams echo off nearby tiles. Drakobloxxer spawns 25% closer to the ground.\"",
 
-    "title2":" Mechanics ",
-    "detail2":"- Spawns closer to the ground",
-    "detail3":"- When Drakobloxxer screams, the screams echo off of tiles slowing down anyone on them",
-    "detail4":"- Echo will appear in curse selection only after level 5",
+    "s2t1":" Mechanics ",
+    "s2d1":"- Spawns closer to the ground",
+    "s2d2":"- When Drakobloxxer screams, the screams echo off of tiles slowing down anyone on them",
+    "s2d3":"- Echo will appear in curse selection only after level 5",
 
     "footer": "----------"
 

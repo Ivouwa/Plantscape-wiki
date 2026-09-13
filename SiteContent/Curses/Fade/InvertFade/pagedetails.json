@@ -2,13 +2,14 @@
 
     "pagename":"- Curses",
     "urlbar":"Plantscape Wiki - Inversion",
+    "theme":"c",
 
-    "title1":"Inversion",
-    "detail1":"\"Fade's monochrome effect now inverts colors.\"",
+    "s1t1":"Inversion",
+    "s1d1":"\"Fade's monochrome effect now inverts colors.\"",
 
-    "title2":" Mechanics ",
-    "detail2":"- Fade's monochrome effect will invert the colors on the screaan",
-    "detail3":"- Inversion is an eviler curse and can only be chosen during eviler curse selection",
+    "s2t1":" Mechanics ",
+    "s2d1":"- Fade's monochrome effect will invert the colors on the screaan",
+    "s2d2":"- Inversion is an eviler curse and can only be chosen during eviler curse selection",
 
     "footer": "----------"
 

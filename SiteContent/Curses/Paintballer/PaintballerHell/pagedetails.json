@@ -2,13 +2,14 @@
 
     "pagename":"- Chaos Curses",
     "urlbar":"Plantscape Wiki - Paintball gun (literally)",
+    "theme":"cc",
 
-    "title1":"Paintball gun (literally)",
-    "detail1":" \"a hundred bullets.\"",
+    "s1t1":"Paintball gun (literally)",
+    "s1d1":" \"a hundred bullets.\"",
 
-    "title2":" Mechanics ",
-    "detail2":"- Paintballer quick fires one hundred bullets",    
-    "detail3":"- Painball gun (literally) is a chaos curse and can only be chosen during chaos selection",
+    "s2t1":" Mechanics ",
+    "s2d1":"- Paintballer quick fires one hundred bullets",    
+    "s2d2":"- Painball gun (literally) is a chaos curse and can only be chosen during chaos selection",
 
  
     "footer": "----------"

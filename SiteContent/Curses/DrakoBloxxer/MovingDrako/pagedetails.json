@@ -2,13 +2,14 @@
 
     "pagename":"- Curses",
     "urlbar":"Plantscape Wiki - Sentient",
+    "theme":"c",
 
-    "title1":"Sentient",
-    "detail1":"\"Drakobloxxer teleports to a random enemy after screaming.\"",
+    "s1t1":"Sentient",
+    "s1d1":"\"Drakobloxxer teleports to a random enemy after screaming.\"",
 
-    "title2":" Mechanics ",
-    "detail2":"- After every scream Drakobloxxer teleports to another enemy",    
-    "detail3":"- Sentient is a starting curse and will only show up when Drakobloxxer is in the enemy list",
+    "s2t1":" Mechanics ",
+    "s2d1":"- After every scream Drakobloxxer teleports to another enemy",    
+    "s2d2":"- Sentient is a starting curse and will only show up when Drakobloxxer is in the enemy list",
 
     "footer": "----------"
 

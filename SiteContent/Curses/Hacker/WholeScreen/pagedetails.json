@@ -2,13 +2,14 @@
 
     "pagename":"- Chaos Curses",
     "urlbar":"Plantscape Wiki - go away",
+    "theme":"cc",
 
-    "title1":"go away",
-    "detail1":" \"Hacker covers the entire screen.\"",
+    "s1t1":"go away",
+    "s1d1":" \"Hacker covers the entire screen.\"",
 
-    "title2":" Mechanics ",
-    "detail2":"- Hacker popups block the entire screen",    
-    "detail3":"- go away is a chaos curse and can only be chosen during chaos selection",
+    "s2t1":" Mechanics ",
+    "s2d1":"- Hacker popups block the entire screen",    
+    "s2d2":"- go away is a chaos curse and can only be chosen during chaos selection",
 
  
     "footer": "----------"

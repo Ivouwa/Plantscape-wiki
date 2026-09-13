@@ -2,12 +2,13 @@
 
     "pagename":"- Curses",
     "urlbar":"Plantscape Wiki - Icedagger",
+    "theme":"c",
 
-    "title1":"Icedagger",
-    "detail1":"\"Its 50% smaller than other swords, but freezes tiles around it making them very slippery.\"",
+    "s1t1":"Icedagger",
+    "s1d1":"\"Its 50% smaller than other swords, but freezes tiles around it making them very slippery.\"",
 
-    "title2":" Mechanics ",
-    "detail2":"Freezes tiles around it, making them slippery. 50% smaller than sword",
+    "s2t1":" Mechanics ",
+    "s2d1":"Freezes tiles around it, making them slippery. 50% smaller than sword",
  
     "footer": "----------"
 

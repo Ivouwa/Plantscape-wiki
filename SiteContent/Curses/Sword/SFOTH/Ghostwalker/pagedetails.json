@@ -2,12 +2,13 @@
 
     "pagename":"- Curses",
     "urlbar":"Plantscape Wiki - Ghostwalker",
+    "theme":"c",
 
-    "title1":"Ghostwalker",
-    "detail1":"\"Its mostly hidden.\"",
+    "s1t1":"Ghostwalker",
+    "s1d1":"\"Its mostly hidden.\"",
 
-    "title2":" Mechanics ",
-    "detail2":"Has a 65% opacity",
+    "s2t1":" Mechanics ",
+    "s2d1":"Has a 65% opacity",
  
     "footer": "----------"
 

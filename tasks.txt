@@ -46,45 +46,49 @@ enemies
 
 
 Sword -- done
-Sword Curses -- needs check for new things
-        -SFOTH [On the Heights] 15
+Sword Curses -- needs new pages
+        -SFOTH [On the Heights] 15 needs icons
+        -LaserSword [Lightsaber] 5 needs icons
 
-        -EvilSwords [Blacksmith] -- GC
         -Practice [Target Practice] -- GC
         -Twice [Dual Wield] -- GC
 
+        -EvilSwords [Blacksmith] -- CHAOS!!
         -Pacifier [shush] -- CHAOS!! needs icons
         -ProblemSword "Redirect" -- CHAOS!! needs icons
 
 Paintballer -- done
-Paintballer curses -- needs check for new things
+Paintballer curses -- needs new pages
 
+        -ThickerPaint [Thicker Paint] 0 needs icons
         -PaintAura [Dripping Paint] 5
-        -Painted [Painted] 5
-        -Shotgun [Paintball Gun] 5
-        -TriplePaintballers [Paintball Frenzy] 5
-        -Targeting [Targeting] 5
-        -LingeringPaint [Wet Paint] 10
-
+        -Painted [Painted] 5 needs icons
+        -TriplePaintballers [Paintball Frenzy] 5s
+        -LingeringPaint [Wet Paint] 10 needs icons
+        -CollapsePaint [Camouflage] 10 needs icon
+        
+        -Shotgun [Paintball Gun] -- CHAOS!! needs icons
+        -Targeting [Targeting] -- CHAOS!!
         -InfinitePainted [Paint] -- CHAOS!!
         -PaintballerHell [Paintball gun (literally)] -- CHAOS!!
 
 
 Claw -- done
 Claw Curses -- needs check for new things
-        -BigClaw [Bigger Claws] 0
+        -BigClaw [Bigger Claws] 5
         -Stalker [Stalker] 5
-        -FastClaw [Faster Claw] 5
 
         -EvilClaws [Hunger] -- GC
 
+        -FastClaw [Faster Claw] -- CHAOS!!
         -OnlyClaws [Claw Mania] -- CHAOS!!
         -ClawInfection [Claw Infection] -- CHAOS!!
 
 Fade -- done
-Fade Curses -- needs check for new things
+Fade Curses -- needs new page
         -LongerInfect [Longer Dullness] 0
         -BiggerFades [Evolution] 0
+        -FadeSwap [Swapper] 5 needs icons
         -BlurFade [Foggy Day] 5
         -MonoFade [Blinding Lights] 10
         -InvertFade [Inversion] 15
@@ -94,22 +98,27 @@ Fade Curses -- needs check for new things
         -FadeHell [the great fade migration] -- CHAOS!!
 
 Drako -- done
-DrakoBloxxer Curses -- needs check for new things
+DrakoBloxxer Curses -- needs new pages
         -MovingDrako [Sentient] 0
-        -Concussion [Concussion] 0
-        -AirDrako [WatcherBloxxer] 5
+        -Motivation [Call To Arms] 0 needs icons
+        -Concussion [Concussion] 0 needs icons
+        -AirDrako [WatcherBloxxer] 5 needs icons
         -EchoDrako [Echo] 10
+        
 
         -LoudDrako [Universal DrakoBloxxer] -- GC
 
         -ReallyLoudDrako [chill out drako] -- CHAOS!!
 
 Hacker -- done
-Hacker Curses -- needs check for new things
+Hacker Curses -- needs new pages
         -Click [CLICK ME] 0
         -DontClick [DON'T CLICK ME?] 0
-        -HackerBuff [I JUST WANNA POP UP]
-        -SmallerAds [Miniature Pop-Ups] 0 -- MAKE!
+        -MovingHacker [CATCH ME IF YOU CAN] 0
+        -SmallerAds [Miniature Pop-Ups] 0
+        -HackerBuff [I JUST WANNA POP UP] 15
+        -EvilHacker [HACKER SAYS!] GC 15 -- needs icons
+        -SimonSays [Trickster] 15 -- needs icons
         -BlockCount [I'M MORE ANNOYING THAN YOU THOUGHT] 20
 
         -WholeScreen [go away] -- CHAOS!!
@@ -117,7 +126,10 @@ Hacker Curses -- needs check for new things
 Killbot -- done
 Killbot Curses -- Not made yet
         -KillbotTarget [Awareness] 0
-        -ExplosionRange [Gunpowder] 0 
+        -KillbotAntiPredict [Misfire] 0
+        -KillbotPredict [Precision] 0
+        -ExplosionRange [Gunpowder] 5
+        -KillbotCurve [Homing Missiles] 5
         -KillbotSelfExplode [Self Destruct] 15
         -KillbotBuff [Killdroid] 15
 
@@ -128,19 +140,22 @@ Killbot Curses -- Not made yet
 
 Labsman -- done
 Labsman Curses -- Not made yet
+        -Malfunction [Malfunction] 0
         -Telefragging [Telefragging] 10
         -ReplacementTele [Test Subject] 15
-        -Malfunction [Malfunction] 0
 
+
+        -LabsmanGun [Inventor] -- GC 10
         -Experiment [MY BRAND NEW EXPERIMENT!] -- CHAOS!!
 
 Evil Sword -- done
-Curses are associated with regular Sword
+        -CurveSlice [Warrior's Swing] -- GC CHAOS!!
+Other curses are associated with regular Sword
 
 Evil Speed Coil -- done
 Evil Speed Coil Curses -- Not made yet
         -ReverseCoil [Fusion Coil] 0
-        -MovingCoil [Flying Coil] 5
+        -MovingCoil [Winged Coil] 5
 
         -InfiniteCoil [Zapped Coil] -- GC
 
@@ -157,7 +172,7 @@ Hyperlaser Curses -- Not made yet
         -HyperlaserFast [Matrix Hyperdron] 0
 
         -HyperlaserSpam [Firing Squad] -- GC
-        -HyperlaserSuperSpawm [Blasing Ring] -- GC
+        -HyperlaserSuperSpawm [Blasting Ring] -- GC
        
         -HyperlaserTriple [Hyper-Rounds] -- CHAOS!!
 
@@ -172,7 +187,7 @@ Bloom Curses -- Not made yet
         -BulletHell [Blooming Hell] -- GC
  
         -LastChance [Last Chance] -- CHAOS!!
-        -BloomSpam[Last Splash] -- CHAOS!!
+        -BloomSpam[Falling Flowers] -- CHAOS!!
 
 Spirit -- needs icon
 Spirit Curses -- Not made yet
@@ -181,7 +196,8 @@ Spirit Curses -- Not made yet
 
         -SpiritOverload [Arena God] -- GC
 
-
+Glint -- Not made yet
+        -GlintAir [Starfall] -- GC
 
 ullscape stuff
 Eye -- Not made yet
@@ -219,14 +235,21 @@ Casting Staff Curses -- Not made yet
 Leviathan
         -TripleLeviathans [Fishing Season] 0 -- ADMIN
 
+-- removed enemies
 Cadence
+Telefragger
+Husk
+Waterbreaker
+Springer
 
 
 bosses -- not done
 not so sure how soon i'll get theese done as i don't know much about them gameplay wise
 
-TimeBomb
-Lobotomnygod 
+TimeBomb -- REMOVED
+Lobotomnygod -- chaos level 50 only
+
+Sin 
 Redroom
 DevOrb
 1x1x1x1
@@ -295,7 +318,7 @@ NoLimits [more planting]
 ScatteredSeedsInfinite [Scattered]
 BiggestWeeds [weed big]
 DiceCube [Dice Cube]
-NullExtreme [Extreme!] -- GC ADMIN CHAOS!!
+Razorbaby [razorbaby] -- ADMIN GC CHAOS!!
 why [why]
 Fragilelist [broken tiles]
 SavoryRing [Savory Ring]
@@ -303,18 +326,20 @@ OnlyBridges [Bridges]
 ZeroG [lowest gravity]
 RNGCollapse [Random Collapse]
 
+-- Removed Content
 
+NullExtreme [Extreme!] -- REMOVED GC CHAOS!!
 
-WaterbreakerSpam [Blade bombardment] 0 -- CHAOS!!
-WaterbreakerFast [Ballet of Blades] -- GC CHAOS!!
-InstrumentSpawning [Deadly Melody] -- CHAOS!!
-CadenceSpeed [Overclocked] -- ADMIN CHAOS!! 
-ShockwaveBuff [Springloaded] -- CHAOS!!
-TripleSpringer [Mightly Cavalry] -- CHAOS!!
-Razorbaby [razorbaby] -- CHAOS!!
-Ambush [Ambush] 0 -- ADMIN CHAOS!!
-Teledancer [Teledancer] -- ADMIN CHAOS!!
-Muted [Muted] 0 -- ADMIN CHAOS!!
+WaterbreakerSpam [Blade bombardment] -- REMOVED GC CHAOS!!
+WaterbreakerFast [Ballet of Blades] -- REMOVED GC CHAOS!!
+InstrumentSpawning [Deadly Melody] -- REMOVED CHAOS!!
+CadenceSpeed [Overclocked] -- REMOVED CHAOS!! 
+ShockwaveBuff [Springloaded] -- REMOVED CHAOS!!
+TripleSpringer [Mightly Cavalry] -- REMOVED CHAOS!!
+Ambush [Ambush] 0 -- REMOVED CHAOS!!
+Telestabber [Telestabber] 0 -- REMOVED CHAOS!!
+Teledancer [Teledancer] -- REMOVED CHAOS!!
+Muted [Muted] 0 -- REMOVED GC CHAOS!!
 
 
 

@@ -2,13 +2,14 @@
 
     "pagename":"- Chaos Curses",
     "urlbar":"Plantscape Wiki - shush",
+    "theme":"cc",
 
-    "title1":"shush",
-    "detail1":" \"Sword makes no sound.\"",
+    "s1t1":"shush",
+    "s1d1":" \"Sword makes no sound.\"",
 
-    "title2":" Mechanics ",
-    "detail2":"- Sword's sound is completely disabled",
-    "detail3":"- shush is a chaos curse and can only be chosen during chaos selection",
+    "s2t1":" Mechanics ",
+    "s2d1":"- Sword's sound is completely disabled",
+    "s2d2":"- shush is a chaos curse and can only be chosen during chaos selection",
 
  
     "footer": "----------"

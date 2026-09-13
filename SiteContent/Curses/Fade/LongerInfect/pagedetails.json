@@ -2,13 +2,14 @@
 
     "pagename":"- Curses",
     "urlbar":"Plantscape Wiki - Longer Dullness",
+    "theme":"c",
 
-    "title1":"Longer Dullness",
-    "detail1":"\"Seeds infected by Fade are infected for 20 seconds longer. Fade's dullness effect lasts 5 seconds longer.\"",
+    "s1t1":"Longer Dullness",
+    "s1d1":"\"Seeds infected by Fade are infected for 20 seconds longer. Fade's dullness effect lasts 5 seconds longer.\"",
 
-    "title2":" Mechanics ",
-    "detail2":"- Every seed infected by fade will be infected for 20 more seconds and the screen effect 5 more seoncds.",    
-    "detail3":"- Longer Dullness is a starting curse and will only show up when Fade is in the enemy list",
+    "s2t1":" Mechanics ",
+    "s2d1":"- Every seed infected by fade will be infected for 20 more seconds and the screen effect 5 more seoncds.",    
+    "s2d2":"- Longer Dullness is a starting curse and will only show up when Fade is in the enemy list",
 
     "footer": "----------"
 

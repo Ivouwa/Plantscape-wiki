@@ -2,13 +2,14 @@
 
     "pagename":"- Curses",
     "urlbar":"Plantscape Wiki - Foggy Day",
+    "theme":"c",
 
-    "title1":"Foggy Day",
-    "detail1":"\"Collecting more than one infected seed will blur your screen. Bluriness increased based on how many infected seeds are collected.\"",
+    "s1t1":"Foggy Day",
+    "s1d1":"\"Collecting more than one infected seed will blur your screen. Bluriness increased based on how many infected seeds are collected.\"",
 
-    "title2":" Mechanics ",
-    "detail2":"- Collecting multiple seeds in a row will increasingly blur your screen",
-    "detail3":"- Foggy Day will only appear in curse selection only after level 5",
+    "s2t1":" Mechanics ",
+    "s2d1":"- Collecting multiple seeds in a row will increasingly blur your screen",
+    "s2d2":"- Foggy Day will only appear in curse selection only after level 5",
 
     "footer": "----------"
 

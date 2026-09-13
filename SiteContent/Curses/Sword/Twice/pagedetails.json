@@ -2,13 +2,14 @@
 
     "pagename":"- Curses",
     "urlbar":"Plantscape Wiki - Dual Wield",
+    "theme":"gc",
 
-    "title1":"Dual Wield",
-    "detail1":" \"Sword redirects and attacks twice.\"",
+    "s1t1":"Dual Wield",
+    "s1d1":" \"Sword redirects and attacks twice.\"",
 
-    "title2":" Mechanics ",
-    "detail2":"- After swords initial lunge, sword will quickly aim again and lunge a second time",
-    "detail3":"- Dual Wield is a eviler curse and can only be chosen during eviler curse selection",
+    "s2t1":" Mechanics ",
+    "s2d1":"- After swords initial lunge, sword will quickly aim again and lunge a second time",
+    "s2d2":"- Dual Wield is a eviler curse and can only be chosen during eviler curse selection",
 
  
     "footer": "----------"
