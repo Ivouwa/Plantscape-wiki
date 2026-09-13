@@ -3,7 +3,7 @@
 // thank yous!
 
 
-let debuglevel = 0
+let debuglevel = 1
 // 1 = logs everything
 // anything else will only show errors and such in the console
 // set this to 0 when making a commit!!
@@ -50,7 +50,7 @@ fetch('pagedetails.json')
                 <div class="logo">
 
                     <a href="${backtrack}Home/">
-                        <img src="${backtrack}webassets/${theme}logo.png" class="icon">
+                        <img src="${backtrack}webassets//logoicons/${theme}logo.png" class="icon">
                     </a>
               </div>
 
@@ -291,9 +291,9 @@ fetch('pagedetails.json')
                     let Description = media[i + 2]
                     mediacontainerforinsert.innerHTML += `
                     
-                    <div>
+                    <div class="nopaddingdiv">
 
-                        <div class="${theme}mediaborder">
+                        <div class="${theme}border">
                             <${media[i]} controls src="${testins}" class="mediaimg"></${media[i]}>
                         </div>
                             
