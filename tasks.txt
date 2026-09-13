@@ -9,7 +9,8 @@ Make pages for every base game enemy
 
 
 W.I.P
-
+print(Workspace.MizuValue.Value)
+output -- "Mizu is fat"
 
 Make pages for every chaos enemy
     -- Needs to be Proof read
