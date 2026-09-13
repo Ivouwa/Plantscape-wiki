@@ -129,7 +129,7 @@ summary{
 }
 
 .selborder:hover{
-    background-color: #00000085; 
+    background-color: #00000085;
 }
 
 .selcborder{
@@ -447,6 +447,61 @@ div{
     
     max-width: 300px;
     max-height: 300px;
+
+}
+
+
+.EnemiessubtitleContainer{
+
+    background-image: url(../backgrounds/background10.png);
+    background-position: center;
+    background-size: 700px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    filter: drop-shadow(1px 1px 2px #000000);
+
+
+}
+
+.Enemiessubtitle{
+
+    border: #ce0006 5px solid;
+    border-radius: 5px;
+    width: 500px;
+    height: 200px;
+
+    background-color: #00000046;
+  
+    display: flex;
+    justify-content: center;
+    place-items: center;
+
+}
+
+.CursessubtitleContainer{
+
+    background-image: url(../backgrounds/background9.png);
+    background-position: center;
+    background-size: 700px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    filter: drop-shadow(1px 1px 2px #000000);
     
+}
+
+.Cursessubtitle{
+
+    border: #AA00FF 5px solid;
+    border-radius: 5px;
+    width: 500px;
+    height: 200px;
+
+    background-color: #00000046;
+
+    display: flex;
+    justify-content: center;
+    place-items: center;
     
 }
