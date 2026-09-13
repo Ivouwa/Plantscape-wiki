@@ -72,6 +72,11 @@ footer{
 
 }
 
+audio{
+    -webkit-text-stroke: #000000 0px;
+}
+
+
 details:hover{
     background-color: #0000004b;
     border-radius: 10px;
@@ -277,11 +282,7 @@ div{
     display: flex;
     align-items: center;
     flex-direction: column;
-    
-    
-
-    
- 
+    margin: 10px; 
 }
 
 /* Text title */
@@ -443,9 +444,11 @@ div{
 #mediacontainer{
     
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;   
     padding: 0px;
+
+    margin-bottom: 15px;
     
 }
 

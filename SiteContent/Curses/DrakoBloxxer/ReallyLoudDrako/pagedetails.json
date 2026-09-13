@@ -5,11 +5,11 @@
     "theme":"cc",
 
     "s1t1":"chill out drako",
-    "s1d1":"\"Drakobloxxer is evil and loud. LOUD SOUND WARNING!\"",
+    "s1d1":"\"<b>Drakobloxxer</b> is <font color='rgb(255, 0, 0)'>louder</font>. <font size='40'>LOUD SOUND WARNING!</font>\"",
 
     "s2t1":" Mechanics ",
-    "s2d1":"- Drakobloxxer's screams happen a LOT more often.",
-    "s2d2":"- Redirect is a chaos curse and can only be chosen during chaos selection.",
+    "s2d1":"- Drakobloxxer's screams are much louder",
+    "s2d2":"- chill out drako is a chaos curse and can only be chosen during chaos selection.",
 
  
     "footer": "----------"

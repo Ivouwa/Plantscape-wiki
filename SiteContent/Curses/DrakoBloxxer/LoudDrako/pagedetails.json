@@ -5,11 +5,11 @@
     "theme":"gc",
 
     "s1t1":"Universal Drakobloxxer",
-    "s1d1":" \"Drakobloxxer has infinite slowness range.\"",
+    "s1d1":" \"<b>Shockwaves</b> are <font color='rgb(255, 0, 0)'>bigger</font>, and <font color='rgb(255, 0, 0)'>faster</font>. <font color='rgb(150, 150, 150)'>Confusion</font> is applied to everyone if someone is hit by a shockwave. <b>Drakobloxxer</b> has <font color='rgb(255, 0, 0)'>increased</font> turn speed.\"",
 
     "s2t1":" Mechanics ",
-    "s2d1":"- Drakobloxxer's range is now infinite",
-    "s2d2":"- Universal Drakobloxxer a eviler curse can only be chosen during eviler curse selection",
+    "s2d1":"- When drakobloxxer's screams hit someone, Confusion will be applied to everyone.",
+    "s2d2":"- Universal Drakobloxxer is an eviler curse that can only be chosen during eviler curse selection",
 
  
     "footer": "----------"

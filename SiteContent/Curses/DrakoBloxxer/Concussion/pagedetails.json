@@ -1,0 +1,16 @@
+{
+
+    "pagename":"- Curses",
+    "urlbar":"Plantscape Wiki - Concussion",
+    "theme":"c",
+
+    "s1t1":"Concussion",
+    "s1d1":" \"Those hit by <b>Drakobloxxer</b> will have their screen <font color='rgb(255, 0, 0)'>shaken</font> for the duration of <font color='rgb(150, 150, 150)'>Confusion</font>.\"",
+
+    "s2t1":" Mechanics ",
+    "s2d1":"- Confusion will now shake the players screen, or will darken instead if the player has screenshake disabled",
+    "s2d2":"- Concussion will appear in curse selections when Drakobloxxer is in the enemy pool",
+
+    "footer": "----------"
+
+}

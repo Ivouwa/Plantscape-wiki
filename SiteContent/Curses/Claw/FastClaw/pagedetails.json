@@ -1,15 +1,15 @@
 {
 
-    "theme":"c",
+    "theme":"cc",
     "pagename":"- Curses",
     "urlbar":"Plantscape Wiki - Faster Claw",
 
     "s1t1":"Faster Claw",
-    "s1d1":"\"Claw is twice as fast.\"",
+    "s1d1":"\"<b>Claw</b> is <font color='rgb(255, 0, 0)'>faster</font>.\"",
 
     "s2t1":" Mechanics ",
     "s2d1":"- Claw doubles its speed per stack",
-    "s2d2":"- Faster claw appear in curse selection only after level 5",
+    "s2d2":"- Faster claw appear in curse selections only after level 5",
 
     "footer": "----------"
 

@@ -34,6 +34,34 @@ LIST OF EVERY ENEMY, CURSE, BOSS, ANYTHING IN THE GAME
 
 enemies
 
+very dones
+
+
+
+working on
+
+Claw -- needs audio
+Claw Curses -- needs evil claw audio
+        -BigClaw [Bigger Claws] 5
+        -Stalker [Stalker] 5
+
+        -EvilClaws [Hunger] -- GC
+
+        -FastClaw [Faster Claw] -- CHAOS!!
+        -OnlyClaws [Claw Mania] -- CHAOS!!
+        -ClawInfection [Claw Infection] -- CHAOS!!
+
+Drako -- needs audio
+DrakoBloxxer Curses -- needs ReallyLoudDrako audio
+        -MovingDrako [Sentient] 0
+        -Motivation [Call To Arms] 0 
+        -Concussion [Concussion] 0 
+        -AirDrako [WatcherBloxxer] 5 
+        -EchoDrako [Echo] 10
+        
+        -LoudDrako [Universal DrakoBloxxer] -- GC
+
+        -ReallyLoudDrako [chill out drako] -- CHAOS!!
 
 Sword -- done
 Sword Curses -- needs new pages
@@ -63,16 +91,6 @@ Paintballer curses -- needs new pages
         -PaintballerHell [Paintball gun (literally)] -- CHAOS!!
 
 
-Claw -- done
-Claw Curses -- needs check for new things
-        -BigClaw [Bigger Claws] 5
-        -Stalker [Stalker] 5
-
-        -EvilClaws [Hunger] -- GC
-
-        -FastClaw [Faster Claw] -- CHAOS!!
-        -OnlyClaws [Claw Mania] -- CHAOS!!
-        -ClawInfection [Claw Infection] -- CHAOS!!
 
 Fade -- done
 Fade Curses -- needs new page
@@ -87,18 +105,6 @@ Fade Curses -- needs new page
 
         -FadeHell [the great fade migration] -- CHAOS!!
 
-Drako -- done
-DrakoBloxxer Curses -- needs new pages
-        -MovingDrako [Sentient] 0
-        -Motivation [Call To Arms] 0 needs icons
-        -Concussion [Concussion] 0 needs icons
-        -AirDrako [WatcherBloxxer] 5 needs icons
-        -EchoDrako [Echo] 10
-        
-
-        -LoudDrako [Universal DrakoBloxxer] -- GC
-
-        -ReallyLoudDrako [chill out drako] -- CHAOS!!
 
 Hacker -- done
 Hacker Curses -- needs new pages

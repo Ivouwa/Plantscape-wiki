@@ -5,11 +5,11 @@
     "urlbar":"Plantscape Wiki - Bigger Claws",
 
     "s1t1":"Bigger Claws",
-    "s1d1":"\"Claws are 50% bigger.\"",
+    "s1d1":"\"<b>Claw</b> is <font color='rgb(255, 0, 0)'>bigger and faster</font>.\"",
 
     "s2t1":" Mechanics ",
-    "s2d1":"- Claw increases its size by 50%",
-    "s2d2":"- Bigger Claw is a starting curse and will only show up when Claw is chosen",
+    "s2d1":"- Claw increases its size and speed by 50%",
+    "s2d2":"- Bigger Claw will only appear in curse selections past level 5 and when Claw is in the enemy pool",
 
     "footer": "----------"
 

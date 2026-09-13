@@ -1,15 +1,15 @@
 {
 
     "pagename":"- Curses",
-    "urlbar":"Plantscape Wiki - WatcherBloxxer",
+    "urlbar":"Plantscape Wiki - Watcherbloxxer",
     "theme":"c",
 
-    "s1t1":"WatcherBloxxer",
-    "s1d1":"\"Drakobloxxer affects you while in the air.\"",
+    "s1t1":"Watcherbloxxer",
+    "s1d1":"\"Drakobloxxer has <font color='rgb(255, 0, 0)'>automatic steering</font>.\"",
 
     "s2t1":" Mechanics ",
-    "s2d1":"- Drakobloxxer will also affect hit players when they're in the air",
-    "s2d2 ":"- WatcherBloxxer will appear in curse selection only after level 5",
+    "s2d1":"- Drakobloxxer's screams will steer towards his target.",
+    "s2d2 ":"- Watcherbloxxer will appear in curse selections only after level 5",
 
     "footer": "----------"
 

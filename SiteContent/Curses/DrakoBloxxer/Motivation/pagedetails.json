@@ -1,0 +1,17 @@
+{
+
+    "pagename":"- Curses",
+    "urlbar":"Plantscape Wiki - Call To Arms",
+    "theme":"c",
+
+    "s1t1":"Call To Arms",
+    "s1d1":" \"<b>Drakobloxxer</b> applies <font color='rgb(255, 0, 0)'>Haste</font> to enemies hit. <b>Shockwaves</b> are <font color='rgb(255, 0, 0)'>bigger</font>.\"",
+
+    "s2t1":" Mechanics ",
+    "s2d1":"- Drakobloxxer's shockwaves now speed up enemies.",
+    "s2d2":"- Call To Arms will only show up in curse selections when Drakobloxxer and Evil Speed Coil is in the enemy list.",
+
+ 
+    "footer": "----------"
+
+}

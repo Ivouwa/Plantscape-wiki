@@ -5,11 +5,11 @@
     "urlbar":"Plantscape Wiki - Stalker",
 
     "s1t1":"Stalker",
-    "s1d1":"\"Claws turn near invisible when within 50 studs of they're target. Lingers for 5 seconds.\"",
+    "s1d1":"\"<b>Claw</b> turns near <font color='rgb(255, 0, 0)'>invisible</font> when near the closest player. Lingers for a bit.\"",
 
     "s2t1":" Mechanics ",
-    "s2d1":"- When claw gets close to a player it turns invisible for 5 seconds",
-    "s2d2":"- Stalker will appear in curse selection only after level 5",
+    "s2d1":"- When claw gets close to a player it turns transparent, Lingers for 5 seconds.",
+    "s2d2":"- Stalker will only appear in curse selections past level 5 and when Claw is in the enemy pool",
 
     "footer": "----------"
 

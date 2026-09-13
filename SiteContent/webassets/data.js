@@ -255,7 +255,7 @@ fetch('pagedetails.json')
                 }
 
                 if (data.extra){
-                    details.innerHTML += `div class="title"> ${data.extra} </div>`
+                    details.innerHTML += `<div class="title"> ${data.extra} </div>`
                 }else{
                     if (debuglevel == 1) {
                     console.log("Extra title json not defined but Extra is, skipping over title.")
@@ -286,7 +286,7 @@ fetch('pagedetails.json')
                 
                 details.innerHTML += `
                 
-                <div class="title"> Related Media </div>
+                <div class="${theme}title"> Related Media </div>
                 <div id="mediacontainer"></div>
                 
                 `
@@ -336,7 +336,7 @@ fetch('pagedetails.json')
         htmlcontainer.innerHTML += ` 
         <footer id="footer">
 
-        Made by Ivouwa in 2026 | 
+        Made by ivouwa in 2026 | 
         <a href="https://github.com/Ivouwa/Plantscape-wiki" target="_blank" rel="noopener noreferrer">Want to contribute? View the github</a> | 
         <a href="https://discord.gg/NZrrj6rdRX" target="_blank" rel="noopener noreferrer">Join the plantscape server</a>
         

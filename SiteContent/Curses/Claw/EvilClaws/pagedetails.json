@@ -1,17 +1,16 @@
 {
 
     "theme":"gc",
-    "pagename":"- Curses",
+    "pagename":"- Eviler Curses",
     "urlbar":"Plantscape Wiki - Hunger",
 
     "s1t1":"Hunger",
-    "s1d1":" \"Evil Claws replaces Claws. Evil Claws are bigger, faster, and have the ability to dash to a random player with deadly after-images.\" ",
+    "s1d1":" \"<font color='rgb(170, 0, 255)'>Evil Claws</font> replaces Claw. Evil Claws are <font color='rgb(255, 0, 0)'>bigger</font>, <font color='rgb(255, 0, 0)'>faster</font>, and have the ability to <font color='rgb(255, 0, 0)'>dash</font> to a random player with <font color='rgb(255, 0, 0)'>deadly after-images</font>.\" ",
 
     "s2t1":" Mechanics ",
     "s2d1":"- Converts every claw to an <a href=\"./icon.png\"> Evil Claw</a> ",
-    "s2d2":"- Hunger is a eviler curse can only be chosen during eviler curse selection",
+    "s2d2":"- Hunger will only appear in eviler curse selections when Claw is in the enemy pool",
 
- 
     "footer": "----------"
 
 }

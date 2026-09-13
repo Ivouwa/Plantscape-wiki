@@ -5,12 +5,12 @@
     "theme":"c",
 
     "s1t1":"Echo",
-    "s1d1":"\"Drakobloxxer's screams echo off nearby tiles. Drakobloxxer spawns 25% closer to the ground.\"",
+    "s1d1":"\"<b>Drakobloxxers</b> shockwaves <font color='rgb(255, 0, 0)'>echo</font> tiles hit with a <font color='rgb(0, 255, 0)'>smaller</font> slowness effect, inflicted by <b>AOE</b>. <b>Drakobloxxer</b> spawns <font color='rgb(255, 0, 0)'>closer</font> to the <b>spawn</b>.\"",
 
     "s2t1":" Mechanics ",
-    "s2d1":"- Spawns closer to the ground",
-    "s2d2":"- When Drakobloxxer screams, the screams echo off of tiles slowing down anyone on them",
-    "s2d3":"- Echo will appear in curse selection only after level 5",
+    "s2d1":"- Spawns closer to the ground.",
+    "s2d2":"- When Drakobloxxer screams hits tiles, they will bounce off, slowing down anyone on them.",
+    "s2d3":"- Echo will appear in curse selections only after level 5.",
 
     "footer": "----------"
 
