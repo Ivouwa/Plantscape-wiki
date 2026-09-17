@@ -1,44 +1,40 @@
-# DONE
-
-Verify SSL certificate
-Make Template page
-Make Page to redirect to enemy pages
-Convert all pages to global JS
-        ^Accomodate for any loss in quality because of this
-Make pages for every base game enemy
 
 
-W.I.P
+TASK LIST OF DOOM
 
-Make pages for every chaos enemy
-    -- Needs to be Proof read
-        - Razorbaby
-        - Cadence
-        - Leviathan
-        - Springer 
-        - Waterbreaker
+Make pages for:
 
+        Enemies -- done
+        Collab Enemies -- done
+        Chaos Enemies
+        Bosses
+        Upgrades
+        Perks
+        Curses
+        Chaos Curses
+        Status effects
 
-Still need to do
-
-Make pages for every boss
-
-Make pages for every enemy curse
-
-Make pages for every chaos curse
-        
-Improve curses page a bit
-
-LIST OF EVERY ENEMY, CURSE, BOSS, ANYTHING IN THE GAME
-
-
-enemies
-
-very dones
+Add media to pages (will expand on this when we get to it)
 
 
 
-working on
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LIST OF ALL THE STUFF SO I HAVE A REFERENCE FOR MAKING / UPDATING PAGES!!
+
 
 Claw -- needs audio
 Claw Curses -- needs evil claw audio
