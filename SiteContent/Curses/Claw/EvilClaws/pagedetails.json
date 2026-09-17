@@ -5,7 +5,7 @@
     "urlbar":"Plantscape Wiki - Hunger",
 
     "s1t1":"Hunger",
-    "s1d1":" \"<font color='rgb(170, 0, 255)'>Evil Claws</font> replaces Claw. Evil Claws are <font color='rgb(255, 0, 0)'>bigger</font>, <font color='rgb(255, 0, 0)'>faster</font>, and have the ability to <font color='rgb(255, 0, 0)'>dash</font> to a random player with <font color='rgb(255, 0, 0)'>deadly after-images</font>.\" ",
+    "s1d1":" \"<font style=\"color: rgb(170, 0, 255)\">Evil Claws</font> replaces Claw. Evil Claws are <font style=\"color: rgb(255,0,0)\">bigger</font>, <font style=\"color: rgb(255,0,0)\">faster</font>, and have the ability to <font style=\"color: rgb(255,0,0)\">dash</font> to a random player with <font style=\"color: rgb(255,0,0)\">deadly after-images</font>.\" ",
 
     "s2t1":" Mechanics ",
     "s2d1":"- Converts every claw to an <a href=\"./icon.png\"> Evil Claw</a> ",

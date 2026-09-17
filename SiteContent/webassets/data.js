@@ -45,14 +45,14 @@ fetch('pagedetails.json')
     <body class="${theme}border" id="bodycontainer">
 
 
-        <topbar class="topbar">
+        <topbar class="topbar" id="topbar">
 
                 <div class="logo">
 
                     <a href="${backtrack}Home/">
                         <img src="${backtrack}webassets//logoicons/${theme}logo.png" class="icon">
                     </a>
-              </div>
+                </div>
 
                 <div class="page">
                     <a onclick="history.back()" class="page">${data.pagename}</a>
@@ -75,6 +75,8 @@ fetch('pagedetails.json')
 
     </body>
     `
+
+
     if (debuglevel == 1) {
         console.log("The html has been inserted into the htmlcontainer.")
         console.log(`Backtrack : ${backtrack}, Theme: ${theme}, Pagename, ${data.pagename}`)
@@ -237,15 +239,9 @@ fetch('pagedetails.json')
         }
 
 
-
-
-
-
         if (debuglevel == 1) {
             console.log("The following sections, titles, and details have not been loaded! : ", unloaded)
         } 
-
-
 
         try{
             if (extra) {

@@ -1,0 +1,23 @@
+{
+
+    "theme":"ull",
+    "pagename":"- Enemies",
+    "urlbar":"Plantscape Wiki - Eye",
+
+    "s1t1":"Eye",
+    "s1d1":" \"Teleports infront of you with an offset. Touching it inflicts Distorted.\" ",
+
+    "s2t1":" Mechanics ",
+    "s2d1":"- Every 10 - 15 seconds, eye will teleport in front of you with an offset simaler to <a href=\"../Labman\" style=\"font-weight: 600;\">Labsman</a>",
+    "s2d2":"- Touching eye will apply the Distorted effect, putting a bunch of squares on your screen, which fade from white to black",
+    "s2d3":"- Eye will only appear in selection after level 8",
+    "s2d4":"- Eye has a limit of 3 permanent eyes and a hard cap of 8",
+
+    "s3t1":"Death Messages",
+    "s3d1":"\"Victim's eyes were taken.\",\"Victim is blind.\",\"Eye took Victim's eyes.\",\"Victim was absorbed by Eye.\",\"Eye see a Victim.\",\"Random saw Victim get taken by an Eye.\",\"Uh oh, Got your eye!\",\"Victim's head exploded.\",\"Victim's eyes popped.\",\"Victim was killed by Eye's piercing gaze.\",",
+
+    "extra":"Related Curses",
+
+    "footer": "----------"
+
+}

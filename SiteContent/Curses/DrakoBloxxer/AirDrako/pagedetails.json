@@ -5,7 +5,7 @@
     "theme":"c",
 
     "s1t1":"Watcherbloxxer",
-    "s1d1":"\"Drakobloxxer has <font color='rgb(255, 0, 0)'>automatic steering</font>.\"",
+    "s1d1":"\"Drakobloxxer has <font style=\"color: rgb(255,0,0)\">automatic steering</font>.\"",
 
     "s2t1":" Mechanics ",
     "s2d1":"- Drakobloxxer's screams will steer towards his target.",

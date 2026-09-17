@@ -5,7 +5,7 @@
     "theme":"c",
 
     "s1t1":"Call To Arms",
-    "s1d1":" \"<b>Drakobloxxer</b> applies <font color='rgb(255, 0, 0)'>Haste</font> to enemies hit. <b>Shockwaves</b> are <font color='rgb(255, 0, 0)'>bigger</font>.\"",
+    "s1d1":" \"<b>Drakobloxxer</b> applies <font style=\"color: rgb(255,0,0)\">Haste</font> to enemies hit. <b>Shockwaves</b> are <font style=\"color: rgb(255,0,0)\">bigger</font>.\"",
 
     "s2t1":" Mechanics ",
     "s2d1":"- Drakobloxxer's shockwaves now speed up enemies.",

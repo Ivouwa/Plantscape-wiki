@@ -8,7 +8,7 @@
     "s1d1":"\"<b>Drakobloxxer</b> <b>swiftly moves</b> to a random enemy after screaming.\"",
 
     "s2t1":" Mechanics ",
-    "s2d1":"- After every scream Drakobloxxer teleports to another enemy",    
+    "s2d1":"- After every scream Drakobloxxer moves to another enemy",    
     "s2d2":"- Sentient is a starting curse and will only show up in curse selections when Drakobloxxer is in the enemy list",
 
     "footer": "----------"

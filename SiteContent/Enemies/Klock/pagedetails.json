@@ -1,0 +1,22 @@
+{
+
+    "theme":"ull",
+    "pagename":"- Enemies",
+    "urlbar":"Plantscape Wiki - Klock",
+
+    "s1t1":"Klock",
+    "s1d1":" \"Gives you a number from 1-10 that you would need to remember. Afterwards, click the number you needed to remember within time.\" ",
+
+    "s2t1":" Mechanics ",
+    "s2d1":"- After 45 - 90 seconds klock will display a number on your screen. After ten seconds a set of numbers will be displayed",
+    "s2d2":"- If the player chooses the incorrect number, they will die",
+    "s2d3":"- Klock has a hard cap of 1",
+
+    "s3t1":"Death Messages",
+    "s3d1":"\"Victim forgot their number.\",\"Victim took too long.\",\"Klock ticked down.\",\"Victim picked the wrong one.\",",
+
+    "extra":"Related Curses",
+
+    "footer": "----------"
+
+}

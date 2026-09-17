@@ -5,7 +5,7 @@
     "urlbar":"Plantscape Wiki - Bigger Claws",
 
     "s1t1":"Bigger Claws",
-    "s1d1":"\"<b>Claw</b> is <font color='rgb(255, 0, 0)'>bigger and faster</font>.\"",
+    "s1d1":"\"<b>Claw</b> is <font style=\"color:rgb(255, 0, 0)\"'>bigger and faster</font>.\"",
 
     "s2t1":" Mechanics ",
     "s2d1":"- Claw increases its size and speed by 50%",

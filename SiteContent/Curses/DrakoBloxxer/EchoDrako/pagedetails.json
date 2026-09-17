@@ -5,7 +5,7 @@
     "theme":"c",
 
     "s1t1":"Echo",
-    "s1d1":"\"<b>Drakobloxxers</b> shockwaves <font color='rgb(255, 0, 0)'>echo</font> tiles hit with a <font color='rgb(0, 255, 0)'>smaller</font> slowness effect, inflicted by <b>AOE</b>. <b>Drakobloxxer</b> spawns <font color='rgb(255, 0, 0)'>closer</font> to the <b>spawn</b>.\"",
+    "s1d1":"\"<b>Drakobloxxers</b> shockwaves <font style=\"color: rgb(255,0,0)\">echo</font> tiles hit with a <font style=\"color: rgb(0,255,0)\">smaller</font> slowness effect, inflicted by <b>AOE</b>. <b>Drakobloxxer</b> spawns <font style=\"color: rgb(255,0,0)\">closer</font> to the <b>spawn</b>.\"",
 
     "s2t1":" Mechanics ",
     "s2d1":"- Spawns closer to the ground.",

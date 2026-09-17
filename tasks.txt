@@ -192,26 +192,29 @@ Spirit Curses -- Not made yet
 
         -SpiritOverload [Arena God] -- GC
 
-Glint -- Not made yet
+Glint -- made, needs curses and media
         -GlintAir [Starfall] -- GC
+abomination -- made, needs curses and media
+        -Insomnia or wtv idk what its called
 
 ullscape stuff
-Eye -- Not made yet
+Eye -- made, needs curses and media
 Eye Curses -- Not made yet
         -EyeBuff [StareDown] 5
         -EyeShoot [Iris] 10
 
         -EyeBlind [Blindness] -- GC
 
-EvilMan -- Not made yet
+EvilMan -- made, needs curses and media
 Evilman Curses -- Not made yet
         -TripleEvilmen [Evil-Takeover] 10
         -EvilDash [Evil-Dash] 15
 
-Klock -- Not made yet
+Klock -- made, needs curses and media
 Klock Curses -- Not made yet
         - KlockIncrease [Kountless] 0
         - KlockBlind [Broken Klock] 0
+
 
 
 chaos enemies
@@ -232,11 +235,11 @@ Leviathan
         -TripleLeviathans [Fishing Season] 0 -- ADMIN
 
 -- removed enemies
-Cadence
-Telefragger
-Husk
-Waterbreaker
-Springer
+Cadence -- made, needs curses and media
+Waterbreaker -- made, needs curses and media
+Springer -- made, needs curses and media
+Telefragger -- not made yet
+Husk -- not made yet
 
 
 bosses -- not done

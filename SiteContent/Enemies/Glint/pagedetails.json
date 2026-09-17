@@ -1,0 +1,25 @@
+{
+
+    "note":" cam idk if some of this is false so if you could double check thatd be nice ty",
+
+    "theme":"",
+    "pagename":"- Enemies",
+    "urlbar":"Plantscape Wiki - Glint",
+
+    "s1t1":"Glint",
+    "s1d1":" \"Travels randomly on structures, pushing anyone around it back. Has a chance to teleport instead of moving slowly.\" ",
+
+    "s2t1":" Mechanics ",
+    "s2d1":"- Every 10 seconds (~16 in solos) glint will move to a tile",
+    "s2d2":"- Glint has a 1 in 6 chance to teleport instead of moving",
+    "s2d3":"- Glint will only spawn after level 8",
+    "s2d4":"- Glint has a hard cap of 2",
+
+    "s3t1":"Death Messages",
+    "s3d1": "\"Victim was blinded by the lights.\",\"Victim flung and died.\",\"Victim, what's wrong with a bit of extra velocity?\",\":fling Victim\"",
+
+    "extra":"Related Curses",
+
+    "footer": "----------"
+
+}

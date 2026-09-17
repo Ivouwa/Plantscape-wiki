@@ -1,0 +1,23 @@
+{
+
+    "theme":"ull",
+    "pagename":"- Enemies",
+    "urlbar":"Plantscape Wiki - Evilman",
+
+    "s1t1":"Evilman",
+    "s1d1":" \"Teleports onto you. Move to avoid him.\" ",
+
+    "s2t1":" Mechanics ",
+    "s2d1":"- After 35 - 60 seconds Evilman will place an indicator on top of you, teleporting onto the indicator after 0.1 seconds",
+    "s2d2":"- Evilman will only appear in selection after level 5",
+    "s2d3":"- Evilman has a limit of 3 permanant EvilMan and a hard cap of 10",
+    "s2d4":"- Evilman has a 1 in 100 chance to turn into a goodwoman, who is funcitonally the same but appears different.",
+
+    "s3t1":"Death Messages",
+    "s3d1":"\"Victim was taken by Evilman.\",\"Evilman very evil. Victim is now Evilman\",\"Victim forgot to move.\",\"Victim is now evil.\",\"Victim gone.\",",
+
+    "extra":"Related Curses",
+
+    "footer": "----------"
+
+}
