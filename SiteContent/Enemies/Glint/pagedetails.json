@@ -12,11 +12,11 @@
     "s2t1":" Mechanics ",
     "s2d1":"- Every 10 seconds (~16 in solos) glint will move to a tile",
     "s2d2":"- Glint has a 1 in 6 chance to teleport instead of moving",
-    "s2d3":"- Glint will only spawn after level 8",
-    "s2d4":"- Glint has a hard cap of 2",
+    "s2d3":"- Glint will only spawn after level 8 and has a hard cap of 2",
 
+    "s3c":"true",
     "s3t1":"Death Messages",
-    "s3d1": "\"Victim was blinded by the lights.\",\"Victim flung and died.\",\"Victim, what's wrong with a bit of extra velocity?\",\":fling Victim\"",
+    "s3d1": "\"Victim was blinded by the lights.\" <div class=\"deathdiv\"></div> \"Victim flung and died.\" <div class=\"deathdiv\"></div> \"Victim, what's wrong with a bit of extra velocity?\" <div class=\"deathdiv\"></div>\":fling Victim\"",
 
     "extra":"Related Curses",
 

@@ -4,16 +4,19 @@
     "pagename":"- Templatepage",
     "urlbar":"Plantscape wiki - Template",
 
+    "s1c":"false",
     "s1t1":"Template",
     "s1d1":"Does a backfilp every 0.1 seconds, mostly because it feels like it",
 
-    "s2t1":" Tips and tricks ",
+    "s2c":"true",
+    "s2t1":"Tips and tricks",
     "s2d1":"Observe the awesome backflip",
     "s2d2":"Admire the speed of the backflips",
     "s2d3":"Jump in joy at the sheer amazingness of the backflips",
 
+    "s3c":"false",
     "s3t1":"I am not from",
-    "s3d1":"New York",
+    "s3d1":"Canada",
     "s3d2":"New York",
 
     "extra":"Extra stuff",

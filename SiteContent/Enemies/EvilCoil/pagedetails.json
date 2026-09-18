@@ -5,15 +5,15 @@
     "urlbar":"Plantscape Wiki - Evil Speed Coil",
 
     "s1t1":"Evil Speed Coil",
-    "s1d1":" \"Randomly teleports near enemies, boosts enemy speed within a large radius.\" ",
+    "s1d1":" \"Randomly teleports near enemies. Inflicts Haste to enemies within a large radius.\" ",
 
     "s2t1":" Mechanics ",
-    "s2d1":"there's NOTHING. thank you son",
-    "s2d2":"- Evil Speed Coil can only spawn after level 5.",
-    "s2d3":"- Evil Speed Coil has a limit of 3 permanant Evil Coils, and has no temporary cap.",
+    "s2d1":"- Evil Speed Coil speeds up enemies in a 50 stud radius and randomly teleports near enemies.",
+    "s2d2":"- Evil Speed Coil can only spawn after level 5 and has a limit of 3 permanant Evil Coils with no hard cap.",
 
+    "s3c":"true",
     "s3t1":"Death Messages",
-    "s3d1": " \"Evil Speed Coil doesn't actually speed you up, Victim.\" \"Victim was zapped by the coil.\" \"Purple speed coils are evil, not good, Victim.\" \"Victim was boosted to their death.\" \"Victim died to a tool that is supposed to help you.\" \"Victim was hunted down by the coil.\" \"Maybe next time don't touch a Speed Coil with 'Evil' in its name.\" \"Victim died, coil is the cause.\" \"ZAP!\" ",
+    "s3d1": "\"Evil Speed Coil doesn't actually speed you up, Victim.\" <div class=\"deathdiv\"></div> \"Victim was zapped by the coil.\" <div class=\"deathdiv\"></div> \"Purple speed coils are evil, not good, Victim.\" <div class=\"deathdiv\"></div> \"Victim was boosted to their death.\" <div class=\"deathdiv\"></div> \"Victim died to a tool that is supposed to help you.\" <div class=\"deathdiv\"></div> \"Victim was hunted down by the coil.\" <div class=\"deathdiv\"></div> \"Maybe next time don't touch a Speed Coil with 'Evil' in its name.\" <div class=\"deathdiv\"></div> \"Victim died, coil is the cause.\" <div class=\"deathdiv\"></div> \"ZAP!\"",
     
     "footer": "----------"
 

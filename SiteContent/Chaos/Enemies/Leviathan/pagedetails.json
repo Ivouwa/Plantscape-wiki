@@ -12,8 +12,9 @@
     "s2d2":"- Leviathan is a chaos enemy and doesn't spawn in the main game.",
     "s2d3":"- Leviathan has a limit of 3 permanant Leviathan, and has no temporary cap.",
 
+    "s3c":"true",
     "s3t1":"Death Messages",
-    "s3d1": "\"Victim was eaten.\" \"It wasn't the sharks this time but Victim is gone.\" \"A different fish got to Victim.\" \"Victim died before Random hunted the Leviathan.\"",
+    "s3d1": "\"Victim was eaten.\" <div class=\"deathdiv\"></div>  \"It wasn't the sharks this time but Victim is gone.\" <div class=\"deathdiv\"></div>  \"A different fish got to Victim.\" <div class=\"deathdiv\"></div>  \"Victim died before Random hunted the Leviathan.\"",
  
     "footer": "----------"
 

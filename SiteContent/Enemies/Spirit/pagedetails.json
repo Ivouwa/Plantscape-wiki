@@ -10,11 +10,11 @@
     "s2t1":" Mechanics ",
     "s2d1":"- Every 20 - 45 seconds spirit will fly around a random player, placing a circle around them. Inside this circle there will be a ring of fire which will get closer to the player and kills apon contact",
     "s2d2":"- Spirit is client-sided, meaning it only appears on your client when it spawns.",
-    "s2d3":"- Spirit can only spawn after level 15.",
-    "s2d4":"- Spirit has a hard cap of 1.",
+    "s2d3":"- Spirit can only spawn after level 15 and has a hard cap of 1",
 
+    "s3c":"true",
     "s3t1":" Death Messages",
-    "s3d1": "\"Victim was possessed.\" \"Victim forgot to jump.\" \"Victim was taken by Spirit.\" \"Victim!!! Did you not see the big area around you??? - Random\" \"Victim was taken to the underworld.\" \"Victim was sealed.\" \"Victim no longer exists.\" \"Bye Victim! I never liked you anyways!\" \"Spirit said Victim is bad at parkour, Spirit was correct.\"\"Victim is now gone, all because of Spirit.\" \"No more Victim.\" \"Spirit killed Victim because Victim touched Spirit's flame ring.\" ",
+    "s3d1": "\"Victim was possessed.\" <div class=\"deathdiv\"></div> \"Victim forgot to jump.\" <div class=\"deathdiv\"></div> \"Victim was taken by Spirit.\" <div class=\"deathdiv\"></div> \"Victim!!! Did you not see the big area around you??? - Random\" <div class=\"deathdiv\"></div> \"Victim was taken to the underworld.\" <div class=\"deathdiv\"></div> \"Victim was sealed.\" <div class=\"deathdiv\"></div> \"Victim no longer exists.\" <div class=\"deathdiv\"></div> \"Bye Victim! I never liked you anyways!\" <div class=\"deathdiv\"></div> \"Spirit said Victim is bad at parkour, Spirit was correct.\" <div class=\"deathdiv\"></div> \"Victim is now gone, all because of Spirit.\" <div class=\"deathdiv\"></div> \"No more Victim.\" <div class=\"deathdiv\"></div> \"Spirit killed Victim because Victim touched Spirit's flame ring.\" ",
  
     "footer": "----------"
 

@@ -78,23 +78,53 @@ audio{
 
 
 details:hover{
+
+    outline: 5px solid #0000005d;
     background-color: #0000004b;
+
     border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    
 }
-details:open{
-    background-color: #0000004b;
+details[open] {
+    background-color: #0000002a;
     border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
 
     margin: 5px;
+
+}
+details > summary::after {
+
+    content: "  ▼";
+    font-size: 20px;
+
+}
+
+details[open] > summary::after {
+
+    content: "  ▲";
+    font-size: 20px;
+
 }
 
 summary{
+
     padding: 5px;
-    list-style: none
+    list-style: none;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+
+}
+
+summary::marker{
+
+    color: #550000;
+    content: "TEST";
+
 }
 .extrastuff{
     display: flex;
@@ -437,6 +467,8 @@ div{
 
     display: flex;
     flex-direction: column;
+    place-items: center;
+    align-items: center;
     
 }
 
@@ -555,4 +587,9 @@ div{
     place-items: center; 
     flex-wrap:wrap;
     
+}
+
+.deathdiv{
+    padding: 0px;
+    margin: 5px;
 }

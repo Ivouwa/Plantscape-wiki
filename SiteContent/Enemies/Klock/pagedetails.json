@@ -12,8 +12,9 @@
     "s2d2":"- If the player chooses the incorrect number, they will die",
     "s2d3":"- Klock has a hard cap of 1",
 
+    "s3c":"true",
     "s3t1":"Death Messages",
-    "s3d1":"\"Victim forgot their number.\",\"Victim took too long.\",\"Klock ticked down.\",\"Victim picked the wrong one.\",",
+    "s3d1":"\"Victim forgot their number.\" <div class=\"deathdiv\"></div> \"Victim took too long.\" <div class=\"deathdiv\"></div>  \"Klock ticked down.\" <div class=\"deathdiv\"></div>  \"Victim picked the wrong one.\" <div class=\"deathdiv\"></div> ",
 
     "extra":"Related Curses",
 

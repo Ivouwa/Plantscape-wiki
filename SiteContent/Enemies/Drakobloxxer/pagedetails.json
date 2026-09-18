@@ -11,8 +11,9 @@
     "s2d1":"- Drakobloxxer will scream every 30 to 60 seconds, slowing players within 150 studs by 50%.",
     "s2d2":"- Drakobloxxer is a starting enemy and has a limit of 1 permanant Drakobloxxer and has a hard cap of 1.",
 
+    "s3c":"true",
     "s3t1":"Death Messages",
-    "s3d1": "\"Drakobloxxer didn't scream so how'd Victim die?\" \"Victim was eaten by Drakobloxxer.\" \"Drakobloxxer thought Victim was delicious.\" \"Random watched Victim get devoured.\" \"It was hungry, why'd you touch it Victim?\" \"Drakobloxxer how could you? Anyways let's go grab a meal with Victim as ingredients guys.\" \"Random saw Drakobloxxer and avoided it, Victim wanted to give it a hug.\" \"Drakobloxxer screamed and Victim panicked.\" ",
+    "s3d1": "\"Drakobloxxer didn't scream so how'd Victim die?\" <div class=\"deathdiv\"></div> \"Victim was eaten by Drakobloxxer.\" <div class=\"deathdiv\"></div> \"Drakobloxxer thought Victim was delicious.\" <div class=\"deathdiv\"></div> \"Random watched Victim get devoured.\" <div class=\"deathdiv\"></div> \"It was hungry, why'd you touch it Victim?\" <div class=\"deathdiv\"></div> \"Drakobloxxer how could you? Anyways let's go grab a meal with Victim as ingredients guys.\" <div class=\"deathdiv\"></div> \"Random saw Drakobloxxer and avoided it, Victim wanted to give it a hug.\" <div class=\"deathdiv\"></div> \"Drakobloxxer screamed and Victim panicked.\" ",
 
     "extra":"Related Curses",
 

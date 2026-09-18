@@ -10,11 +10,11 @@
     "s2t1":" Mechanics ",
     "s2d1":"- Every 50 seconds Hyperlaser will spawn around the character, After 1.5 seconds of it appearing it will shoot a laser. Upon making contact with the laser, you will instantly die.",
     "s2d2":"- Hyperlaser is client-sided, meaning it only appears on your client when it spawns.",
-    "s2d3":"- Hyperlaser can only spawn after level 20.",
-    "s2d4":"- Hyperlaser has a limit of 5 permanant Hyperlaser, and has a temporary limit of 10.",
+    "s2d3":"- Hyperlaser can only spawn after level 20 and a limit of 5 permanant Hyperlaser, with a hard cap of 10",
 
+    "s3c":"true",
     "s3t1":" Death Messages",
-    "s3d1": "\"Okay bro how many things shoot you in this game.\" \"Victim was hyper-blasted.\" \"Hyperlaser Gun shot Victim dead even though it isn't a living thing.\" \"Random shot  with a Hyperlaser Gun\" \"Victim disinigrated.\" \"Labsman's new experiment killed Victim.\" \"Whoops Victim got caught in the crossfire.\" \"Ouch.\" \"Victim couldn't even feel that.\" \"SICK AS HELL HYPERLASER GUN... Killed Victim.\" \"Okay dude what are these hitboxes. How did Hyperlaser Gun hit Victim?\"",
+    "s3d1": "\"Okay bro how many things shoot you in this game.\" <div class=\"deathdiv\"></div> \"Victim was hyper-blasted.\" <div class=\"deathdiv\"></div>  \"Hyperlaser Gun shot Victim dead even though it isn't a living thing.\" <div class=\"deathdiv\"></div> \"Random shot  with a Hyperlaser Gun\" <div class=\"deathdiv\"></div> \"Victim disinigrated.\" <div class=\"deathdiv\"></div> \"Labsman's new experiment killed Victim.\" <div class=\"deathdiv\"></div> \"Whoops Victim got caught in the crossfire.\" <div class=\"deathdiv\"></div> \"Ouch.\" <div class=\"deathdiv\"></div> \"Victim couldn't even feel that.\" <div class=\"deathdiv\"></div> \"SICK AS HELL HYPERLASER GUN... Killed Victim.\" <div class=\"deathdiv\"></div> \"Okay dude what are these hitboxes. How did Hyperlaser Gun hit Victim?\"",
  
     "footer": "----------"
 

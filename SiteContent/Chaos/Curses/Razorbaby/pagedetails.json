@@ -2,18 +2,19 @@
 
     "theme":"cc",
     "pagename":"-  Chaos Enemies",
-    "urlbar":"Plantscape Wiki - Razorbaby",
+    "urlbar":"Plantscape Wiki - Razorcam",
 
-    "s1t1":"Razorbaby",
-    "s1d1":" \"Razorbaby will land on your head, get rid of it by touching a Bounce Pad.\" ",
+    "s1t1":"Razorcam",
+    "s1d1":" \"Razorcam will land on your head, get rid of it by touching a Bounce Pad.\" ",
 
     "s2t1":" Mechanics ",
-    "s2d1":"- After 30 to 60 seconds, Razorbaby will land on top of the players head. If the player doesn't hit a jumppad within 15 seconds they will explode.",
-    "s2d2":"- Razorbaby is client-sided, meaning it only appears on your client when it spawns. Razorbaby is a chaos enemy and doesn't spawn in the main game.",
-    "s2d3":"- Razorbaby is only obtained by a curse, and is a eviler curse", 
+    "s2d1":"- After 30 to 60 seconds, Razorcam will land on top of the players head. If the player doesn't hit a jumppad within 15 seconds they will explode.",
+    "s2d2":"- Razorcam is client-sided, meaning it only appears on your client when it spawns. Razorcam is a chaos enemy and doesn't spawn in the main game.",
+    "s2d3":"- Razorcam is only obtained by a curse, and is a eviler curse", 
 
+    "s3c":"true",
     "s3t1":"Death Messages",
-    "s3d1": " \"Hey Victim, you know there was a Bounce Pad right next to you, right?\"  \"Random witnessed Victim get their body blown to pieces.\"  \"Victim had their ears blown out\"  \"Victim just died. To a baby.\" " ,
+    "s3d1": " \"Hey Victim, you know there was a Bounce Pad right next to you, right?\" <div class=\"deathdiv\"></div>  \"Random witnessed Victim get their body blown to pieces.\" <div class=\"deathdiv\"></div>  \"Victim had their ears blown out\" <div class=\"deathdiv\"></div>  \"Victim just died. To a explosion.\" " ,
  
     "footer": "----------"
 

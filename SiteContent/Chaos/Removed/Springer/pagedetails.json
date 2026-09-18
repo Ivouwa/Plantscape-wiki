@@ -12,9 +12,9 @@
     "s2d2":"- Springer is a chaos enemy and doesn't spawn in the main game.",
     "s2d3":"- Springer has a limit of 2 permanant Springers, and has a temporary cap of 4.",
 
-
+    "s3c":"true",
     "s3t1":"Death Messages",
-    "s3d1": "\"Victim? Checkmate.\" \"Victim was flattened.\" \"Victim needs to be scraped off the floor.\" \"Victim is a little bit shorter now... a bit dead too.\" \"Victim is a pancake now!\" \"That's some poor Chess Play from Victim.\" \"I dub thee, Victim Flats-a-Lot!\" \"Anyone got a mop?\" \"Talk about a headache...\" ",
+    "s3d1": "\"Victim? Checkmate.\" <div class=\"deathdiv\"></div> \"Victim was flattened.\" <div class=\"deathdiv\"></div>  \"Victim needs to be scraped off the floor.\" <div class=\"deathdiv\"></div>  \"Victim is a little bit shorter now... a bit dead too.\"<div class=\"deathdiv\"></div>  \"Victim is a pancake now!\" <div class=\"deathdiv\"></div>  \"That's some poor Chess Play from Victim.\" <div class=\"deathdiv\"></div>  \"I dub thee, Victim Flats-a-Lot!\" <div class=\"deathdiv\"></div>  \"Anyone got a mop?\" <div class=\"deathdiv\"></div>   \"Talk about a headache...\" ",
  
     "footer": "----------"
 

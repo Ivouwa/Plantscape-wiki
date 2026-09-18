@@ -9,12 +9,12 @@
 
     "s2t1":" Mechanics ",
     "s2d1":"- Every 30 to 60 seconds hacker will spawn 5 notifications on your screen, blocking your vision.",
-    "s2d2":"- Hacker is client-sided, meaning it only appears on your client when it spawns.",
-    "s2d3":"- Hacker can only spawn after level 10.",
-    "s2d4":"- Hacker has a limit of 1 permanant Hacker, and has a hard cap of 1.",
+    "s2d2":"- Hacker is client-sided, and it only appears on your client when it spawns.",
+    "s2d4":"- Hacker can only spawn after level 10 and has a hard cap of 1",
 
+    "s3c":"true",
     "s3t1":" Death Messages",
-    "s3d1": " \"Victim didn't click the pop-ups in time.\" \"Victim forgot to click Hacker's pop-ups.\" \"WE JUST WANT TO POP UP, Victim!.\"\"You gotta click them, Victim.\" \"Random decided to fire pop-ups at Victim and Victim didn't click them.\" \"Victim was compromised.\" \"I AM SCRIPT-KIDDY, I AM EVIL.\" \"Try again.\" \"Victim forgot about the Hacker curse.\"             ",
+    "s3d1": " \"Victim didn't click the pop-ups in time.\" <div class=\"deathdiv\"></div> \"Victim forgot to click Hacker's pop-ups.\" <div class=\"deathdiv\"></div> \"WE JUST WANT TO POP UP, Victim!.\" <div class=\"deathdiv\"></div> \"You gotta click them, Victim.\" <div class=\"deathdiv\"></div> \"Random decided to fire pop-ups at Victim and Victim didn't click them.\" <div class=\"deathdiv\"></div> \"Victim was compromised.\" <div class=\"deathdiv\"></div> \"I AM SCRIPT-KIDDY, I AM EVIL.\" <div class=\"deathdiv\"></div> \"Try again.\" <div class=\"deathdiv\"></div> \"Victim forgot about the Hacker curse.\"             ",
  
     "extra":"Related Curses",
     

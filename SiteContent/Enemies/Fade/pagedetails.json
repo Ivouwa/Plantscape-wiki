@@ -9,11 +9,11 @@
 
     "s2t1":" Mechanics ",
     "s2d1":"- Every 10 to 15 seconds, Fade will go to a random seed, and infect it. Collecting an infected seed will darken your screen for a couple of seconds.",
-    "s2d2":"- Fade is one of the starting enemies, meaning it appears at level 1.", 
-    "s2d3":"- Fade has a limit of 3 permanant Fades and has no temporary cap.",
+    "s2d2":"- Fade is a starting enemy and has a limit of 3 permanant Fades with no hard cap.",
 
+    "s3c":"true",
     "s3t1":"Death Messages",
-    "s3d1": " \"Butterflies can't kill so no one died.\" \"The infection spreaded to Victim.\" \"And Fade strikes again.\" ",
+    "s3d1": " \"Butterflies can't kill so no one died.\" <div class=\"deathdiv\"></div> \"The infection spreaded to Victim.\" <div class=\"deathdiv\"></div> \"And Fade strikes again.\" ",
 
     "extra":"Related Curses",
 

@@ -12,8 +12,9 @@
     "s2d2":"- Waterbreaker is a chaos enemy and doesn't spawn in main game.",
     "s2d3":"- Waterbreaker has a limit of 5 at a time.",
 
+    "s3c":"true",
     "s3t1":" Death Messages",
-    "s3d1": "\"Victim was dismantled.\" \"Victim got bisected.\" \"Victim was broken by the Waterbreaker.\" \"Victim was cut down.\" \"Victim was sliced and diced by Waterbreaker.\" \"Victim has been seperated courtesy of Waterbreaker.\" \"Victim was disassembled by Waterbreaker.\" \"Victim was annihilated by Waterbreaker.\" \"Victim got killed by Waterbreaker.\" \"Victim failed to parry Waterbreaker.\" \"Victim should've worn mantle.\" \"Victim was swoon.\" \"That's right, Victim! Random is the Waterbreaking Knight!\" \"Waterbreaker is unsurprised in Victim's death.\" \"Victim, let's try to not duel the ominous floating knight next time.\" \"ASMR | Cutting Victim with 1000 degree knife\"     ",
+    "s3d1": "\"Victim was dismantled.\" <div class=\"deathdiv\"></div>  \"Victim got bisected.\" <div class=\"deathdiv\"></div>  \"Victim was broken by the Waterbreaker.\" <div class=\"deathdiv\"></div>  \"Victim was cut down.\" <div class=\"deathdiv\"></div>  \"Victim was sliced and diced by Waterbreaker.\" <div class=\"deathdiv\"></div>  \"Victim has been seperated courtesy of Waterbreaker.\" <div class=\"deathdiv\"></div>  \"Victim was disassembled by Waterbreaker.\" <div class=\"deathdiv\"></div>  \"Victim was annihilated by Waterbreaker.\" <div class=\"deathdiv\"></div>  \"Victim got killed by Waterbreaker.\" <div class=\"deathdiv\"></div>  \"Victim failed to parry Waterbreaker.\" <div class=\"deathdiv\"></div>  \"Victim should've worn mantle.\" <div class=\"deathdiv\"></div>  \"Victim was swoon.\" <div class=\"deathdiv\"></div>  \"That's right, Victim! Random is the Waterbreaking Knight!\" <div class=\"deathdiv\"></div>  \"Waterbreaker is unsurprised in Victim's death.\" <div class=\"deathdiv\"></div>  \"Victim, let's try to not duel the ominous floating knight next time.\" <div class=\"deathdiv\"></div>  \"ASMR | Cutting Victim with 1000 degree knife\"     ",
   
     "footer": "----------"
 

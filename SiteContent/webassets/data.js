@@ -34,7 +34,6 @@ fetch('pagedetails.json')
         console.log("The urlbar has been set to :", data.urlbar)
     }
 
-
     // sets container point
     let htmlcontainer = document.getElementById('htmlcontainer')
 
@@ -44,18 +43,21 @@ fetch('pagedetails.json')
 
     <body class="${theme}border" id="bodycontainer">
 
-
         <topbar class="topbar" id="topbar">
 
                 <div class="logo">
 
                     <a href="${backtrack}Home/">
+
                         <img src="${backtrack}webassets//logoicons/${theme}logo.png" class="icon">
+
                     </a>
                 </div>
 
                 <div class="page">
+
                     <a onclick="history.back()" class="page">${data.pagename}</a>
+
                 </div>
                 
                 <div class="${theme}border">
@@ -66,12 +68,9 @@ fetch('pagedetails.json')
 
         </topbar>
 
-
         <detail class="detail" id="detail">
         
-
         </detail>
-
 
     </body>
     `
@@ -85,201 +84,114 @@ fetch('pagedetails.json')
     }else{
         console.error("No html container found for insert, did you add the id \"htmlcontainer\" to the <html> header?")
     }
-
-    
-    
-
-
     
     // define the details container    
     let details = document.getElementById('detail');
 
     let unloaded = "";
+    let loaded = [];
 
-    // Section 1
-   
-        let s1t1 = data.s1t1
-        if (s1t1 == undefined){
-            unloaded += "s1t1, "
-        }
-        else {
-            details.innerHTML += `<div class="${theme}title">${s1t1}</div>`
-        }
-
-        let s1d1 = data.s1d1
-        if (s1d1 == undefined){
-            unloaded += "s1d1, "  
-        }
-        else {
-            details.innerHTML += `<div class="subtitle">${s1d1}</div>`
-        }
-
-
-    // Section 2
-
-        let s2t1 = data.s2t1
-        if (s2t1 == undefined){
-            unloaded += "s2t1, "   
-        }
-        else {
-            details.innerHTML += `<div class="${theme}title">${s2t1}</div>`
-        }
-
-
-        let s2d1 = data.s2d1
-        if (s2d1 == undefined){
-            unloaded += "s2d1, "  
-        }
-        else {
-            details.innerHTML += `<div class="subtitle">${s2d1}</div>`
-        }
+    //detail inserter function, so i can add unlimited details to each section
+    function detailinserts(section, insertpoint){
         
-        let s2d2 = data.s2d2
-        if (s2d2 == undefined){
-            unloaded += "s2d2, "  
-        }
-        else {
-            details.innerHTML += `<div class="subtitle">${s2d2}</div>`
-        }
+        for (let i = 1; ;i++){
+            
+            let indextype = `s${section}d${i}`
 
-        let s2d3 = data.s2d3
-        if (s2d3 == undefined){
-            unloaded += "s2d3, "  
-        }
-        else {
-            details.innerHTML += `<div class="subtitle">${s2d3}</div>`
-        }
-        
-        let s2d4 = data.s2d4
-        if (s2d4 == undefined){
-            unloaded += "s2d4, "  
-        }
-        else {
-            details.innerHTML += `<div class="subtitle">${s2d4}</div>`
-        }
+            if (data[indextype] != undefined){
 
-        let s2d5 = data.s2d5
-        if (s2d5 == undefined){
-            unloaded += "s2d5, "   
-        }
-        else {
-            details.innerHTML += `<div class="subtitle">${s2d5}</div>`
-        }
-
-        let s2d6 = data.s2d6
-        if (s2d6 == undefined){
-            unloaded += "s2d6, "  
-        }
-        else {
-            details.innerHTML += `<div class="subtitle">${s2d6}</div>`
-        }
-
-        let s2d7 = data.s2d7
-        if (s2d7 == undefined){
-            unloaded += "s2d7, " 
-        }
-        else {
-            details.innerHTML += `<div class="subtitle">${s2d7}</div>`
-        }
-
-
-        let s2d8 = data.s2d8
-        if (s2d8 == undefined){
-            unloaded += "s2d8, "  
-        }
-        else {
-            details.innerHTML += `<div class="subtitle">${s2d8}</div>`
-        }
-
-
-
-        // section three
-        
-        let s3t1 = data.s3t1
-        if (s3t1 == undefined){
-           unloaded += "s3t1, "   
-        }
-        else {
-            details.innerHTML += `<div class="${theme}title">${s3t1}</div>`
-        }
-        
-
-        let s3d1 = data.s3d1
-        if (s3d1 == undefined){
-            unloaded += "s3d1, "    
-        }
-        else {
-            details.innerHTML += `<div class="subtitle">${s3d1}</div>`
-        }
-
-        let s3d2 = data.s3d2
-        if (s3d2 == undefined){
-            unloaded += "s3d2, " 
-        }
-        else {
-            details.innerHTML += `<div class="subtitle">${s3d2}</div>`
-        }
-
-        // section four
-        
-        let s4t1 = data.s4t1
-        if (s4t1 == undefined){
-            unloaded += "s4t1, "    
-        }
-        else {
-            details.innerHTML += `<div class="${theme}title">${s4t1}</div>`
-        }
-
-        let s4d1 = data.s4d1
-        if (s4d1 == undefined){
-            unloaded += "s4d1, " 
-        }
-        else {
-            details.innerHTML += `<div class="subtitle">${s4d1}</div>`
-        }
-
-
-        if (debuglevel == 1) {
-            console.log("The following sections, titles, and details have not been loaded! : ", unloaded)
-        } 
-
-        try{
-            if (extra) {
-                
-                if (debuglevel == 1) {
-                    console.log("Extra defined, loading extra elements")
+                insertpoint.innerHTML += `
+                    <div>${data[indextype]}</div>
+                `  
+                if (debuglevel == 1){
+                    console.log("Element", indextype, "Loaded.")
                 }
 
-                if (data.extra){
-                    details.innerHTML += `<div class="title"> ${data.extra} </div>`
-                }else{
-                    if (debuglevel == 1) {
-                    console.log("Extra title json not defined but Extra is, skipping over title.")
-                    } 
-                }
-                
-                details.innerHTML += ` 
-                ${extra} 
-                `
-                
-            } else if (extra == false, debuglevel == 1){
-                console.log("Extra set to false, not loading elements.")
+            }else{
+
+                break
+
             }
+         
+        }
+
+    }
+    
+    // insterts the title if it exists along with loading the section and making it collapsable and whatnot
+    function section(number){
+        
+        let datapoint = `s${number}t1`
+        let collapsabledata = `s${number}c`
+            
+        if (data[collapsabledata] != undefined && data[collapsabledata] == "true"){
+            
+            details.innerHTML += `
+                <Details id="expandable${number}">
+                    <Summary>
+                        <div class="${data.theme}title">${data[datapoint]}</div>
+                    </Summary>
+            `
+
+            let collapsedetailsinsert = document.getElementById(`expandable${number}`)
+
+            detailinserts(number, collapsedetailsinsert)  
+
+        }else if (data[datapoint] != undefined){
+    
+            details.innerHTML += `
+                <div class="${data.theme}title">${data[datapoint]}</div>
+            `
+
+            detailinserts(number, details)
+            
+        }
+
+    }
+
+    section(1)
+    section(2)
+    section(3)
+    section(4)      
+
+    try{
+
+        if (extra) {
+                
+            if (debuglevel == 1) {
+                console.log("Extra defined, loading extra elements")
+            }
+
+            // checks if the extra thing in json is there
+            if (data.extra){
+                details.innerHTML += `<div class="title"> ${data.extra} </div>`
+            }else{
+                if (debuglevel == 1) {
+                console.log("Extra title json not defined but Extra is, skipping over title.")
+                } 
+            }
+                
+            details.innerHTML += `${extra}`
+                
+        }else if (extra == false, debuglevel == 1){
+
+            console.log("Extra set to false, not loading elements.")
+
+        }
         }catch(error){
+
             if (debuglevel == 1){
+
                 console.log("Extra has errored, forcing unloaded under assumption of no false variable and showing error below.")
                 console.error(error) 
+
             }
+
         }
 
         try{
-
-            
-
 
             if (media) {
 
-                
                 details.innerHTML += `
                 
                 <div class="${theme}title"> Related Media </div>
@@ -309,20 +221,24 @@ fetch('pagedetails.json')
                     `
                 }
 
-                if (debuglevel == 1) {
-                console.log("Loaded media elements!")
-                } 
-                
+                if (debuglevel == 1) { 
 
+                    console.log("Loaded media elements!")
+
+                } 
 
             } else if (media == false, debuglevel == 1){
+
                 console.log("media set to false, not loading elements.")
+
             }
         }catch(error){
 
             if (debuglevel == 1){
+
                 console.log("Media has errored, forcing unloaded under assumption of no false variable and showing error below.")
                 console.error(error) 
+
             }
         }
         

@@ -8,11 +8,11 @@
 
     "s2t1":" Mechanics ",
     "s2d1":"- Paintballer will go to a random tile near a player and paint it. If you're on a painted tile then you will be slowed.",
-    "s2d2":"- Paintballer is one of the starting enemies, meaning it appears at level 1.", 
-    "s2d3":"- Paintballer is a starting enemy and has a limit of 3 permanant Paintballers. Paintballer has no temporary cap.",
+    "s2d2":"- Paintballer is a starting enemy and has a limit of 3 permanant Paintballers with no hard cap.",
 
+    "s3c":"true",
     "s3t1":"Death Messages",
-    "s3d1": "\"Victim was painted.\" \"Victim got shot down by Paintballer.\" \"Victim is now a different color.\" \"Victim lost in a paintball fight.\" \"Paintballer's aim is better than Victim's.\" \"Paintballed, Victim.\" \"Victim was PWNed by Paintballer.\" \"Paintballer didn't even shoot and Victim still died.\" \"Yep, Victim's dead.\" \"Painted.\" ",
+    "s3d1": "\"Victim was painted.\" <div class=\"deathdiv\"></div> \"Victim got shot down by Paintballer.\"<div class=\"deathdiv\"></div> \"Victim is now a different color.\" <div class=\"deathdiv\"></div> \"Victim lost in a paintball fight.\" <div class=\"deathdiv\"></div> \"Paintballer's aim is better than Victim's.\" <div class=\"deathdiv\"></div> \"Paintballed, Victim.\" <div class=\"deathdiv\"></div> \"Victim was PWNed by Paintballer.\" <div class=\"deathdiv\"></div> \"Paintballer didn't even shoot and Victim still died.\" <div class=\"deathdiv\"></div> \"Yep, Victim's dead.\" <div class=\"deathdiv\"></div> \"Painted.\" ",
 
     "extra":"Related Curses",
 

@@ -9,12 +9,11 @@
 
     "s2t1":" Mechanics ",
     "s2d1":"- After 1 to 1.5 seconds, Evil Sword will face towards the nearest player creating a line. It will lunge following this line instantly killing on contact.",
-    "s2d2":"- Evil Sword can only spawn after level 10 and can only appear after choosing Sword.",
-    "s2d3":"- Evil Sword has a limit of 2 permanant Evil swords, and a cap of 10 temporary Evil Swords.",
+    "s2d2":"- Evil Sword can only spawn after level 10 and has a limit of 2 permanant Evil swords with a hard cap of 10",
 
-
+    "s3c":"true",
     "s3t1":"Death Messages",
-    "s3d1": " \"Victim was turned into sushi.\"  \"SLICE SLICE Victim NO LONGER THRIVES\" \"Victim didnt dodge the sword.\" \"Victim was sliced and diced.\" \"Sword is currently 19 years old. And Victim died to it.\" \"Victim got mad and started cursing out the Sword. \" \"Victim was truly decayed by Sword.\" \"Equip, Lunge, Slash, it's simple! \" \"That's not a baby, Victim. that's a SWORD!!!\" \"swish slash wishy slawash wow. Victim died btw.\" \"Random is better at SFOTH than Victim.\" \"Just block parry and dodge, Victim. It's that simple!\"",
+    "s3d1": " \"Victim was turned into sushi.\" <div class=\"deathdiv\"></div> \"SLICE SLICE Victim NO LONGER THRIVES\" <div class=\"deathdiv\"></div> \"Victim didnt dodge the sword.\" <div class=\"deathdiv\"></div> \"Victim was sliced and diced.\" <div class=\"deathdiv\"></div> \"Sword is currently 19 years old. And Victim died to it.\" <div class=\"deathdiv\"></div> \"Victim got mad and started cursing out the Sword. \" <div class=\"deathdiv\"></div> \"Victim was truly decayed by Sword.\" <div class=\"deathdiv\"></div> \"Equip, Lunge, Slash, it's simple! \" <div class=\"deathdiv\"></div> \"That's not a baby, Victim. that's a SWORD!!!\" <div class=\"deathdiv\"></div> \"swish slash wishy slawash wow. Victim died btw.\" <div class=\"deathdiv\"></div> \"Random is better at SFOTH than Victim.\" <div class=\"deathdiv\"></div> \"Just block parry and dodge, Victim. It's that simple!\"",
      
     "footer": "----------"
 

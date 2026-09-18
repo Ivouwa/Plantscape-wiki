@@ -11,8 +11,9 @@
     "s2d1":"- After a few seconds, Abomination will charge to the nearest player at a high speed. Shortly falling asleep afterwards then repeating the cycle.",
     "s2d2":"- Abomination doesn't show up in enemy selections and will only appear from chaos cube and whices brew after level 35",
 
+    "s3c":"true",
     "s3t1":"Death Messages",
-    "s3d1": "\"Victim got side tackled.\",\"Abomination curve stomp Victim!\",\"The rumbling came. Victim didn't survive.\",",
+    "s3d1": "\"Victim got side tackled.\" <div class=\"deathdiv\"></div> \"Abomination curve stomp Victim!\" <div class=\"deathdiv\"></div> \"The rumbling came. Victim didn't survive.\",",
 
     "extra":"Related Curses",
 
