@@ -3,7 +3,7 @@
 // thank yous!
 
 
-let debuglevel = 1
+let debuglevel = 0
 // 1 = logs everything
 // anything else will only show errors and such in the console
 // set this to 0 when making a commit!!
@@ -19,19 +19,11 @@ fetch('pagedetails.json')
 
     // grabs theme
     let theme = data.theme;
-    if (debuglevel == 1) {
-        console.log("The current theme is set to :", data.theme)
-    }
 
-    
     // sets the url bar text (ie "Plantscape wiki - ivouwa class")
     let urlbar = document.getElementById('urlbar')
     if (urlbar) {
         urlbar.innerHTML=`${data.urlbar}` 
-    }
-
-    if (debuglevel == 1) {
-        console.log("The urlbar has been set to :", data.urlbar)
     }
 
     // sets container point
@@ -75,10 +67,9 @@ fetch('pagedetails.json')
     </body>
     `
 
-
     if (debuglevel == 1) {
         console.log("The html has been inserted into the htmlcontainer.")
-        console.log(`Backtrack : ${backtrack}, Theme: ${theme}, Pagename, ${data.pagename}`)
+        console.log(`Backtrack: ${backtrack}, Theme: ${theme}, Pagename: ${data.pagename}`)
     }  
     
     }else{
@@ -87,10 +78,11 @@ fetch('pagedetails.json')
     
     // define the details container    
     let details = document.getElementById('detail');
-
+    
     let unloaded = "";
     let loaded = [];
-
+    
+    
     //detail inserter function, so i can add unlimited details to each section
     function detailinserts(section, insertpoint){
         
@@ -116,42 +108,67 @@ fetch('pagedetails.json')
         }
 
     }
-    
+
     // insterts the title if it exists along with loading the section and making it collapsable and whatnot
     function section(number){
         
         let datapoint = `s${number}t1`
         let collapsabledata = `s${number}c`
-            
+        
         if (data[collapsabledata] != undefined && data[collapsabledata] == "true"){
             
             details.innerHTML += `
-                <Details id="expandable${number}">
-                    <Summary>
-                        <div class="${data.theme}title">${data[datapoint]}</div>
-                    </Summary>
+            <Details id="expandable${number}">
+            <Summary>
+            <div class="${data.theme}title">${data[datapoint]}</div>
+            </Summary>
             `
-
+            
+            if (debuglevel == 1){
+                console.log("Section ", number, " is collapsable")
+            }
+            
             let collapsedetailsinsert = document.getElementById(`expandable${number}`)
-
+            
             detailinserts(number, collapsedetailsinsert)  
-
+            
         }else if (data[datapoint] != undefined){
-    
+            
             details.innerHTML += `
-                <div class="${data.theme}title">${data[datapoint]}</div>
+            <div class="${data.theme}title">${data[datapoint]}</div>
             `
-
+            
             detailinserts(number, details)
             
+            
         }
-
+        
     }
 
-    section(1)
-    section(2)
-    section(3)
-    section(4)      
+   
+    for (let i = 1; ; i++){
+
+        let numthing = `s${i}t1`
+
+        if (data[numthing]){
+
+            if (debuglevel == 1){
+                console.log("Function for section", i ,"Has been called.")
+            }
+
+            section(i)
+
+        }else{
+
+            if (debuglevel == 1){
+                console.log("No more sections to load")
+            }
+
+            break
+
+        }
+        
+    }   
 
     try{
 
@@ -172,40 +189,40 @@ fetch('pagedetails.json')
                 
             details.innerHTML += `${extra}`
                 
-        }else if (extra == false, debuglevel == 1){
+            }else if (extra == false, debuglevel == 1){
 
-            console.log("Extra set to false, not loading elements.")
-
-        }
-        }catch(error){
-
-            if (debuglevel == 1){
-
-                console.log("Extra has errored, forcing unloaded under assumption of no false variable and showing error below.")
-                console.error(error) 
+                console.log("Extra set to false, not loading elements.")
 
             }
+    }catch(error){
+
+        if (debuglevel == 1){
+
+            console.log("Extra has errored, forcing unloaded under assumption of no false variable and showing error below.")
+            console.error(error) 
 
         }
 
-        try{
+    }
 
-            if (media) {
+    try{
 
-                details.innerHTML += `
-                
-                <div class="${theme}title"> Related Media </div>
-                <div id="mediacontainer"></div>
-                
-                `
+        if (media) {
 
-                let mediacontainerforinsert = document.getElementById("mediacontainer")
+            details.innerHTML += `
                 
-                for(let i = 0; i < media.length; i += 3){
+            <div class="${theme}title"> Related Media </div>
+            <div id="mediacontainer"></div>
+                
+            `
+
+            let mediacontainerforinsert = document.getElementById("mediacontainer")
+                
+            for(let i = 0; i < media.length; i += 3){
                     
-                    let testins = media[i + 1]
-                    let Description = media[i + 2]
-                    mediacontainerforinsert.innerHTML += `
+                let testins = media[i + 1]
+                let Description = media[i + 2]
+                mediacontainerforinsert.innerHTML += `
                     
                     <div class="nopaddingdiv">
 
@@ -227,37 +244,39 @@ fetch('pagedetails.json')
 
                 } 
 
-            } else if (media == false, debuglevel == 1){
+        } else if (media == false, debuglevel == 1){
 
-                console.log("media set to false, not loading elements.")
+             console.log("media set to false, not loading elements.")
 
-            }
-        }catch(error){
-
-            if (debuglevel == 1){
-
-                console.log("Media has errored, forcing unloaded under assumption of no false variable and showing error below.")
-                console.error(error) 
-
-            }
         }
-        
-        
-        
-        if (htmlcontainer) {
-        htmlcontainer.innerHTML += ` 
-        <footer id="footer">
+    }catch(error){
 
-        Made by ivouwa in 2026 | 
-        <a href="https://github.com/Ivouwa/Plantscape-wiki" target="_blank" rel="noopener noreferrer">Want to contribute? View the github</a> | 
-        <a href="https://discord.gg/NZrrj6rdRX" target="_blank" rel="noopener noreferrer">Join the plantscape server</a>
+        if (debuglevel == 1){
+
+            console.log("Media has errored, forcing unloaded under assumption of no false variable and showing error below.")
+            console.error(error) 
+
+        }
+    }
         
-        </footer>
+        
+        
+    if (htmlcontainer) {
+        htmlcontainer.innerHTML += ` 
+            <footer id="footer">
+
+            Made by ivouwa in 2026 | 
+            <a href="https://github.com/Ivouwa/Plantscape-wiki" target="_blank" rel="noopener noreferrer">Want to contribute? View the github</a> | 
+            <a href="https://discord.gg/NZrrj6rdRX" target="_blank" rel="noopener noreferrer">Join the plantscape server</a>
+        
+            </footer>
         `
 
-        if (debuglevel == 1) {
-            console.log("Footer insterted")
-        } 
+    if (debuglevel == 1) {
+        console.log("Footer insterted")
+    } 
+
         }
-    })
+    }
+)
     
