@@ -3,7 +3,7 @@
 // thank yous!
 
 
-let debuglevel = 0
+let debuglevel = 1
 // 1 = logs everything
 // anything else will only show errors and such in the console
 // set this to 0 when making a commit!!
@@ -33,38 +33,38 @@ fetch('pagedetails.json')
     if (htmlcontainer) {
     htmlcontainer.innerHTML += `
 
-    <body class="${theme}border" id="bodycontainer">
+        <body class="${theme}border" id="bodycontainer">
 
-        <topbar class="topbar" id="topbar">
+            <topbar class="topbar" id="topbar">
 
-                <div class="logo">
+                    <div class="logo">
 
-                    <a href="${backtrack}Home/">
+                        <a href="${backtrack}Home/">
 
-                        <img src="${backtrack}webassets//logoicons/${theme}logo.png" class="icon">
+                            <img src="${backtrack}webassets//logoicons/${theme}logo.png" class="icon">
 
-                    </a>
-                </div>
+                        </a>
+                    </div>
 
-                <div class="page">
+                    <div class="page">
 
-                    <a onclick="history.back()" class="page">${data.pagename}</a>
+                        <a onclick="history.back()" class="page">${data.pagename}</a>
 
-                </div>
-                
-                <div class="${theme}border">
+                    </div>
+                    
+                    <div class="${theme}border">
 
                         <img src="./icon.png" class="icon"> 
 
-                </div>
+                    </div>
 
-        </topbar>
+            </topbar>
 
-        <detail class="detail" id="detail">
-        
-        </detail>
+                <detail class="detail" id="detail">
+            
+            </detail>
 
-    </body>
+        </body>
     `
 
     if (debuglevel == 1) {
@@ -79,8 +79,6 @@ fetch('pagedetails.json')
     // define the details container    
     let details = document.getElementById('detail');
     
-    let unloaded = "";
-    let loaded = [];
     
     
     //detail inserter function, so i can add unlimited details to each section
@@ -119,9 +117,9 @@ fetch('pagedetails.json')
             
             details.innerHTML += `
             <Details id="expandable${number}">
-            <Summary>
-            <div class="${data.theme}title">${data[datapoint]}</div>
-            </Summary>
+                <Summary>
+                    <div class="${data.theme}title">${data[datapoint]}</div>
+                </Summary>
             `
             
             if (debuglevel == 1){
@@ -144,7 +142,6 @@ fetch('pagedetails.json')
         }
         
     }
-
    
     for (let i = 1; ; i++){
 
@@ -260,7 +257,6 @@ fetch('pagedetails.json')
     }
         
         
-        
     if (htmlcontainer) {
         htmlcontainer.innerHTML += ` 
             <footer id="footer">
@@ -272,11 +268,11 @@ fetch('pagedetails.json')
             </footer>
         `
 
-    if (debuglevel == 1) {
-        console.log("Footer insterted")
-    } 
+        if (debuglevel == 1) {
+            console.log("Footer insterted")
+        } 
+    }
 
-        }
     }
 )
     

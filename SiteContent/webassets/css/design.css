@@ -79,7 +79,6 @@ audio{
 
 details:hover{
 
-    outline: 5px solid #0000005d;
     background-color: #0000004b;
 
     border-radius: 10px;
@@ -88,25 +87,27 @@ details:hover{
     
 }
 details[open] {
-    background-color: #0000002a;
+
     border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
 
-    margin: 5px;
+    margin: 0px;
 
 }
 details > summary::after {
 
-    content: "  ▼";
+    content: "▼";
     font-size: 20px;
+    padding-left: 10px;
 
 }
 
 details[open] > summary::after {
 
-    content: "  ▲";
+    content: "▲";
     font-size: 20px;
+    padding-left: 10px;
 
 }
 
@@ -127,6 +128,7 @@ summary::marker{
 
 }
 .extrastuff{
+    
     display: flex;
     place-items: center;
     align-items: flex-start;
@@ -136,7 +138,9 @@ summary::marker{
 
 }
 .extracontainer{
+
     padding-bottom: auto;
+
 }
 
 .topbar{
@@ -196,8 +200,7 @@ summary::marker{
 
     display: flex;
     place-items: center;
-    flex-direction: column;
-    
+    flex-direction: column; 
 
 }
 
@@ -215,7 +218,6 @@ summary::marker{
     margin: 5px;
 
 }
-
 
 .selccborder:hover{
     background-color: #00000085; 
@@ -235,8 +237,6 @@ summary::marker{
 .selullborder:hover{
     background-color: #00000085; 
 }
-
-
 
 /* Non hoverable borders */
 .border{
