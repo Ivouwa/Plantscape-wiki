@@ -8,6 +8,19 @@ let debuglevel = 1
 // anything else will only show errors and such in the console
 // set this to 0 when making a commit!!
 
+async function requestjsondata(inputfile, datavalue) {
+    
+        const response = await fetch(inputfile)
+        const data = await response.json()
+            
+        if (datavalue != undefined){
+            return data[datavalue]
+        }else{
+            return data
+        }
+
+}
+
 fetch('pagedetails.json')
 
     .then(response => {
@@ -78,9 +91,7 @@ fetch('pagedetails.json')
     
     // define the details container    
     let details = document.getElementById('detail');
-    
-    
-    
+
     //detail inserter function, so i can add unlimited details to each section
     function detailinserts(section, insertpoint){
         
@@ -107,7 +118,7 @@ fetch('pagedetails.json')
 
     }
 
-    // insterts the title if it exists along with loading the section and making it collapsable and whatnot
+    // inserts the title if it exists along with loading the section and making it collapsable and whatnot
     function section(number){
         
         let datapoint = `s${number}t1`
@@ -143,6 +154,8 @@ fetch('pagedetails.json')
         
     }
    
+
+    // for every single section title there is, call the function for the title and then its details.
     for (let i = 1; ; i++){
 
         let numthing = `s${i}t1`
@@ -167,107 +180,176 @@ fetch('pagedetails.json')
         
     }   
 
+    // if "extra" variable is defined, then load its elements
+    // sometimes extra wont be defined and because it's stored inside the html as ...
+    // a variable so it'll error out if its not caught
+    // kind of a legacy feature because it was only used for enemy curses which
+    // now have thier own function.
+    
     try{
-
+        
         if (extra) {
-                
+            
             if (debuglevel == 1) {
                 console.log("Extra defined, loading extra elements")
             }
-
+            
             // checks if the extra thing in json is there
             if (data.extra){
                 details.innerHTML += `<div class="title"> ${data.extra} </div>`
             }else{
                 if (debuglevel == 1) {
-                console.log("Extra title json not defined but Extra is, skipping over title.")
+                    console.log("Extra title json not defined but Extra is, skipping over title.")
                 } 
             }
-                
+            
             details.innerHTML += `${extra}`
-                
-            }else if (extra == false, debuglevel == 1){
-
-                console.log("Extra set to false, not loading elements.")
-
-            }
+            
+        }else if (extra == false, debuglevel == 1){
+            
+            console.log("Extra set to false, not loading elements.")
+            
+        }
     }catch(error){
-
+        
         if (debuglevel == 1){
-
+            
             console.log("Extra has errored, forcing unloaded under assumption of no false variable and showing error below.")
             console.error(error) 
+            
+        }
+        
+    }
+            
+    // loads related curses for the enemy if defined after media and details
+    if (data.curses != undefined && data.curses == true){
+        
+        let insertedcurseelenemts = ``   
+        
+        details.innerHTML += `
 
+                <div class="${data.theme}title">Related curses</div>
+                <div class="sort" id="curse"> 
+                
+        `
+    
+        for (let i = 1;;i++){
+
+            let ins = `curse${i}`
+            
+            if (data[ins]){
+                
+                let cursedir = `${backtrack}Curses/${data.s1t1}/${data[ins]}`
+
+                requestjsondata(`${cursedir}/pagedetails.json`,"theme").then(result =>{
+                    
+                    let curse = document.getElementById("curse")
+                    let cursedir = `${backtrack}Curses/${data.s1t1}/${data[ins]}`
+                    curse.innerHTML += `
+                    
+                    <div class="sel${result}border">
+                        <a href="${cursedir}">
+                            <img class="icon" src="${cursedir}/icon.webp">
+                        </a>
+                    </div>
+
+                    `
+                    if (debuglevel == 1){
+
+                        console.log("Curse loaded with value", data[ins], "with number as", i, "and border as", result)
+                   
+                    }
+                })
+            
+            }else{
+
+                break
+
+            }
         }
 
-    }
+        details.innerHTML += `
+            
+            </div>
 
+        `
+    } 
+
+    // if media variable is defined then it will load the elements to it
+    // make the media variable an array (using []) in the html script tag then 
+    // "headertype","directory","text displayed under the media",
+
+    
     try{
-
+        
         if (media) {
-
+            
             details.innerHTML += `
-                
+            
             <div class="${theme}title"> Related Media </div>
             <div id="mediacontainer"></div>
-                
+            
             `
-
+            
             let mediacontainerforinsert = document.getElementById("mediacontainer")
-                
+            
             for(let i = 0; i < media.length; i += 3){
-                    
+                
                 let testins = media[i + 1]
                 let Description = media[i + 2]
                 mediacontainerforinsert.innerHTML += `
-                    
-                    <div class="nopaddingdiv">
-
-                        <div class="${theme}border">
-                            <${media[i]} controls src="${testins}" class="mediaimg"></${media[i]}>
-                        </div>
-                            
-                        <div class="${theme}border">
-                            ${Description}
-                        </div>    
-                    
-                    </div>                    
-                    `
-                }
-
-                if (debuglevel == 1) { 
-
-                    console.log("Loaded media elements!")
-
-                } 
-
+                
+                <div class="nopaddingdiv">
+                
+                <div class="${theme}border">
+                <${media[i]} controls src="${testins}" class="mediaimg"></${media[i]}>
+                </div>
+                
+                <div class="${theme}border">
+                ${Description}
+                </div>    
+                
+                </div>                    
+                `
+            }
+            
+            if (debuglevel == 1) { 
+                
+                console.log("Loaded media elements!")
+                
+            } 
+            
         } else if (media == false, debuglevel == 1){
-
-             console.log("media set to false, not loading elements.")
-
+            
+            console.log("media set to false, not loading elements.")
+            
         }
     }catch(error){
-
+        
         if (debuglevel == 1){
-
+            
             console.log("Media has errored, forcing unloaded under assumption of no false variable and showing error below.")
             console.error(error) 
-
+            
         }
     }
-        
-        
+   
+
+    // returns a promise which contains the requested inputfile 
+    // and if there is one, the datavalue of the inputvalue
+
+    
     if (htmlcontainer) {
         htmlcontainer.innerHTML += ` 
-            <footer id="footer">
-
-            Made by ivouwa in 2026 | 
-            <a href="https://github.com/Ivouwa/Plantscape-wiki" target="_blank" rel="noopener noreferrer">Want to contribute? View the github</a> | 
-            <a href="https://discord.gg/NZrrj6rdRX" target="_blank" rel="noopener noreferrer">Join the plantscape server</a>
+        <footer id="footer">
         
-            </footer>
+        Made by ivouwa in 2026 | 
+        <a href="https://github.com/Ivouwa/Plantscape-wiki" target="_blank" rel="noopener noreferrer">Want to contribute? View the github</a> | 
+        <a href="https://discord.gg/NZrrj6rdRX" target="_blank" rel="noopener noreferrer">Join the plantscape server</a>
+        
+        </footer>
         `
-
+        
         if (debuglevel == 1) {
             console.log("Footer insterted")
         } 

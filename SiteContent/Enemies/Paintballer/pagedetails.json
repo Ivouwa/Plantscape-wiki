@@ -15,6 +15,14 @@
     "s3d1": "\"Victim was painted.\" <div class=\"deathdiv\"></div> \"Victim got shot down by Paintballer.\"<div class=\"deathdiv\"></div> \"Victim is now a different color.\" <div class=\"deathdiv\"></div> \"Victim lost in a paintball fight.\" <div class=\"deathdiv\"></div> \"Paintballer's aim is better than Victim's.\" <div class=\"deathdiv\"></div> \"Paintballed, Victim.\" <div class=\"deathdiv\"></div> \"Victim was PWNed by Paintballer.\" <div class=\"deathdiv\"></div> \"Paintballer didn't even shoot and Victim still died.\" <div class=\"deathdiv\"></div> \"Yep, Victim's dead.\" <div class=\"deathdiv\"></div> \"Painted.\" ",
 
     "extra":"Related Curses",
+    
+    "curses":true,
+    "curse1":"Painted",
+    "curse2":"LingeringPaint",
+    "curse3":"TriplePaintballers",
+    "curse4":"Targeting",
+    "curse5":"Shotgun",
+    "curse6":"PaintballerHell",
 
     "footer": "----------"
 

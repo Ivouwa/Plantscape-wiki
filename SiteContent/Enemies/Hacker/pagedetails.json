@@ -18,6 +18,13 @@
  
     "extra":"Related Curses",
     
+    "curses":true,
+    "curse1":"HackerBuff",
+    "curse2":"BlockCount",
+    "curse3":"Click",
+    "curse4":"DontClick",
+    "curse5":"WholeScreen",
+
     "footer": "----------"
 
 }

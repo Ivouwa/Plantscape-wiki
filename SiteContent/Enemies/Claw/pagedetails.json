@@ -17,6 +17,14 @@
 
     "extra":"Related Curses",
 
+    "curses":true,
+    "curse1":"BigClaw",
+    "curse2":"Stalker",
+    "curse3":"EvilClaws",
+    "curse4":"FastClaw",
+    "curse5":"ClawInfection",
+    "curse6":"OnlyClaws",
+    
     "footer": "----------"
 
 }

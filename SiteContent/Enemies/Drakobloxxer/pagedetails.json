@@ -17,6 +17,15 @@
 
     "extra":"Related Curses",
 
+    "curses":true,
+    "curse1":"AirDrako",
+    "curse2":"MovingDrako",
+    "curse3":"Concussion",
+    "curse4":"EchoDrako",
+    "curse5":"Motivation",
+    "curse6":"LoudDrako",
+    "curse7":"ReallyLoudDrako",
+    
     "footer": "----------"
 
 }

@@ -1,0 +1,20 @@
+{
+
+    "theme":"cc",
+    "pagename":"- Chaos Enemies",
+    "urlbar":"Plantscape Wiki - Baldi",
+
+    "s1t1":"Baldi",
+    "s1d1":" \"I GET FASTER EVERY SEED YOU COLLECT.\"",
+
+    "s2t1":" Mechanics ",
+    "s2d1":"- After a few seconds baldi will smack his ruler, teleporting him forwards",
+    "s2d2":"- Baldi is a Chaos Enemy and will only appear in chaos selections",
+
+    "s3c":"false",
+    "s3t1":"Death Message",
+    "s3d1": "\"Oh, hi! Welcome to my schoolhouse!\"",
+ 
+    "footer": "----------"
+
+}

@@ -17,6 +17,14 @@
 
     "extra":"Related Curses",
 
+    "curses":true,
+    "curse1":"BiggerFades",
+    "curse2":"BlurFade",
+    "curse3":"InvertFade",
+    "curse4":"LongerInfect",
+    "curse5":"ServerSidedInfect",
+    "curse6":"FadeHell",
+    
     "footer": "----------"
 
 }

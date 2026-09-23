@@ -113,7 +113,7 @@ details[open] > summary::after {
 
 summary{
 
-    padding: 5px;
+    padding-left: 30px;
     list-style: none;
     display: flex;
     place-items: center;
@@ -195,7 +195,7 @@ summary::marker{
     border-radius: 5px;
     background-color: #0000004b; 
 
-    padding: 5px;
+    padding: 5px; 
     margin: 5px;
 
     display: flex;
