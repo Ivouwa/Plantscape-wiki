@@ -5,11 +5,11 @@
     "theme":"c",
 
     "s1t1":"I'M MORE ANNOYING THAN YOU THOUGHT",
-    "s1d1":"\"Hacker passively blocks the seed count.\"",
+    "s1d1":"\"<b>Hacker</b> passively <font style=\"color:rgb(255, 0, 0)\"'>blocks the seed count</font>.\"",
 
     "s2t1":" Mechanics ",
-    "s2d1":"- The seed count is permanently covered up by a hacker popup",
-    "s2d2":"- I JUST WANNA POP UP will appear in curse selection only after level 20",
+    "s2d1":"- The seed count is permanently covered up by a hacker pop-up.",
+    "s2d2":"- I'M MORE ANNOYING THAN YOU THOUGHT will appear in curse selections after level 20.",
 
     "footer": "----------"
 

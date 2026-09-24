@@ -1,6 +1,6 @@
 {
 
-    "pagename":"- Curses",
+    "pagename":"- Eviler Curses",
     "urlbar":"Plantscape Wiki - Blacksmith",
     "theme":"gc",
 
@@ -8,8 +8,8 @@
     "s1d1":" \"All swords are turned into Evil Swords which bypasses it's hard cap\"",
 
     "s2t1":" Mechanics ",
-    "s2d1":"- Converts every sword to an evil sword at the start of a round",
-    "s2d2":"- Blacksmith is an eviler curse and can only be chosen during eviler curse selection",
+    "s2d1":"- Converts every sword to an Evil Sword at the start of a round",
+    "s2d2":"- Blacksmith is an eviler curse and can only be chosen during eviler curse selection.",
  
     "footer": "----------"
 

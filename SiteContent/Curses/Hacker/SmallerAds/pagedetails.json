@@ -1,0 +1,16 @@
+{
+
+    "pagename":"- Curses",
+    "urlbar":"Plantscape Wiki - Miniature Pop-Ups",
+    "theme":"c",
+
+    "s1t1":"Miniature Pop-Ups",
+    "s1d1":"\"<b>Hacker</b> pop-ups are <b>smaller</b>.\"",
+
+    "s2t1":" Mechanics ",
+    "s2d1":"- Hacker's pop-ups reduce in size, making it harder to get rid of in certain circumstances.",
+    "s2d2":"- Miniature Pop-Ups will appear in curse selections when Hacker is in the enemy pool.",
+
+    "footer": "----------"
+
+}

@@ -1,15 +1,15 @@
 {
 
-    "pagename":"- Curses",
+    "pagename":"- Chaos Curses",
     "urlbar":"Plantscape Wiki - Paintball Gun",
-    "theme":"c",
+    "theme":"cc",
 
     "s1t1":"Paintball Gun",
     "s1d1":" \"Paintballer fires 8 paintballs in a circle all at once when targeting players.\"",
 
     "s2t1":" Mechanics ",
-    "s2d1":"- Paintballer shoots a circle of 8 paintballs instead of just 1",    
-    "s2d2":"- Painball Gun will appear in curse selection only after level 5",
+    "s2d1":"- Paintballer shoots a circle of 8 paintballs instead of 1.",    
+    "s2d2":"- Paintball Gun will appear in curse selections when Targeting is in the curse pool.",
 
     "footer": "----------"
 

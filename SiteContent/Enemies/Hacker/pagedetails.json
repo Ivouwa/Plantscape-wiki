@@ -20,10 +20,14 @@
     
     "curses":true,
     "curse1":"HackerBuff",
-    "curse2":"BlockCount",
-    "curse3":"Click",
-    "curse4":"DontClick",
-    "curse5":"WholeScreen",
+    "curse2":"MovingHacker",
+    "curse3":"BlockCount",
+    "curse4":"SmallerAds",
+    "curse5":"Click",
+    "curse6":"DontClick",
+    "curse7":"EvilHacker",
+    "curse8":"SimonSays",
+    "curse9":"WholeScreen",
 
     "footer": "----------"
 

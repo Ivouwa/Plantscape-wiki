@@ -1,0 +1,17 @@
+{
+
+    "pagename":"- Eviler Curses",
+    "urlbar":"Plantscape Wiki - Trickster",
+    "theme":"gc",
+
+    "s1t1":"Trickster",
+    "s1d1":"\"<b>Evil Hacker</b> has a chance to <font style=\"color:rgb(255, 0, 0)\"'>reverse the task</font>. Do <font style=\"color:rgb(255, 0, 0)\"'>not</font> follow their commands.\"",
+
+    "s2t1":" Mechanics ",
+    "s2d1":"- Evil Hacker has a 25% chance to have the task chosen be reversed.",
+    "s2d2":"- If Trickster happens, the randomized tasks Evil Hacker can perform will tell you not to do what they say.",
+    "s2d3":"- Trickster will appear in eviler curse selections when Evil Hacker is in the curse pool.",
+
+    "footer": "----------"
+
+}

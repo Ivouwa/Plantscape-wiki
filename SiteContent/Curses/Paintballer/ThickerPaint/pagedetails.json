@@ -1,0 +1,16 @@
+{
+
+    "pagename":"- Curses",
+    "urlbar":"Plantscape Wiki - Thicker Paint",
+    "theme":"c",
+
+    "s1t1":"Thicker Paint",
+    "s1d1":"\"Painted tiles <font style=\"color:rgb(255, 0, 0)\"'>kill faster</font>.\"",
+
+    "s2t1":" Mechanics ",
+    "s2d1":"- Paintballer's painted tiles kill you quicker.",
+    "s2d2":"- Thicker Paint will appear in curse selections when Paintballer is in the enemy pool.",
+ 
+    "footer": "----------"
+
+}

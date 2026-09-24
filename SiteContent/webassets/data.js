@@ -2,11 +2,10 @@
 // WHEN MAKING A REDIRECT PAGE (/enemies /home /curses) WRITE EVERYTHING DIRECTLY!
 // thank yous!
 
-
 let debuglevel = 1
+
 // 1 = logs everything
 // anything else will only show errors and such in the console
-// set this to 0 when making a commit!!
 
 async function requestjsondata(inputfile, datavalue) {
     
@@ -247,11 +246,11 @@ fetch('pagedetails.json')
                     let cursedir = `${backtrack}Curses/${data.s1t1}/${data[ins]}`
                     curse.innerHTML += `
                     
-                    <div class="sel${result}border">
-                        <a href="${cursedir}">
-                            <img class="icon" src="${cursedir}/icon.webp">
-                        </a>
-                    </div>
+                        <div class="sel${result}border">
+                            <a href="${cursedir}">
+                                <img class="icon" src="${cursedir}/icon.webp">
+                            </a>
+                        </div>
 
                     `
                     if (debuglevel == 1){

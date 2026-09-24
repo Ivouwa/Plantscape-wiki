@@ -1,0 +1,15 @@
+{
+
+    "pagename":"- Curses",
+    "urlbar":"Plantscape Wiki - Camouflage",
+    "theme":"c",
+
+    "s1t1":"Camouflage",
+    "s1d1":"\"<b>Paintballer</b> applies the <font style=\"color:rgb(255, 0, 0)\"'>collapse breaking</font> effect to targeted tiles instead of coloring them.\"",
+    "s2t1":" Mechanics ",
+    "s2d1":"- Paintballer's painted tiles instead have the collapsing tile texture that appears on collapsing tiles after the beacon opens.",
+    "s2d2":"- Camouflage will appear in curse selections after level 10.",
+ 
+    "footer": "----------"
+
+}

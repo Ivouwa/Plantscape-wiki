@@ -60,7 +60,7 @@ DrakoBloxxer Curses -- needs ReallyLoudDrako audio
         -ReallyLoudDrako [chill out drako] -- CHAOS!!
 
 Sword -- done
-Sword Curses -- needs new pages
+Sword Curses -- NO LONGER needs new pages
         -SFOTH [On the Heights] 15 needs icons
         -LaserSword [Lightsaber] 5 needs icons
 
@@ -72,14 +72,14 @@ Sword Curses -- needs new pages
         -ProblemSword "Redirect" -- CHAOS!! needs icons
 
 Paintballer -- done
-Paintballer curses -- needs new pages
+Paintballer curses -- NO LONGER needs new pages
 
         -ThickerPaint [Thicker Paint] 0 needs icons
-        -PaintAura [Dripping Paint] 5
-        -Painted [Painted] 5 needs icons
-        -TriplePaintballers [Paintball Frenzy] 5s
-        -LingeringPaint [Wet Paint] 10 needs icons
-        -CollapsePaint [Camouflage] 10 needs icon
+        -PaintAura [Dripping Paint] 5 needs icons
+        -Painted [Painted] 5
+        -TriplePaintballers [Paintball Frenzy] 5
+        -LingeringPaint [Wet Paint] 10
+        -CollapsePaint [Camouflage] 10 needs icons
         
         -Shotgun [Paintball Gun] -- CHAOS!! needs icons
         -Targeting [Targeting] -- CHAOS!!
@@ -106,8 +106,8 @@ Hacker -- done
 Hacker Curses -- needs new pages
         -Click [CLICK ME] 0
         -DontClick [DON'T CLICK ME?] 0
-        -MovingHacker [CATCH ME IF YOU CAN] 0
-        -SmallerAds [Miniature Pop-Ups] 0
+        -MovingHacker [CATCH ME IF YOU CAN] 0 -- needs icons
+        -SmallerAds [Miniature Pop-Ups] 0 -- needs icons
         -HackerBuff [I JUST WANNA POP UP] 15
         -EvilHacker [HACKER SAYS!] GC 15 -- needs icons
         -SimonSays [Trickster] 15 -- needs icons

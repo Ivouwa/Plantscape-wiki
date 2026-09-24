@@ -10,7 +10,7 @@
     "s2t1":" Mechanics ",
     "s2d1":"- Spawns closer to the ground.",
     "s2d2":"- When Drakobloxxer screams hits tiles, they will bounce off, slowing down anyone on them.",
-    "s2d3":"- Echo will appear in curse selections only after level 5.",
+    "s2d3":"- Echo will appear in curse selections after level 5.",
 
     "footer": "----------"
 

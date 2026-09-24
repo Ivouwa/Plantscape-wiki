@@ -17,12 +17,13 @@
     "extra":"Related Curses",
     
     "curses":true,
-    "curse1":"SFOTH",
-    "curse2":"Twice",
-    "curse3":"Practice",
-    "curse4":"EvilSwords",
-    "curse5":"ProblemSword",
-    "curse6":"Pacifier",
+    "curse1":"LaserSword",
+    "curse2":"SFOTH",
+    "curse3":"Twice",
+    "curse4":"Practice",
+    "curse5":"EvilSwords",
+    "curse6":"ProblemSword",
+    "curse7":"Pacifier",
     
     "footer": "----------"
 

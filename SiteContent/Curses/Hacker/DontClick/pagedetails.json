@@ -9,7 +9,7 @@
 
     "s2t1":" Mechanics ",
     "s2d1":"- Red popups have a chance to appear, when clicked they will kill the player",
-    "s2d2":"- DON'T CLICK ME? is a starting curse and will only show up when Hacker is in the enemy list",
+    "s2d2":"- DON'T CLICK ME? will appear in curse selections when Hacker is in the enemy pool and CLICK ME is in the curse pool.",
 
     "footer": "----------"
 

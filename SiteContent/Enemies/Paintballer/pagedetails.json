@@ -19,10 +19,15 @@
     "curses":true,
     "curse1":"Painted",
     "curse2":"LingeringPaint",
-    "curse3":"TriplePaintballers",
-    "curse4":"Targeting",
-    "curse5":"Shotgun",
-    "curse6":"PaintballerHell",
+    "curse3":"ThickerPaint",
+    "curse4":"TriplePaintballers",
+    "curse5":"PaintAura",
+    "curse6":"CollapsePaint",
+    "curse7":"Targeting",
+    "curse8":"Shotgun",
+    "curse9":"PaintballerHell",
+
+
 
     "footer": "----------"
 

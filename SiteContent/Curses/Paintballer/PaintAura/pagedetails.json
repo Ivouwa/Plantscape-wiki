@@ -1,0 +1,16 @@
+{
+
+    "pagename":"- Curses",
+    "urlbar":"Plantscape Wiki - Dripping Paint",
+    "theme":"c",
+
+    "s1t1":"Dripping Paint",
+    "s1d1":"\"<b>Paintballer</b> <font style=\"color:rgb(255, 0, 0)\"'>paints tiles and Clouds</font> around them. Painted Clouds bounce <font style=\"color:rgb(255, 0, 0)\"'>lower</font>, they also inflict <font style=\"color:rgb(0,0,255)\"'>Painted</font> for 5 seconds.\"",
+
+    "s2t1":" Mechanics ",
+    "s2d1":"- Paintballer gains an aura that paints any tile or cloud inside of it. Clouds that are painted have a weakened boost, and applies the same slowness effect from painted tiles.",    
+    "s2d2":"- Dripping Paint will appear in curse selections after level 5.",
+ 
+    "footer": "----------"
+
+}

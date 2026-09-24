@@ -1,0 +1,16 @@
+{
+
+    "pagename":"- Curses",
+    "urlbar":"Plantscape Wiki - CATCH ME IF YOU CAN",
+    "theme":"c",
+
+    "s1t1":"CATCH ME IF YOU CAN",
+    "s1d1":"\"<b>Hacker</b> pop-ups <font style=\"color:rgb(255, 0, 0)\"'>constantly move</font>.\"",
+
+    "s2t1":" Mechanics ",
+    "s2d1":"- Hacker's pop-ups move around your screen, making it difficult in certain circumstances to get rid of the pop-ups.",
+    "s2d2":"- CATCH ME IF YOU CAN will appear in curse selections when Hacker is in the enemy pool.",
+
+    "footer": "----------"
+
+}

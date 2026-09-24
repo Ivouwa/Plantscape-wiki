@@ -1,0 +1,16 @@
+{
+
+    "pagename":"- Curses",
+    "urlbar":"Plantscape Wiki - Swapper",
+    "theme":"c",
+
+    "s1t1":"Swapper",
+    "s1d1":"\"<b>Fade</b> has a chance to <b>swap collectable locations</b>.\"",
+
+    "s2t1":" Mechanics ",
+    "s2d1":"- Fade has a 12.5% chance to swap the position of any collectable, like Seeds.",
+    "s2d2":"- Swapper will only appear in curse selections after level 5.",
+
+    "footer": "----------"
+
+}

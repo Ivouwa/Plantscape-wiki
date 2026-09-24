@@ -5,11 +5,11 @@
     "theme":"c",
 
     "s1t1":"I JUST WANNA POP UP",
-    "s1d1":"\"Hacker passively blocks the seed count.\"",
+    "s1d1":"\"<b>Hacker</b> summons pop-ups a lot <font style=\"color:rgb(255, 0, 0)\"'>faster</font>, but only spawns <font style=\"color:rgb(255, 0, 0)\"'>1 pop-up</font> per attack.\"",
 
     "s2t1":" Mechanics ",
-    "s2d1":"- Hackers popups will appear much more often but only summon one at a time",
-    "s2d2":"- I JUST WANNA POP UP will appear in curse selection only after level 15",
+    "s2d1":"- Hacker spawns pop-ups on your screen rapidly, but can only spawn 1 at a time.",
+    "s2d2":"- I JUST WANNA POP UP will appear in curse selections after level 15.",
 
     "footer": "----------"
 

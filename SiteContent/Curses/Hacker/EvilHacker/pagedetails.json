@@ -1,0 +1,17 @@
+{
+
+    "pagename":"- Eviler Curses",
+    "urlbar":"Plantscape Wiki - HACKER SAYS!",
+    "theme":"gc",
+
+    "s1t1":"HACKER SAYS!",
+    "s1d1":"\"<b>Hacker</b> becomes <font style=\"color:rgb(255, 0, 0)\"'>evil</font> and forces you to do a task. You have <font style=\"color:rgb(255, 0, 0)\"'>6</font> seconds to complete the task.\"",
+
+    "s2t1":" Mechanics ",
+    "s2d1":"- Hacker is replaced by Evil Hacker, who gives you a randomized task that you need to complete in under 6 seconds, otherwise you die.",
+    "s2d2":"- The list of randomized tasks Evil Hacker can perform either requires you to Double Jump, Use your Ability, Bounce off a Cloud, Click on Evil Hacker's pop-up, Move in a certain direction, or Stop Moving.",
+    "s2d3":"- HACKER SAYS! will appear in eviler curse selections after level 15.",
+
+    "footer": "----------"
+
+}

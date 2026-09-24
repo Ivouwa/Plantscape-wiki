@@ -1,0 +1,17 @@
+{
+
+    "pagename":"- Curses",
+    "urlbar":"Plantscape Wiki - Lightsaber",
+    "theme":"c",
+
+    "s1t1":"Lightsaber",
+    "s1d1":"\"<b>Sword</b> has a chance to laser-lunge, lunging <font style=\"color:rgb(255, 0, 0)\"'>instantly</font> with a <font style=\"color:rgb(255, 0, 0)\"'>short wind-up</font> and a <font style=\"color:rgb(255, 0, 0)\"'>bigger beam.</font> \"",
+
+    "s2t1":" Mechanics ",
+    "s2d1":"- Sword has a 20% chance to lunge with a short windup and a bigger beam.",
+    "s2d2":"- Lightsaber will appear in curse selections after level 5.",
+
+ 
+    "footer": "----------"
+
+}
