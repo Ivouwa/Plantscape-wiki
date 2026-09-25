@@ -182,43 +182,30 @@ fetch('pagedetails.json')
     // if "extra" variable is defined, then load its elements
     // sometimes extra wont be defined and because it's stored inside the html as ...
     // a variable so it'll error out if its not caught
-    // kind of a legacy feature because it was only used for enemy curses which
-    // now have thier own function.
+    // very much a legacy feature because it was only used for enemy curses which
+    // now have thier own function. and sfoth which is the only thing that uses this
     
-    try{
         
+    if (data.extra != undefined) {
+            
+        if (debuglevel == 1) {
+            console.log("Extra defined, loading extra elements")
+        }
+        
+        if (data.extra){
+            details.innerHTML += `<div class="containerdiv">${data.extra}</div>`
+        }
+    }
+    try {
         if (extra) {
-            
-            if (debuglevel == 1) {
-                console.log("Extra defined, loading extra elements")
-            }
-            
-            // checks if the extra thing in json is there
-            if (data.extra){
-                details.innerHTML += `<div class="title"> ${data.extra} </div>`
-            }else{
-                if (debuglevel == 1) {
-                    console.log("Extra title json not defined but Extra is, skipping over title.")
-                } 
-            }
-            
-            details.innerHTML += `${extra}`
-            
-        }else if (extra == false, debuglevel == 1){
-            
-            console.log("Extra set to false, not loading elements.")
-            
+            details.innerHTML += extra
         }
     }catch(error){
-        
-        if (debuglevel == 1){
-            
-            console.log("Extra has errored, forcing unloaded under assumption of no false variable and showing error below.")
-            console.error(error) 
-            
+        if (debuglevel = 1){
+            console.error(error)
         }
-        
     }
+       
             
     // loads related curses for the enemy if defined after media and details
 
@@ -260,7 +247,7 @@ fetch('pagedetails.json')
 
                     curse.innerHTML += `
                     
-                        <div id="curseid${i}" class="deathdiv"></div> 
+                        <div id="curseid${i}" class="containerdiv"></div> 
                     
                     `
 
@@ -354,10 +341,10 @@ fetch('pagedetails.json')
         htmlcontainer.innerHTML += ` 
         <footer id="footer">
         
-        Made by ivouwa in 2026 | 
-        <a href="https://github.com/Ivouwa/Plantscape-wiki" target="_blank" rel="noopener noreferrer">Want to contribute? View the github</a> | 
-        <a href="https://discord.gg/NZrrj6rdRX" target="_blank" rel="noopener noreferrer">Join the plantscape server</a>
-        
+            <a href="https://ivouwa.gay" target="_blank" rel="noopener noreferrer">Made by ivouwa in 2026 |</a> 
+            <a href="https://github.com/Ivouwa/Plantscape-wiki" target="_blank" rel="noopener noreferrer">Want to contribute? View the github</a> | 
+            <a href="https://discord.gg/NZrrj6rdRX" target="_blank" rel="noopener noreferrer">Join the plantscape server</a>
+            
         </footer>
         `
         

@@ -16,7 +16,7 @@
     "s3t1":" Death Messages",
     "s3d1": " \"Victim didn't click the pop-ups in time.\" <div class=\"deathdiv\"></div> \"Victim forgot to click Hacker's pop-ups.\" <div class=\"deathdiv\"></div> \"WE JUST WANT TO POP UP, Victim!.\" <div class=\"deathdiv\"></div> \"You gotta click them, Victim.\" <div class=\"deathdiv\"></div> \"Random decided to fire pop-ups at Victim and Victim didn't click them.\" <div class=\"deathdiv\"></div> \"Victim was compromised.\" <div class=\"deathdiv\"></div> \"I AM SCRIPT-KIDDY, I AM EVIL.\" <div class=\"deathdiv\"></div> \"Try again.\" <div class=\"deathdiv\"></div> \"Victim forgot about the Hacker curse.\"             ",
  
-    "extra":"Related Curses",
+    
     
     "curses":true,
     "curse1":"HackerBuff",

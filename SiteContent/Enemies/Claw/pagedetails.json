@@ -15,8 +15,6 @@
     "s3t1":"Death Messages",
     "s3d1": "\"Victim was grabbed and torn apart by Claw.\" <div class=\"deathdiv\"></div> \"Claw is easy to dodge Victim. Sometimes\" <div class=\"deathdiv\"></div> \"Victim was killed by sharp objects.\" <div class=\"deathdiv\"></div> \"Victim hates the human anatomy. Wait that thing isn't human.\" <div class=\"deathdiv\"></div> \"Random dodged the Claw but Victim fell short.\" <div class=\"deathdiv\"></div> \"The Claw targeted Victim, and quickly succeeded\" <div class=\"deathdiv\"></div> \"I dont see what's wrong, did you guys have a faster Claw or something?\" <div class=\"deathdiv\"></div> \"Seriously? Victim died to that Claw thing again.\" <div class=\"deathdiv\"></div> \"There's no way.. ppfft.. Victim.. TO CLAW??\" <div class=\"deathdiv\"></div> \"All Victim had to do was run, in short, they failed.\" <div class=\"deathdiv\"></div> \"Little do you know Victim, Claw is only using 0.001% of its power.\"",
 
-    "extra":"Related Curses",
-
     "curses":true,
     "curse1":"BigClaw",
     "curse2":"Stalker",
