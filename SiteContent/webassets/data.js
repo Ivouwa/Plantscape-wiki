@@ -221,43 +221,53 @@ fetch('pagedetails.json')
     }
             
     // loads related curses for the enemy if defined after media and details
-    if (data.curses != undefined && data.curses == true){
-        
-        let insertedcurseelenemts = ``   
-        
-        details.innerHTML += `
 
-                <div class="${data.theme}title">Related curses</div>
-                <div class="sort" id="curse"> 
-                
-        `
-    
-        for (let i = 1;;i++){
-
-            let ins = `curse${i}`
+    async function loadcursejsondata(inputfile, datavalue, curseinsertpoint,) {
+        
+            const response = await fetch(`${inputfile}/pagedetails.json`)
+            const data = await response.json()
+            let curse = document.getElementById(`curseid${curseinsertpoint}`)
             
-            if (data[ins]){
+            curse.innerHTML += `
+            
+            <div class="sel${data.theme}border">
+                <a href="${inputfile}">
+                    <img class="icon" src="${inputfile}/icon.webp">
+                </a>
+            </div>
+            `
+            
+        }
+        
+        if (data.curses != undefined && data.curses == true){
+            
+            let insertedcurseelenemts = ``   
+            
+            details.innerHTML += `
+            
+            <div class="${data.theme}title">Related curses</div>
+            <div class="sort" id="curse"> 
+            
+            `
+            
+            for (let i = 1;;i++){
                 
-                let cursedir = `${backtrack}Curses/${data.s1t1}/${data[ins]}`
-
-                requestjsondata(`${cursedir}/pagedetails.json`,"theme").then(result =>{
+                let ins = `curse${i}`
+                
+                if (data[ins]){
                     
                     let curse = document.getElementById("curse")
-                    let cursedir = `${backtrack}Curses/${data.s1t1}/${data[ins]}`
+
                     curse.innerHTML += `
                     
-                        <div class="sel${result}border">
-                            <a href="${cursedir}">
-                                <img class="icon" src="${cursedir}/icon.webp">
-                            </a>
-                        </div>
-
+                        <div id="curseid${i}" class="deathdiv"></div> 
+                    
                     `
-                    if (debuglevel == 1){
 
-                        console.log("Curse loaded with value", data[ins], "with number as", i, "and border as", result)
-                   
-                    }
+                    let cursedir = `${backtrack}Curses/${data.s1t1}/${data[ins]}`
+                    loadcursejsondata(`${cursedir}`,"theme",i).then(result =>{
+
+                        
                 })
             
             }else{
@@ -273,6 +283,8 @@ fetch('pagedetails.json')
 
         `
     } 
+
+
 
     // if media variable is defined then it will load the elements to it
     // make the media variable an array (using []) in the html script tag then 
@@ -301,11 +313,11 @@ fetch('pagedetails.json')
                 <div class="nopaddingdiv">
                 
                 <div class="${theme}border">
-                <${media[i]} controls src="${testins}" class="mediaimg"></${media[i]}>
+                    <${media[i]} controls src="${testins}" class="mediaimg"></${media[i]}>
                 </div>
                 
                 <div class="${theme}border">
-                ${Description}
+                    ${Description}
                 </div>    
                 
                 </div>                    
