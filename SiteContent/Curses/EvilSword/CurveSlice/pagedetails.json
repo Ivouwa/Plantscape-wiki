@@ -1,0 +1,16 @@
+{
+
+    "pagename":"- Chaos Curses",
+    "urlbar":"Plantscape Wiki - Warrior's Swing",
+    "theme":"cc",
+
+    "s1t1":"Warrior's Swing",
+    "s1d1":" \"For every 5th lunge from <b>Evil Sword</b>, the next lunge is replaced by an <font style=\"color:rgb(255, 0, 0)\"'>angled slash</font> that appears infront of a random target.\"",
+
+    "s2t1":" Mechanics ",
+    "s2d1":"- Every 5th attack that Evil Sword does is replaced by an attack where Evil Sword teleports to a random player, spawning in a half circular slash with a windup.",
+    "s2d2":"- Warrior's Swing is a chaos eviler curse and can only be chosen during chaos selections.",
+ 
+    "footer": "----------"
+
+}

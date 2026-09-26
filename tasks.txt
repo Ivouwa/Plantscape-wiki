@@ -141,7 +141,7 @@ Labsman Curses -- Not made yet
         -Experiment [MY BRAND NEW EXPERIMENT!] -- CHAOS!!
 
 Evil Sword -- done
-        -CurveSlice [Warrior's Swing] -- GC CHAOS!!
+        -CurveSlice [Warrior's Swing] -- GC CHAOS!! (NEEDS ICONS)
 Other curses are associated with regular Sword
 
 Evil Speed Coil -- done
