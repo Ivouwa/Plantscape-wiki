@@ -13,7 +13,7 @@
     "s2d3":"- Evilman has a limit of 3 permanant EvilMan and a hard cap of 10",
     "s2d4":"- Evilman has a 1 in 100 chance to turn into a goodwoman, who is functionally the same but appears different.",
 
-    "s3c":"true",
+    "s3c":true,
     "s3t1":"Death Messages",
     "s3d1":"\"Victim was taken by Evilman.\" <div class=\"deathdiv\"></div>  \"Evilman very evil. Victim is now Evilman\" <div class=\"deathdiv\"></div>  \"Victim forgot to move.\" <div class=\"deathdiv\"></div>  \"Victim is now evil.\" <div class=\"deathdiv\"></div>  \"Victim gone.\"",
 

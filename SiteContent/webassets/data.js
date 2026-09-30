@@ -7,7 +7,23 @@ let debuglevel = 1
 // 1 = logs everything
 // anything else will only show errors and such in the console
 
-fetch('pagedetails.json')
+/*
+
+JS TASK LIST:
+
+    - Convert every old page with media to use the new media system
+    - Convert every old backtrack to use json instead of a preset variable inside the html script header
+        ^  not doing this 100% yet, keeping legacy untill i am bored enough to sit down and manually update them all
+
+    - Make extra function more robust and betterly functional
+      mostly for handling complex  html content that someone could want inserted
+
+    - add preset and customizable banners for information stuff
+    (ie, "this page is unfinished", "this page has content that is no longer in the game!" and stuff like that)
+
+*/
+
+fetch('pagedetails.json')   
 
     .then(response => {
         if (!response.ok) throw Error("JSON not found, do you have a pagedetails.json?");
@@ -18,6 +34,10 @@ fetch('pagedetails.json')
 
         // grabs theme
         let theme = data.theme;
+
+        if (data.backtrack != undefined){
+            let backtrack = data.backtrack;
+        }
 
         // sets the url bar text (ie "Plantscape wiki - ivouwa class")
         let urlbar = document.getElementById('urlbar')
@@ -110,7 +130,7 @@ fetch('pagedetails.json')
             let datapoint = `s${number}t1`
             let collapsabledata = `s${number}c`
             
-            if (data[collapsabledata] != undefined && data[collapsabledata] == "true"){
+            if (data[collapsabledata] != undefined && data[collapsabledata] == true){
                 
                 details.innerHTML += `
                 <Details id="expandable${number}">
@@ -132,14 +152,72 @@ fetch('pagedetails.json')
                 details.innerHTML += `
                 <div class="${data.theme}title">${data[datapoint]}</div>
                 `
-                
                 detailinserts(number, details)
-                
                 
             }
             
         }
-    
+        
+        async function loadbannerjsondata(inputfile, datapoint,) {
+                    
+            const response = await fetch(`${inputfile}`)
+            const data = await response.json()
+            
+            if (datapoint != undefined) {
+                return data[datapoint];
+            }else{
+                return data;
+            }
+                
+        }
+
+        function banner(preset) {
+
+            details.innerHTML += `
+                
+                    <div class="${theme}border" style="margin-left:100px; margin-right:100px; margin-top:50px; margin-bottom:50px">
+                    
+                        <img class="bannericon"src=${backtrack}webassets/banners/${data.banner}.png>
+
+                        <div class="${theme}banner" id="bannercontainer">
+
+                            <div id="bannertitle" class="bannerdiv"></div>
+                            <div id="bannerdesc" class="bannerdiv"></div> 
+
+                        </div>
+
+                    </div>
+                
+                `
+            loadbannerjsondata(`${backtrack}webassets/banners/bannerdata.json`).then(returneddata=>{
+            
+
+                let bannertitle = "default text"
+                let bannerdisc = "default text, if you're seeing this you didn't define a preset in /webassets/banners/bannerdata.json"
+
+                if (returneddata[`${preset}title`] != undefined){
+
+                    bannertitle = returneddata[`${preset}title`]
+
+                }
+                if (returneddata[`${preset}desc`] != undefined){        
+
+                    bannerdisc = returneddata[`${preset}desc`]
+
+                }
+                
+                console.log(returneddata[`${preset}title`])
+                console.log(returneddata[`${preset}desc`])
+
+
+                document.getElementById("bannertitle").innerHTML += bannertitle
+                document.getElementById("bannerdesc").innerHTML += bannerdisc
+
+            })
+        }
+
+
+        banner(data.banner)
 
         // for every single section title there is, call the function for the title and then its details.
         for (let i = 1; ; i++){
@@ -163,6 +241,7 @@ fetch('pagedetails.json')
                 break
 
             }
+
             
         }   
 
@@ -320,11 +399,54 @@ fetch('pagedetails.json')
                 
             }
         }
+        
+
+        if (data.media != undefined && data.media == true){
+
+            details.innerHTML += `
+                
+                    <div class="${theme}title"> Related Media </div>
+                    <div id="mediacontainer"></div>
+                
+            `
+
+            let mediacontainer = document.getElementById("mediacontainer")
+            
+            for (let i = 1; ;i++){
+                let mediatype = data[`media${i}type`]
+                let mediapath = data[`media${i}path`]
+                let mediadescription = data[`media${i}description`]
+
+                if (debuglevel == 1){
+                    console.log(`Processing media element ${i}: type=${mediatype}, path=${mediapath}, description=${mediadescription}`)
+                }
+
+                if (mediatype != undefined && mediapath != undefined && mediadescription != undefined){ 
+                    mediacontainer.innerHTML += `
+
+                        <div class="nopaddingdiv">
+                            
+                            <div class="${data.theme}border">
+                                <${mediatype} controls src="${mediapath}" class="mediaimg"></${mediatype}>
+                            </div>
+                                
+                            <div class="${data.theme}border">
+                                ${mediadescription}
+                            </div>    
+
+                        </div>
+
+                    `
+                }else{
+                    break
+                }
+
+            }
+                
+
+        }
+
     
-
-        // returns a promise which contains the requested inputfile 
-        // and if there is one, the datavalue of the inputvalue
-
         
         if (htmlcontainer) {
             htmlcontainer.innerHTML += ` 

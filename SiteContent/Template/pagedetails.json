@@ -1,8 +1,12 @@
 {
 
+    "backtrack":"../",
+
     "theme":"",
     "pagename":"- Templatepage",
     "urlbar":"Plantscape wiki - Template",
+
+    "banner":"test",
 
     "s1c":"false",
     "s1t1":"Template",
@@ -18,6 +22,28 @@
     "s3t1":"I am not from",
     "s3d1":"Canada",
     "s3d2":"New York",
+
+    "media":true,
+
+    "media1type":"img",
+    "media1path":"./media/camcam.gif",
+    "media1description":"gif test which is also a test to see how long strings of text are handled kakakagadsrbhnrdjkgbnserdjkhngkjreshnk lalalalalalalalalalalalalaalalalalasalalalalalalalal",
+
+    "media2type":"img",
+    "media2path":"./media/square.png",
+    "media2description":"square image",
+
+    "media3type":"img",
+    "media3path":"./media/rage.png",
+    "media3description":"tall image with ivouwa rage",
+
+    "media4type":"video",
+    "media4path":"./media/plant.mkv",
+    "media4description":"video test",
+    
+    "media5type":"audio",
+    "media5path":"./media/DT.flac",
+    "media5description":"random newgrounds song i like",
 
     "extra":"Extra stuff",
 

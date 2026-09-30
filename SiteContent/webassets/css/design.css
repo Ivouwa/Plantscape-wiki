@@ -90,9 +90,9 @@ details[open] {
 
     border-radius: 10px;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
 
-    margin: 0px;
+    margin-right: 15px;
 
 }
 details > summary::after {
@@ -350,6 +350,17 @@ div{
     margin: 10px; 
 }
 
+.deathdiv{
+    padding: 0px;
+    margin: 5px;
+}
+
+.bannerdiv{
+
+    padding: 5px;
+
+}
+
 /* Text title */
 .title{
 
@@ -404,6 +415,18 @@ div{
     font-size: 40px;
     margin-bottom: 10px;
 
+}
+
+.banner{
+
+    display:flex;
+    align-items: center;
+    place-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: auto;
+    padding: 0px;
 }
 
 /* mini text title*/
@@ -492,7 +515,19 @@ div{
     width: fit-content;
     height: 90px;
     display: flex;
+    align-self: center;
+    justify-self: center;
 
+}
+
+.bannericon{
+    width: fit-content;
+    height: 90px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
 }
 
 
@@ -592,9 +627,4 @@ div{
     place-items: center; 
     flex-wrap:wrap;
     
-}
-
-.deathdiv{
-    padding: 0px;
-    margin: 5px;
 }
