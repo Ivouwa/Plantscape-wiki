@@ -4,7 +4,7 @@
     "pagename":"- Enemies",
     "urlbar":"Plantscape Wiki - Evil Sword",
 
-    "s1t1":"Evil Sword",
+    "s1t1":"EvilSword",
     "s1d1":" \"Lunges towards you but fast and scary.\" ",
 
     "s2t1":" Mechanics ",
@@ -17,11 +17,6 @@
 
     "curses":true,
     "curse1":"CurveSlice",
-    "curse2":"BlurFade",
-    "curse3":"InvertFade",
-    "curse4":"LongerInfect",
-    "curse5":"ServerSidedInfect",
-    "curse6":"FadeHell",
     
     "footer": "----------"
 

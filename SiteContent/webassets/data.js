@@ -315,7 +315,7 @@ fetch('pagedetails.json')
             
             if (debuglevel == 1){
                 
-                console.log("Media has errored, forcing unloaded under assumption of no false variable and showing error below.")
+                console.log("Media has errored, you are free to ignore this unless using the media element. Showing below.")
                 console.error(error) 
                 
             }
