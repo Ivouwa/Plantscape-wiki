@@ -118,8 +118,17 @@ fetch('pagedetails.json')
         //backtrack detection stuff
         let backtrack = "" 
         let url = new URL(window.location.href)
-        let amt = url.pathname.split("/").length-2
+        localtesting = 0
 
+        if (url.hostname == "127.0.0.1" || url.hostname == "localhost"){
+            localtesting = 3
+        }else{
+            localtesting = 2
+        }
+
+        let amt = url.pathname.split("/").length - localtesting
+        console.log(url.hostname)
+        
         for (let i = 1; ; i++){
             
             backtrack = backtrack += "../"            
