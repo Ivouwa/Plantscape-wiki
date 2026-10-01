@@ -11,6 +11,11 @@
     "s2d1":"- After every scream Drakobloxxer moves to another enemy",    
     "s2d2":"- Sentient is a starting curse and will only show up in curse selections when Drakobloxxer is in the enemy list",
 
+    "media":true,
+    "media1type":"img",
+    "media1path":"./media/moving.gif",
+    "media1description":"Drako moving to a fade after screaming",
+
     "footer": "----------"
 
 }

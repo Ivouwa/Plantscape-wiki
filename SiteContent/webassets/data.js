@@ -11,32 +11,120 @@ let debuglevel = 1
 
 JS TASK LIST:
 
-    - Convert every old page with media to use the new media system
-    - Convert every old backtrack to use json instead of a preset variable inside the html script header
-        ^  not doing this 100% yet, keeping legacy untill i am bored enough to sit down and manually update them all
+    - improve the banner system to support more than one banner at a time
 
-    - Make extra function more robust and betterly functional
-      mostly for handling complex  html content that someone could want inserted
-
-    - add preset and customizable banners for information stuff
-    (ie, "this page is unfinished", "this page has content that is no longer in the game!" and stuff like that)
+    - improve the curse section so if needed the directory can be customized
+        ^ this is becuase the sfoth pages are broken right now.
 
 */
 
 fetch('pagedetails.json')   
 
-    .then(response => {
-        if (!response.ok) throw Error("JSON not found, do you have a pagedetails.json?");
-        return response.json();
-    })
+.then(response => {
+    if (!response.ok) throw Error("JSON not found, do you have a pagedetails.json?");
+    return response.json();
+})
 
-    .then(data => {
+.then(data => {
+
+        // evil functions of dooom
+        
+        // inserts the title if it exists along with loading the section and making it collapsable and whatnot
+        function section(number){
+            
+            let sectiondata = `s${number}t1`
+            let collapsabledata = `s${number}c`
+            
+            if (data[collapsabledata] != undefined && data[collapsabledata] == true){
+            
+                details.innerHTML += `
+                <Details id="expandable${number}">
+                    <Summary>
+                        <div class="${data.theme}title">${data[sectiondata]}</div>
+                    </Summary>
+                `
+                
+                if (debuglevel == 1){
+                    console.log("Section ", number, " is collapsable")
+                }
+                
+                let collapsedetailsinsert = document.getElementById(`expandable${number}`)
+                
+                detailinserts(number, collapsedetailsinsert)  
+                
+            }else if (data[sectiondata] != undefined){
+
+                details.innerHTML += `
+                 <div class="${data.theme}title" id="${sectiondata}"> ${data[sectiondata]}</div>
+                `
+
+                detailinserts(number, details)
+                
+            }
+
+        }
+
+        //detail inserter function, unlimited details can be added to each section
+        function detailinserts(section, insertpoint){
+            
+            for (let i = 1; ;i++){
+                
+                let detaildata = `s${section}d${i}`
+        
+                if (data[detaildata] != undefined){
+                    
+                    insertpoint.innerHTML += `
+                        <div id="${detaildata}">${data[detaildata]}</div>
+                    `  
+        
+                    if (debuglevel == 1){
+                        console.log("Element", detaildata, "has been loaded.")
+                    }
+        
+                }
+                else{
+        
+                    break
+        
+                }
+            
+            }
+        
+        }
+
+        // gets and returns the theme value of the appointed inputfile
+        // curseinserpoint is used to assign an id to each box so that way they're not unsorted when they take time to load.
+        async function loadcursejsondata(inputfile, curseinsertpoint,) {
+            
+                const response = await fetch(`${inputfile}/pagedetails.json`)
+                const data = await response.json()
+                let curse = document.getElementById(`curseid${curseinsertpoint}`)
+                
+                curse.innerHTML += `
+                
+                    <div class="sel${data.theme}border">
+                        <a href="${inputfile}">
+                            <img class="icon" src="${inputfile}/icon.webp">
+                        </a>
+                    </div>
+                    
+                `
+                
+        }
 
         // grabs theme
         let theme = data.theme;
 
-        if (data.backtrack != undefined){
-            let backtrack = data.backtrack;
+        //backtrack detection stuff
+        let backtrack = "" 
+        let url = new URL(window.location.href)
+        let amt = url.pathname.split("/").length-3
+        for (let i = 1; ; i++){
+            
+            backtrack = backtrack += "../"            
+            if (i == amt){
+                break
+            }
         }
 
         // sets the url bar text (ie "Plantscape wiki - ivouwa class")
@@ -45,7 +133,7 @@ fetch('pagedetails.json')
             urlbar.innerHTML=`${data.urlbar}` 
         }
 
-        // sets container point
+        // put stuff into the html container
         let htmlcontainer = document.getElementById('htmlcontainer')
 
         // inserts body into container
@@ -63,6 +151,7 @@ fetch('pagedetails.json')
                                 <img src="${backtrack}webassets//logoicons/${theme}logo.png" class="icon">
 
                             </a>
+
                         </div>
 
                         <div class="page">
@@ -79,6 +168,8 @@ fetch('pagedetails.json')
 
                 </topbar>
 
+                    <div id="bannercontainer" class="containerdiv"></div>
+
                     <detail class="detail" id="detail">
                 
                 </detail>
@@ -86,109 +177,50 @@ fetch('pagedetails.json')
             </body>
         `
 
-        if (debuglevel == 1) {
-            console.log("The html has been inserted into the htmlcontainer.")
-            console.log(`Backtrack: ${backtrack}, Theme: ${theme}, Pagename: ${data.pagename}`)
-        }  
+            if (debuglevel == 1) {
+                console.log("The html has been inserted into the htmlcontainer.")
+                console.log(`Backtrack: ${backtrack}, Theme: ${theme}, Pagename: ${data.pagename}`)
+            }  
         
         }else{
             console.error("No html container found for insert, did you add the id \"htmlcontainer\" to the <html> header?")
         }
         
-        // define the details container    
+        // define the details container  
         let details = document.getElementById('detail');
 
-        //detail inserter function, so i can add unlimited details to each section
-        function detailinserts(section, insertpoint){
-            
-            for (let i = 1; ;i++){
-                
-                let indextype = `s${section}d${i}`
-
-                if (data[indextype] != undefined){
-
-                    insertpoint.innerHTML += `
-                        <div>${data[indextype]}</div>
-                    `  
-                    if (debuglevel == 1){
-                        console.log("Element", indextype, "Loaded.")
-                    }
-
-                }else{
-
-                    break
-
-                }
-            
-            }
-
-        }
-
-        // inserts the title if it exists along with loading the section and making it collapsable and whatnot
-        function section(number){
-            
-            let datapoint = `s${number}t1`
-            let collapsabledata = `s${number}c`
-            
-            if (data[collapsabledata] != undefined && data[collapsabledata] == true){
-                
-                details.innerHTML += `
-                <Details id="expandable${number}">
-                    <Summary>
-                        <div class="${data.theme}title">${data[datapoint]}</div>
-                    </Summary>
-                `
-                
-                if (debuglevel == 1){
-                    console.log("Section ", number, " is collapsable")
-                }
-                
-                let collapsedetailsinsert = document.getElementById(`expandable${number}`)
-                
-                detailinserts(number, collapsedetailsinsert)  
-                
-            }else if (data[datapoint] != undefined){
-                
-                details.innerHTML += `
-                <div class="${data.theme}title">${data[datapoint]}</div>
-                `
-                detailinserts(number, details)
-                
-            }
-            
-        }
-        
+        // gets and returns the input file from the bannerdata.json (in /webassets/banners/)
         async function loadbannerjsondata(inputfile, datapoint,) {
                     
             const response = await fetch(`${inputfile}`)
             const data = await response.json()
-            
-            if (datapoint != undefined) {
-                return data[datapoint];
-            }else{
-                return data;
-            }
-                
+            return data;
+        
         }
 
+        // places the banner details
         function banner(preset) {
 
-            details.innerHTML += `
+            let bannercontainer = document.getElementById("bannercontainer")
+            //pre place html elements with id's so it doesn't break with the async stuff
+            bannercontainer.innerHTML += `
                 
                     <div class="${theme}border" style="margin-left:100px; margin-right:100px; margin-top:50px; margin-bottom:50px">
                     
                         <img class="bannericon"src=${backtrack}webassets/banners/${data.banner}.png>
 
-                        <div class="${theme}banner" id="bannercontainer">
+                        <div class="${theme}banner">
 
-                            <div id="bannertitle" class="bannerdiv"></div>
-                            <div id="bannerdesc" class="bannerdiv"></div> 
+                            <div id="bannertitle" class="bannerdiv" style="font-size:40px; margin-bottom:0px; padding-bottom:0px;""></div>
+                            <div id="bannerdesc" class="bannerdiv" style="margin-top:0px; padding-top:15px;"></div> 
 
                         </div>
 
                     </div>
                 
                 `
+
+            // get the ids and insert the preset values when loaded
             loadbannerjsondata(`${backtrack}webassets/banners/bannerdata.json`).then(returneddata=>{
             
 
@@ -206,18 +238,20 @@ fetch('pagedetails.json')
 
                 }
                 
-                console.log(returneddata[`${preset}title`])
-                console.log(returneddata[`${preset}desc`])
-
+                if (debuglevel == 1){
+                    console.log("Preset",preset,"is being used.")
+                }
 
                 document.getElementById("bannertitle").innerHTML += bannertitle
                 document.getElementById("bannerdesc").innerHTML += bannerdisc
 
             })
         }
-
-
-        banner(data.banner)
+        
+        // if banner is defined, call the function required to load it
+        if (data.banner != undefined){
+            banner(data.banner)
+        }
 
         // for every single section title there is, call the function for the title and then its details.
         for (let i = 1; ; i++){
@@ -242,58 +276,58 @@ fetch('pagedetails.json')
 
             }
 
-            
         }   
 
-        // if "extra" variable is defined, then load its elements
-        // sometimes extra wont be defined and because it's stored inside the html as ...
-        // a variable so it'll error out if its not caught
-        // very much a legacy feature because it was only used for enemy curses which
-        // now have thier own function. and sfoth which is the only thing that uses this nowadays
-        
-            
-        if (data.extra != undefined) {
-                
-            if (debuglevel == 1) {
-                console.log("Extra defined, loading extra elements")
-            }
-            
-            if (data.extra){
-                details.innerHTML += `<div class="containerdiv">${data.extra}</div>`
-            }
-        }
-        try {
-            if (extra) {
-                details.innerHTML += extra
-            }
-        }catch(error){
-            if (debuglevel = 1){
-                console.error(error)
-            }
-        }
-        
-                
-        // loads related curses for the enemy if defined after media and details
+        // checks if media is true, repeats going through all the media untill there isn't any
+        if (data.media != undefined && data.media == true){
 
-        async function loadcursejsondata(inputfile, curseinsertpoint,) {
+            details.innerHTML += `
+                
+                <div class="${theme}title"> Related Media </div>
+                <div id="mediacontainer"></div>
+                
+            `
+
+            let mediacontainer = document.getElementById("mediacontainer")
             
-                const response = await fetch(`${inputfile}/pagedetails.json`)
-                const data = await response.json()
-                let curse = document.getElementById(`curseid${curseinsertpoint}`)
+            for (let i = 1; ;i++){
+                let mediatype = data[`media${i}type`]
+                let mediapath = data[`media${i}path`]
+                let mediadescription = data[`media${i}description`]
+
                 
-                curse.innerHTML += `
-                
-                    <div class="sel${data.theme}border">
-                        <a href="${inputfile}">
-                            <img class="icon" src="${inputfile}/icon.webp">
-                        </a>
-                    </div>
-                    
-                `
-                
+                if (mediatype != undefined && mediapath != undefined && mediadescription != undefined){ 
+
+                    if (debuglevel == 1){
+                        console.log(`Processing media element ${i}: type=${mediatype}, path=${mediapath}, description=${mediadescription}`)
+                    }
+
+                    mediacontainer.innerHTML += `
+
+                        <div class="nopaddingdiv">
+                            
+                            <div class="${data.theme}border">
+                                <${mediatype} controls src="${mediapath}" class="mediaimg"></${mediatype}>
+                            </div>
+                                
+                            <div class="${data.theme}border">
+                                ${mediadescription}
+                            </div>    
+
+                        </div>
+
+                    `
+                }else{
+                    break
+                }
+
             }
-            
-            if (data.curses != undefined && data.curses == true){
+                
+        }
+
+        // checks if curses is true, calls the function for loading its border and repeats untill all the
+        // curses manually listed in the pagedetails have been loaded
+        if (data.curses != undefined && data.curses == true){
                 
                 let insertedcurseelenemts = ``   
                 
@@ -336,118 +370,37 @@ fetch('pagedetails.json')
                 </div>
 
             `
-        } 
-
-
-
-        // if media variable is defined then it will load the elements to it
-        // make the media variable an array (using []) in the html script tag then 
-        // "headertype","directory","text displayed under the media",
-
-        
-        try{
-            
-            if (media) {
-                
-                details.innerHTML += `
-                
-                    <div class="${theme}title"> Related Media </div>
-                    <div id="mediacontainer"></div>
-                
-                `
-                
-                let mediacontainerforinsert = document.getElementById("mediacontainer")
-                
-                for(let i = 0; i < media.length; i += 3){
-                    
-                    let testins = media[i + 1]
-                    let Description = media[i + 2]
-                    mediacontainerforinsert.innerHTML += `
-                    
-                        <div class="nopaddingdiv">
-                        
-                            <div class="${theme}border">
-                                <${media[i]} controls src="${testins}" class="mediaimg"></${media[i]}>
-                            </div>
-                            
-                            <div class="${theme}border">
-                                ${Description}
-                            </div>    
-                        
-                        </div>
-
-                    `
-                }
-                
-                if (debuglevel == 1) { 
-                    
-                    console.log("Loaded media elements!")
-                    
-                } 
-                
-            } else if (media == false, debuglevel == 1){
-                
-                console.log("media set to false, not loading elements.")
-                
-            }
-        }catch(error){
-            
-            if (debuglevel == 1){
-                
-                console.log("Media has errored, you are free to ignore this unless using the media element. Showing below.")
-                console.error(error) 
-                
-            }
-        }
-        
-
-        if (data.media != undefined && data.media == true){
-
-            details.innerHTML += `
-                
-                    <div class="${theme}title"> Related Media </div>
-                    <div id="mediacontainer"></div>
-                
-            `
-
-            let mediacontainer = document.getElementById("mediacontainer")
-            
-            for (let i = 1; ;i++){
-                let mediatype = data[`media${i}type`]
-                let mediapath = data[`media${i}path`]
-                let mediadescription = data[`media${i}description`]
-
-                if (debuglevel == 1){
-                    console.log(`Processing media element ${i}: type=${mediatype}, path=${mediapath}, description=${mediadescription}`)
-                }
-
-                if (mediatype != undefined && mediapath != undefined && mediadescription != undefined){ 
-                    mediacontainer.innerHTML += `
-
-                        <div class="nopaddingdiv">
-                            
-                            <div class="${data.theme}border">
-                                <${mediatype} controls src="${mediapath}" class="mediaimg"></${mediatype}>
-                            </div>
-                                
-                            <div class="${data.theme}border">
-                                ${mediadescription}
-                            </div>    
-
-                        </div>
-
-                    `
-                }else{
-                    break
-                }
-
-            }
-                
-
         }
 
     
+        // if "extra" variable is defined in json, then load its elements after everything else.
+        // very much a legacy feature because the old version was only used for curse stuff
+        // which now have thier own function. and sfoth which is the only thing that uses this.
         
+        if (data.extra != undefined) {
+                
+            if (debuglevel == 1) {
+                console.log("Extra defined, loading")
+            }
+            
+            if (data.extra){
+                details.innerHTML += `<div class="containerdiv">${data.extra}</div>`
+            }
+
+        }
+            
+        try{
+            console.log("test")
+            
+            if (extra){
+                banner("legacy")
+            }
+
+        }catch(error){
+        }
+               
+
+        // adds the footer
         if (htmlcontainer) {
             htmlcontainer.innerHTML += ` 
             <footer id="footer">

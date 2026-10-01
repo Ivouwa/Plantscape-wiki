@@ -11,6 +11,15 @@
     "s2d1":"- Confusion will now shake the players screen, or will darken instead if the player has screenshake disabled",
     "s2d2":"- Concussion will appear in curse selections when Drakobloxxer is in the enemy pool.",
 
+    "media":true,
+    "media1type":"img",
+    "media1path":"./media/shake.gif",
+    "media1description":"Drako shaking the players screen",
+
+    "media2type":"img",
+    "media2path":"./media/darken.gif",
+    "media2description":"Drako darkening the players screen",
+
     "footer": "----------"
 
 }

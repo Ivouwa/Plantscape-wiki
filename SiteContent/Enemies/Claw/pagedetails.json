@@ -22,6 +22,20 @@
     "curse4":"FastClaw",
     "curse5":"ClawInfection",
     "curse6":"OnlyClaws",
+
+    "media":true, 
+    "media1type":"img",
+    "media1path":"./media/claw.png",
+    "media1description":"Picture of claw",
+
+    "media2type":"img",
+    "media2path":"./media/clawkill.gif",
+    "media2description":"Claw killing a player",
+
+    "media3type":"audio",
+    "media3path":"./media/clawidle.mp3",
+    "media3description":"Claws ambient sound",
+
     
     "footer": "----------"
 

@@ -27,7 +27,7 @@
 
     "media1type":"img",
     "media1path":"./media/camcam.gif",
-    "media1description":"gif test which is also a test to see how long strings of text are handled kakakagadsrbhnrdjkgbnserdjkhngkjreshnk lalalalalalalalalalalalalaalalalalasalalalalalalalal",
+    "media1description":"gif test which is also a test to see how long strings of text are shown with the current css kakakagadsrbhnrdjkgbnserdjkhngkjreshnk lalalalalalalalalalalalalaalalalalasalalalalalalalal",
 
     "media2type":"img",
     "media2path":"./media/square.png",

@@ -11,6 +11,16 @@
     "s2d1":"- Claw increases its size and speed by 50%",
     "s2d2":"- Bigger Claw will only appear in curse selections past level 5 and when Claw is in the enemy pool",
 
+    "media":true,
+
+    "media1type":"img",
+    "media1path":"./media/bigclaw.png",
+    "media1description":"Picture of larger claw",
+
+    "media2type":"img",
+    "media2path":"./media/clawsizing.gif",
+    "media2description":"Claw getting resized ",
+
     "footer": "----------"
 
 }

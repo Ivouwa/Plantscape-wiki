@@ -11,6 +11,32 @@
     "s2d1":"- Converts every claw to an <a href=\"./icon.png\"> Evil Claw</a> ",
     "s2d2":"- Hunger will only appear in eviler curse selections when Claw is in the enemy pool",
 
+    "media":true,
+    "media1type":"img",
+    "media1path":"./media/idle.gif",
+    "media1description":"Idle animation",
+
+    "media2type":"img",
+    "media2path":"./media/open.gif",
+    "media2description":"Opening animation",
+
+    "media3type":"img",
+    "media3path":"./media/open.gif",
+    "media3description":"Closing animation",
+
+    "media4type":"img",
+    "media4path":"./media/dashing.gif",
+    "media4description":"Dashing",
+
+    "media5type":"audio",
+    "media5path":"./media/ambient.mp3",
+    "media5description":"Ambience",
+
+    "media6type":"audio",
+    "media6path":"./media/dash.wav",
+    "media6description":"Dashing sound effect",
+
+
     "footer": "----------"
 
 }

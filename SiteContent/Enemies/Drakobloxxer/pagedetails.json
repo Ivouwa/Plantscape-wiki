@@ -23,7 +23,26 @@
     "curse5":"Motivation",
     "curse6":"LoudDrako",
     "curse7":"ReallyLoudDrako",
-    
+
+    "media":true,
+
+    "media1type":"audio",
+    "media1path":"./media/ahh.ogg",
+    "media1description":"Windup sound effect",
+
+    "media2type":"audio",
+    "media2path":"./media/err.ogg",
+    "media2description":"Randomly chosen scream",
+
+    "media3type":"audio",
+    "media3path":"./media/ooo.ogg",
+    "media3description":"Randomly chosen scream",
+
+    "media4type":"audio",
+    "media4path":"./media/eugh.ogg",
+    "media4description":"Randomly chosen scream",
+
+
     "footer": "----------"
 
 }

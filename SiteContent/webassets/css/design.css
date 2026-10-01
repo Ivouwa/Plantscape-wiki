@@ -45,17 +45,10 @@ html{
 
 body{
 
-    display: flex;
     height: auto;
     min-height: 95vh;
     width: 95vw;
     flex-direction: column;
-    justify-content: center;
-
-    padding: 20px;
-    padding-top: 100px;
-    margin: 0px;
-    flex-wrap: wrap;
 
     overflow: auto;
 }
@@ -355,13 +348,16 @@ div{
     margin: 5px;
 }
 
-.bannerdiv{
+/* Text title */
 
-    padding: 5px;
-
+#s1t1{
+    font-size: 55px;
 }
 
-/* Text title */
+#s1d1{
+    font-size: 35px;
+}
+
 .title{
 
     border-bottom: 5px solid #ce0006;
@@ -425,7 +421,6 @@ div{
     justify-content: center;
     flex-direction: column;
 
-    width: auto;
     padding: 0px;
 }
 
@@ -522,9 +517,9 @@ div{
 
 .bannericon{
     width: fit-content;
-    height: 90px;
-    padding-left: 50px;
-    padding-right: 50px;
+    height: 150px;
+    padding-left: 5%;
+    padding-right: 5%;
     display: flex;
     align-self: center;
     justify-self: center;

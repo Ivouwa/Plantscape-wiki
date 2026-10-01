@@ -11,6 +11,10 @@
     "s2d1":"- Drakobloxxer's screams are much louder",
     "s2d2":"- chill out drako is a chaos curse and can only be chosen during chaos selection.",
 
+    "media":true,
+    "media1type":"audio",
+    "media1path":"./media/BAHH.ogg",
+    "media1description":"Scream Sound effect",
  
     "footer": "----------"
 

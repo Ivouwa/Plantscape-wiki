@@ -11,6 +11,15 @@
     "s2d1":"- When claw gets close to a player it turns transparent, Lingers for 5 seconds.",
     "s2d2":"- Stalker will only appear in curse selections after level 5 and when Claw is in the enemy pool",
 
+    "media":true,
+    "media1type":"img",
+    "media1path":"./media/invisclaw.png",
+    "media1description":"Transparent Claw",
+
+    "media2type":"img",
+    "media2path":"./media/clawgoinginvis.gif",
+    "media2description":"Claw going invisible when going near a player",
+
     "footer": "----------"
 
 }
