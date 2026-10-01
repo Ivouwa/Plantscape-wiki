@@ -118,7 +118,8 @@ fetch('pagedetails.json')
         //backtrack detection stuff
         let backtrack = "" 
         let url = new URL(window.location.href)
-        let amt = url.pathname.split("/").length-3
+        let amt = url.pathname.split("/").length-2
+
         for (let i = 1; ; i++){
             
             backtrack = backtrack += "../"            
