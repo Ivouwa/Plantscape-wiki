@@ -13,9 +13,14 @@
     "s2d3":"- Echo will appear in curse selections after level 5.",
 
     "media":true,
-    "media1type":"img",
-    "media1path":"./media/echo.gif",
-    "media1description":"Drako screams echoing off of a tile",
+
+    "media1":{
+
+        "type":"img",
+        "path":"./media/echo.gif",
+        "description":"Drako screams echoing off of a tile"
+        
+    },
 
     "footer": "----------"
     

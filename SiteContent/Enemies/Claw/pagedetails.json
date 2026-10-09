@@ -15,27 +15,42 @@
     "s3t1":"Death Messages",
     "s3d1": "\"Victim was grabbed and torn apart by Claw.\" <div class=\"deathdiv\"></div> \"Claw is easy to dodge Victim. Sometimes\" <div class=\"deathdiv\"></div> \"Victim was killed by sharp objects.\" <div class=\"deathdiv\"></div> \"Victim hates the human anatomy. Wait that thing isn't human.\" <div class=\"deathdiv\"></div> \"Random dodged the Claw but Victim fell short.\" <div class=\"deathdiv\"></div> \"The Claw targeted Victim, and quickly succeeded\" <div class=\"deathdiv\"></div> \"I dont see what's wrong, did you guys have a faster Claw or something?\" <div class=\"deathdiv\"></div> \"Seriously? Victim died to that Claw thing again.\" <div class=\"deathdiv\"></div> \"There's no way.. ppfft.. Victim.. TO CLAW??\" <div class=\"deathdiv\"></div> \"All Victim had to do was run, in short, they failed.\" <div class=\"deathdiv\"></div> \"Little do you know Victim, Claw is only using 0.001% of its power.\"",
 
-    "curses":true,
-    "curse1":"BigClaw",
-    "curse2":"Stalker",
-    "curse3":"EvilClaws",
-    "curse4":"FastClaw",
-    "curse5":"ClawInfection",
-    "curse6":"OnlyClaws",
+    "curses":[
+        
+        "BigClaw",
+        "Stalker",
+        "EvilClaws",
+        "FastClaw",
+        "ClawInfection",
+        "OnlyClaws"
+    ],
+
 
     "media":true, 
-    "media1type":"img",
-    "media1path":"./media/claw.png",
-    "media1description":"Picture of claw",
 
-    "media2type":"img",
-    "media2path":"./media/clawkill.gif",
-    "media2description":"Claw killing a player",
+    "media1":{
 
-    "media3type":"audio",
-    "media3path":"./media/clawidle.mp3",
-    "media3description":"Claws ambient sound",
+        "type":"img",
+        "path":"./media/claw.png",
+        "description":"Picture of claw"
 
+    },
+
+    "media2":{
+
+        "type":"img",
+        "path":"./media/clawkill.gif",
+        "description":"Claw killing a player"
+
+    },
+
+    "media3":{
+
+        "type":"audio",
+        "path":"./media/clawidle.mp3",
+        "description":"Claws ambient sound"
+
+    },
     
     "footer": "----------"
 

@@ -6,7 +6,7 @@
     "pagename":"- Templatepage",
     "urlbar":"Plantscape wiki - Template",
 
-    "banner":"test",
+    "banner1":"test",
 
     "s1c":"false",
     "s1t1":"Template",
@@ -25,27 +25,45 @@
 
     "media":true,
 
-    "media1type":"img",
-    "media1path":"./media/camcam.gif",
-    "media1description":"gif test which is also a test to see how long strings of text are shown with the current css kakakagadsrbhnrdjkgbnserdjkhngkjreshnk lalalalalalalalalalalalalaalalalalasalalalalalalalal",
+    "media1":{
 
-    "media2type":"img",
-    "media2path":"./media/square.png",
-    "media2description":"square image",
+        "type":"img",
+        "path":"./media/camcam.gif",
+        "description":"gif test which is also a test to see how long strings of text are shown with the current css kakakagadsrbhnrdjkgbnserdjkhngkjreshnk lalalalalalalalalalalalalaalalalalasalalalalalalalal"
 
-    "media3type":"img",
-    "media3path":"./media/rage.png",
-    "media3description":"tall image with ivouwa rage",
-
-    "media4type":"video",
-    "media4path":"./media/plant.mkv",
-    "media4description":"video test",
+    },
     
-    "media5type":"audio",
-    "media5path":"./media/DT.flac",
-    "media5description":"random newgrounds song i like",
+    "media2":{
 
-    "extra":"Extra stuff",
+        "type":"img",
+        "path":"./media/square.png",
+        "description":"square image"
+
+    },
+
+    "media3":{
+
+        "type":"img",
+        "path":"./media/rage.png",
+        "description":"tall image with ivouwa rage"
+            
+    },
+
+    "media4":{
+
+        "type":"video",
+        "path":"./media/plant.mkv",
+        "description":"video test"
+
+    },
+
+    "media5":{
+
+        "type":"audio",
+        "path":"./media/DT.flac",
+        "description":"random newgrounds song i like"
+
+    },
 
     "footer": "----------"
 

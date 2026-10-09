@@ -15,32 +15,55 @@
     "s3t1":"Death Messages",
     "s3d1": "\"Drakobloxxer didn't scream so how'd Victim die?\" <div class=\"deathdiv\"></div> \"Victim was eaten by Drakobloxxer.\" <div class=\"deathdiv\"></div> \"Drakobloxxer thought Victim was delicious.\" <div class=\"deathdiv\"></div> \"Random watched Victim get devoured.\" <div class=\"deathdiv\"></div> \"It was hungry, why'd you touch it Victim?\" <div class=\"deathdiv\"></div> \"Drakobloxxer how could you? Anyways let's go grab a meal with Victim as ingredients guys.\" <div class=\"deathdiv\"></div> \"Random saw Drakobloxxer and avoided it, Victim wanted to give it a hug.\" <div class=\"deathdiv\"></div> \"Drakobloxxer screamed and Victim panicked.\" ",
 
-    "curses":true,
-    "curse1":"AirDrako",
-    "curse2":"MovingDrako",
-    "curse3":"Concussion",
-    "curse4":"EchoDrako",
-    "curse5":"Motivation",
-    "curse6":"LoudDrako",
-    "curse7":"ReallyLoudDrako",
+    "curses":[
+        
+        "AirDrako",
+        "MovingDrako",
+        "Concussion",
+        "EchoDrako",
+        "Motivation",
+        "LoudDrako",
+        "ReallyLoudDrako"
+
+    ],
 
     "media":true,
 
-    "media1type":"audio",
-    "media1path":"./media/ahh.ogg",
-    "media1description":"Windup sound effect",
+    "media1":{
 
-    "media2type":"audio",
-    "media2path":"./media/err.ogg",
-    "media2description":"Randomly chosen scream",
+        "type":"audio",
+        "path":"./media/ahh.ogg",
+        "description":"Windup sound effect"
 
-    "media3type":"audio",
-    "media3path":"./media/ooo.ogg",
-    "media3description":"Randomly chosen scream",
+    },
+    
+    "media2":{
 
-    "media4type":"audio",
-    "media4path":"./media/eugh.ogg",
-    "media4description":"Randomly chosen scream",
+        "type":"audio",
+        "path":"./media/err.ogg",
+        "description":"Randomly chosen scream"
+
+    },
+
+    "media3":{
+
+        "type":"audio",
+        "path":"./media/ooo.ogg",
+        "description":"Randomly chosen scream"
+
+    },
+
+    "media4":{
+
+        "type":"audio",
+        "path":"./media/eugh.ogg",
+        "description":"Randomly chosen scream"
+
+    },
+
+
+
+
 
 
     "footer": "----------"

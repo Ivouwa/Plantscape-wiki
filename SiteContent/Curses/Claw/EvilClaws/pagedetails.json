@@ -12,29 +12,58 @@
     "s2d2":"- Hunger will only appear in eviler curse selections when Claw is in the enemy pool",
 
     "media":true,
-    "media1type":"img",
-    "media1path":"./media/idle.gif",
-    "media1description":"Idle animation",
 
-    "media2type":"img",
-    "media2path":"./media/open.gif",
-    "media2description":"Opening animation",
+    "media1":{
 
-    "media3type":"img",
-    "media3path":"./media/open.gif",
-    "media3description":"Closing animation",
+        "type":"img",
+        "path":"./media/idle.gif",
+        "description":"Idle animation"
+        
+    },
 
-    "media4type":"img",
-    "media4path":"./media/dashing.gif",
-    "media4description":"Dashing",
+    "media2":{
 
-    "media5type":"audio",
-    "media5path":"./media/ambient.mp3",
-    "media5description":"Ambience",
+        "type":"img",
+        "path":"./media/open.gif",
+        "description":"Opening animation"
 
-    "media6type":"audio",
-    "media6path":"./media/dash.wav",
-    "media6description":"Dashing sound effect",
+    },
+
+    "media3":{
+
+        "type":"img",
+        "path":"./media/open.gif",
+        "description":"Closing animation"
+
+    },
+
+    "media4":{
+
+        "type":"img",
+        "path":"./media/dashing.gif",
+        "description":"Dashing"
+        
+    },
+
+    "media5":{
+        
+        "type":"audio",
+        "path":"./media/ambient.mp3",
+        "description":"Ambience"
+
+    },
+
+    "media6":{
+        
+        "type":"audio",
+        "path":"./media/dash.wav",
+        "description":"Dashing sound effect"
+
+    },
+
+
+
+
 
 
     "footer": "----------"

@@ -13,13 +13,23 @@
 
     "media":true,
 
-    "media1type":"img",
-    "media1path":"./media/bigclaw.png",
-    "media1description":"Picture of larger claw",
+    "media1":{
 
-    "media2type":"img",
-    "media2path":"./media/clawsizing.gif",
-    "media2description":"Claw getting resized ",
+        "type":"img",
+        "path":"./media/bigclaw.png",
+        "description":"Picture of larger claw"
+
+    },
+
+    "media2":{
+
+        "type":"img",
+        "path":"./media/clawsizing.gif",
+        "description":"Claw getting resized "
+
+    },
+
+
 
     "footer": "----------"
 

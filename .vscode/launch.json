@@ -1,12 +1,16 @@
+// use this for debugging with a live server in vscode
+
+
 {
     "version": "0.2.0",
     "configurations": [
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Launch Chrome on local files",
+            "name": "Launch Chrome on local server",
             "url": "http://127.0.0.1:5500/SiteContent/",
-            "webRoot": "${workspaceFolder}"
-        }
+            "webRoot": "${workspaceFolder}",
+        },
+
     ]
 }
